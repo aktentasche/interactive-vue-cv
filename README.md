@@ -1,24 +1,20 @@
 # interactive-vue-cv
+An interactive CV based on vue.js	An interactive CV based on vue.js
 
-## Project setup
-```
-npm install
-```
+See the resume in action at www.amps.one
 
-### Compiles and hot-reloads for development
+## Requirements for running
+* Apache server
+
+## Requirements for developing
+* npm > 6.14.7
+* VSCode is recommended but not necessary. Any editor will do.
+
+## Start a local development server with hot-reload
+Either run 
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+in the command line inside the root directory, or use the built-in task in VSCode.
