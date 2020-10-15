@@ -1,5 +1,5 @@
 <template>
-  <v-card class="overflow-hidden">
+  <v-app>
     <v-app-bar
       absolute
       color="#6A76AB"
@@ -17,9 +17,8 @@
         ></v-img>
       </template>
 
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Title</v-toolbar-title>
+      <v-toolbar-title>Jonas Manthey</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -43,14 +42,19 @@
         </v-tabs>
       </template>
     </v-app-bar>
-    <v-sheet
+
+    <v-main>
+<v-sheet
       id="scrolling-techniques-3"
       class="overflow-y-auto"
       max-height="600"
     >
-      <v-container style="height: 1000px;"></v-container>
+      <v-container style="height: 3000px;"></v-container>
     </v-sheet>
-  </v-card>
+    </v-main>
+    
+
+  </v-app>
 </template>
 
 <script>
