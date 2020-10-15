@@ -63,9 +63,6 @@ export default {
 </script>
 
 <style>
-body {
-  overflow: hidden; /* Hide scrollbars */
-}
 
 #main-container {
   max-height: 100vh;
@@ -76,7 +73,7 @@ body {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
 }
 
 /* Track */
