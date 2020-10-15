@@ -17,7 +17,6 @@
         ></v-img>
       </template>
 
-
       <v-toolbar-title>Jonas Manthey</v-toolbar-title>
 
       <v-spacer></v-spacer>
@@ -44,31 +43,25 @@
     </v-app-bar>
 
     <v-main>
-<v-sheet
-      id="scrolling-techniques-3"
-      class="overflow-y-auto"
-      max-height="600"
-    >
-      <v-container style="height: 3000px;"></v-container>
-    </v-sheet>
+      <v-sheet
+        id="scrolling-techniques-3"
+        class="overflow-y-auto"
+        max-height="600"
+      >
+        <v-container style="height: 3000px;"></v-container>
+      </v-sheet>
     </v-main>
-    
-
   </v-app>
 </template>
 
 <script>
-
-
 export default {
-  name: 'App',
+  name: "App",
 
-  components: {
-    
-  },
+  components: {},
 
   data: () => ({
     //
-  }),
+  })
 };
 </script>
