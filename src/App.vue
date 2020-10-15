@@ -1,14 +1,14 @@
 <template>
-  <v-app>
+  <v-app app>
     <v-app-bar
-      absolute
+      app      
       color="#6A76AB"
       dark
       shrink-on-scroll
       prominent
       src="https://picsum.photos/1920/1080?random"
       fade-img-on-scroll
-      scroll-target="#scrolling-techniques-3"
+      scroll-target="#main-container"
     >
       <template v-slot:img="{ props }">
         <v-img
@@ -42,15 +42,11 @@
       </template>
     </v-app-bar>
 
-    <v-main>
-      <v-sheet
-        id="scrolling-techniques-3"
-        class="overflow-y-auto"
-        max-height="600"
-      >
-        <v-container style="height: 3000px;"></v-container>
-      </v-sheet>
-    </v-main>
+    <v-content id="main-container">
+       <div class="d-flex flex-wrap justify-center" width="900">
+        <v-container style="height: 1000px;"></v-container>
+      </div>
+    </v-content>
   </v-app>
 </template>
 
@@ -65,3 +61,39 @@ export default {
   })
 };
 </script>
+
+<style>
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+#main-container {
+  max-height: 100vh;
+  height:auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: yellow;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:green;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: blue;
+}
+
+
+
+</style>
