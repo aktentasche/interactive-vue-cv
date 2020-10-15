@@ -1,7 +1,8 @@
+
 <template>
   <v-app app>
     <v-app-bar
-      app      
+      app
       color="#6A76AB"
       dark
       shrink-on-scroll
@@ -23,7 +24,7 @@
 
       <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
-      </v-btn>
+      </v-btn>      
 
       <v-btn icon>
         <v-icon>mdi-heart</v-icon>
@@ -31,6 +32,14 @@
 
       <v-btn icon>
         <v-icon>mdi-dots-vertical</v-icon>
+      </v-btn>
+
+      <v-btn @click="switchLanguageTo('en')">
+        EN
+      </v-btn>
+
+      <v-btn @click="switchLanguageTo('ger')">
+        GER
       </v-btn>
 
       <template v-slot:extension>
@@ -43,8 +52,14 @@
     </v-app-bar>
 
     <v-content id="main-container">
-       <div class="d-flex flex-wrap justify-center" width="900">
-        <v-container style="height: 1000px;"></v-container>
+      <div class="d-flex flex-wrap justify-center" width="900">
+        <v-container style="height: 1000px;">
+
+          <p>{{ $t("message") }}</p>
+   
+          {{$i18n.locale}}
+
+        </v-container>
       </div>
     </v-content>
   </v-app>
@@ -53,20 +68,26 @@
 <script>
 export default {
   name: "App",
+  //https://vuetifyjs.com/en/features/scrolling/
 
   components: {},
 
   data: () => ({
-    //
-  })
+
+  }),
+  methods:
+  {
+    switchLanguageTo(languagecode){
+      this.$i18n.locale = languagecode
+    }
+  }
 };
 </script>
 
 <style>
-
 #main-container {
   max-height: 100vh;
-  height:auto;
+  height: auto;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -83,14 +104,11 @@ export default {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background:green;
+  background: green;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: blue;
 }
-
-
-
 </style>
