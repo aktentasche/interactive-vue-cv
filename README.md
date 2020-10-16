@@ -18,3 +18,6 @@ npm run serve
 ```
 
 in the command line inside the root directory, or use the built-in task in VSCode.
+
+# Thanks
+To @lupas for inspiration for the language picker component (https://github.com/lupas/vuetify-i18n-language-switcher-nuxt)
