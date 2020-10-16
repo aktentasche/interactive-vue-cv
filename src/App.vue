@@ -1,4 +1,3 @@
-
 <template>
   <v-app app>
     <v-app-bar
@@ -7,7 +6,7 @@
       dark
       shrink-on-scroll
       prominent
-      src="https://picsum.photos/1920/1080?random"
+      src="./assets/test.jpg"
       fade-img-on-scroll
       scroll-target="#main-container"
     >
@@ -20,48 +19,54 @@
 
       <v-toolbar-title>Jonas Manthey</v-toolbar-title>
 
-      <v-spacer></v-spacer>
-
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>      
-
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
-
-      <v-btn @click="switchLanguageTo('en')">
-        EN
-      </v-btn>
-
-      <v-btn @click="switchLanguageTo('ger')">
-        GER
-      </v-btn>
-
       <template v-slot:extension>
+        <!-- navigatoin -->
         <v-tabs align-with-title>
-          <v-tab>Tab 1</v-tab>
-          <v-tab>Tab 2</v-tab>
-          <v-tab>Tab 3</v-tab>
+          <v-tab>Professional</v-tab>
+          <v-tab>Education</v-tab>
+          <v-tab>Skills</v-tab>
         </v-tabs>
+        <v-spacer></v-spacer>
+        <!-- contact -->
+        <v-btn icon large>
+          <v-icon>mdi-email-outline</v-icon>
+        </v-btn>
+
+        <v-menu offset-y>
+          <template v-slot:activator="{ on: menu }">
+            <v-tooltip bottom>
+              <template v-slot:activator="{ on: tooltip }">
+                <v-btn icon v-on="{ ...tooltip, ...menu }">
+                  <img :src="currentFlagImg" width="40px"/>                                   
+                </v-btn>
+              </template>
+              <span>{{ $t("switchlanguage") }}</span>
+            </v-tooltip>
+          </template>
+          <v-list>
+            <v-list-item
+              v-for="language in languages"
+              :key="language.short_iso"
+              @click="switchLanguageTo(language.short_iso)"
+            >
+              <v-list-item-avatar tile size="40">
+                <v-img :src="language.flag_image"></v-img>
+              </v-list-item-avatar>
+              <v-list-item-title>{{ language.name }}</v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
+
       </template>
     </v-app-bar>
 
-    <v-content id="main-container">
+    <v-main id="main-container">
       <div class="d-flex flex-wrap justify-center" width="900">
         <v-container style="height: 1000px;">
 
-          <p>{{ $t("message") }}</p>
-   
-          {{$i18n.locale}}
-
         </v-container>
       </div>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 
@@ -69,16 +74,36 @@
 export default {
   name: "App",
   //https://vuetifyjs.com/en/features/scrolling/
+  // open source:
+  // arch, debian, gnuradio, openhab, zigbee2mqtt, vscode, node-red, nextcloud
+  // jellyfin, kodi, vue, vuetify, ungoogled-chromiumm, arduino ide, platformio
+  // mysensors, wordpress, apache, bitwarden, terminator, paperless
 
   components: {},
 
   data: () => ({
-
+    languages: [
+      {
+        name: "English",
+        short_iso: "en",
+        flag_image: require("./assets/flag-en.png")
+      },
+      {
+        name: "Deutsch",
+        short_iso: "de",
+        flag_image: require("./assets/flag-ger.png")
+      }
+    ]
   }),
-  methods:
-  {
-    switchLanguageTo(languagecode){
-      this.$i18n.locale = languagecode
+  methods: {
+    switchLanguageTo(short_iso) {
+      this.$i18n.locale = short_iso;
+    }
+  },
+  computed: {
+    currentFlagImg: function(){
+       return this.languages.filter(x => x.short_iso === this.$i18n.locale)[0]
+        .flag_image
     }
   }
 };
@@ -92,6 +117,10 @@ export default {
   overflow-x: hidden;
 }
 
+.v-select__selections {
+  max-width: 10px;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -99,7 +128,7 @@ export default {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: yellow;
+  background: blueviolet;
 }
 
 /* Handle */
