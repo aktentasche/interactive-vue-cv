@@ -31,13 +31,13 @@
         <v-btn icon large>
           <v-icon>mdi-email-outline</v-icon>
         </v-btn>
-
+        <!-- language menu -->
         <v-menu offset-y>
           <template v-slot:activator="{ on: menu }">
             <v-tooltip bottom>
               <template v-slot:activator="{ on: tooltip }">
                 <v-btn icon v-on="{ ...tooltip, ...menu }">
-                  <img :src="currentFlagImg" width="40px"/>                                   
+                  <img :src="currentFlagImg" width="40px" />
                 </v-btn>
               </template>
               <span>{{ $t("switchlanguage") }}</span>
@@ -56,21 +56,34 @@
             </v-list-item>
           </v-list>
         </v-menu>
-
       </template>
     </v-app-bar>
 
+    <!-- main content -->
     <v-main id="main-container">
-      <div class="d-flex flex-wrap justify-center" width="900">
-        <v-container style="height: 1000px;">
 
-        </v-container>
-      </div>
+
+
+
+
+
+        <!--<v-container style="height: 1000px;"> </v-container>-->
+
+        <v-timeline>
+
+          <ProfessionalExperienceTimelineItem 
+          v-for="entry of $t('professional_experience')" 
+          :key=entry.title+entry.group
+          :entry="entry"/>
+         
+        </v-timeline>
+
     </v-main>
   </v-app>
 </template>
 
 <script>
+import ProfessionalExperienceTimelineItem from "./components/professional-experience-timeline-item"
 export default {
   name: "App",
   //https://vuetifyjs.com/en/features/scrolling/
@@ -79,7 +92,9 @@ export default {
   // jellyfin, kodi, vue, vuetify, ungoogled-chromiumm, arduino ide, platformio
   // mysensors, wordpress, apache, bitwarden, terminator, paperless
 
-  components: {},
+  components: {
+    ProfessionalExperienceTimelineItem
+  },
 
   data: () => ({
     languages: [
@@ -92,7 +107,7 @@ export default {
         name: "Deutsch",
         short_iso: "de",
         flag_image: require("./assets/flag-ger.png")
-      }
+      },
     ]
   }),
   methods: {
@@ -101,9 +116,9 @@ export default {
     }
   },
   computed: {
-    currentFlagImg: function(){
-       return this.languages.filter(x => x.short_iso === this.$i18n.locale)[0]
-        .flag_image
+    currentFlagImg: function() {
+      return this.languages.filter(x => x.short_iso === this.$i18n.locale)[0]
+        .flag_image;
     }
   }
 };
