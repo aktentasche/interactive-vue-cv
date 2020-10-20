@@ -60,7 +60,7 @@
     </v-app-bar>
 
     <!-- main content -->
-    <v-main id="main-container">
+    <v-main>
       <!--<v-container style="height: 1000px;"> </v-container>-->
 
       <v-timeline>
@@ -126,10 +126,34 @@ export default {
   overflow-x: hidden;
 }
 
-.v-select__selections {
-  max-width: 10px;
+/* align timeline left and fill width see https://github.com/vuetifyjs/vuetify/issues/6594 */
+.v-timeline .v-timeline-item__opposite {
+  display: inline-block;
 }
 
+.v-timeline-item__opposite {
+  flex: none;
+}
+.v-timeline--dense .v-timeline-item__opposite {
+  display: inline-block;
+}
+
+.v-timeline-item__opposite {
+  flex: none;
+}
+
+/* line */
+.v-application--is-ltr .v-timeline--dense:not(.v-timeline--reverse):before {
+  left: 143px;
+}
+
+.opposite-width-force {
+  display: inline-block;
+  width: 95px;
+  text-align: right;
+}
+
+/* scrollbar modifications */
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

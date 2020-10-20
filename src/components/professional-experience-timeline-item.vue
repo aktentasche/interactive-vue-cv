@@ -1,18 +1,27 @@
 <template>
-  <v-timeline-item right>
-    <v-card>
-      <v-card-title>
-        <v-img :src="entry.entity_image" height="60px" contain />
-      </v-card-title>
-
-      {{ entry.title }}
-    </v-card>
+  <v-timeline-item right fill-dot>
+    <v-hover>
+      <template v-slot="{ hover }">
+        <v-card class="mr-3" :elevation="hover ? 24 : 6">
+          <v-card-title>
+            <v-img
+              :src="entry.entity_image"
+              height="60px"
+              contain
+              class="mb-5"
+            />
+            {{ entry.title }}
+          </v-card-title>
+          <v-card-text v-if="hover">
+            asd
+          </v-card-text>
+        </v-card>
+      </template>
+    </v-hover>
 
     <template v-slot:opposite>
-      <div class="align-top">
-        <span v-text="entry.start" />
-        -
-        <span v-text="entry.end" />
+      <div class="opposite-slot">
+        <div class="ma-3">{{ entry.start }} - {{ entry.end }}</div>
       </div>
     </template>
   </v-timeline-item>
@@ -52,3 +61,9 @@ export default {
   }
 };
 </script>
+
+<style>
+.opposite-slot {
+  /*min-width: 200px;*/
+}
+</style>
