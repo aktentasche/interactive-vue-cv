@@ -61,7 +61,6 @@
 
     <!-- main content -->
     <v-main id="main-container">
-      <v-container style="height: 1000px;"> </v-container>
       <v-card class="rounded-0">
         <!-- using color of dots of timeline -->
         <v-card-title class="blue darken-2 justify-start">
