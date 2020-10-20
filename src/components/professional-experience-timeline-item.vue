@@ -1,23 +1,14 @@
 <template>
   <v-timeline-item right fill-dot>
-    <v-hover>
-      <template v-slot="{ hover }">
-        <v-card class="mr-3" :elevation="hover ? 24 : 6">
-          <v-card-title>
-            <v-img
-              :src="entry.entity_image"
-              height="60px"
-              contain
-              class="mb-5"
-            />
-            {{ entry.title }}
-          </v-card-title>
-          <v-card-text v-if="hover">
-            asd
-          </v-card-text>
-        </v-card>
-      </template>
-    </v-hover>
+    <v-card class="mr-3" elevation="10">
+      <v-card-title>
+        <v-img :src="entry.entity_image" height="60px" contain class="mb-5" />
+        {{ entry.title }}
+      </v-card-title>
+      <v-card-text v-if="hover">
+        asd
+      </v-card-text>
+    </v-card>
 
     <template v-slot:opposite>
       <v-row class="ml-6">
