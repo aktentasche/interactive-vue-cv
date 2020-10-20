@@ -20,7 +20,7 @@
       <v-toolbar-title>Jonas Manthey</v-toolbar-title>
 
       <template v-slot:extension>
-        <!-- navigatoin -->
+        <!-- navigation -->
         <v-tabs align-with-title>
           <v-tab>Professional</v-tab>
           <v-tab>Education</v-tab>
@@ -61,29 +61,21 @@
 
     <!-- main content -->
     <v-main id="main-container">
+      <!--<v-container style="height: 1000px;"> </v-container>-->
 
-
-
-
-
-
-        <!--<v-container style="height: 1000px;"> </v-container>-->
-
-        <v-timeline>
-
-          <ProfessionalExperienceTimelineItem 
-          v-for="entry of $t('professional_experience')" 
-          :key=entry.title+entry.group
-          :entry="entry"/>
-         
-        </v-timeline>
-
+      <v-timeline>
+        <ProfessionalExperienceTimelineItem
+          v-for="entry of $t('professional_experience')"
+          :key="entry.title + entry.group"
+          :entry="entry"
+        />
+      </v-timeline>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import ProfessionalExperienceTimelineItem from "./components/professional-experience-timeline-item"
+import ProfessionalExperienceTimelineItem from "./components/professional-experience-timeline-item";
 export default {
   name: "App",
   //https://vuetifyjs.com/en/features/scrolling/
@@ -91,6 +83,8 @@ export default {
   // arch, debian, gnuradio, openhab, zigbee2mqtt, vscode, node-red, nextcloud
   // jellyfin, kodi, vue, vuetify, ungoogled-chromiumm, arduino ide, platformio
   // mysensors, wordpress, apache, bitwarden, terminator, paperless
+  // software
+  // salesforce, matlab, labview, vscode
 
   components: {
     ProfessionalExperienceTimelineItem
@@ -107,7 +101,7 @@ export default {
         name: "Deutsch",
         short_iso: "de",
         flag_image: require("./assets/flag-ger.png")
-      },
+      }
     ]
   }),
   methods: {
