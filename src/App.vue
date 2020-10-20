@@ -63,7 +63,7 @@
     <v-main>
       <!--<v-container style="height: 1000px;"> </v-container>-->
 
-      <v-timeline>
+      <v-timeline dense>
         <ProfessionalExperienceTimelineItem
           v-for="entry of $t('professional_experience')"
           :key="entry.title + entry.group"
@@ -119,38 +119,37 @@ export default {
 </script>
 
 <style>
+/* variables */
+
+:root {
+  --timeline-opposite-item-width: 160px;
+  --timeline-line-width: 8px;
+}
+
 #main-container {
   max-height: 100vh;
   height: auto;
   overflow-y: auto;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
-/* align timeline left and fill width see https://github.com/vuetifyjs/vuetify/issues/6594 */
-.v-timeline .v-timeline-item__opposite {
-  display: inline-block;
-}
-
-.v-timeline-item__opposite {
-  flex: none;
-}
+/* timeline hacking to have it aligned left, see https://github.com/vuetifyjs/vuetify/issues/6594 */
 .v-timeline--dense .v-timeline-item__opposite {
   display: inline-block;
 }
 
 .v-timeline-item__opposite {
   flex: none;
+  min-width: var(--timeline-opposite-item-width);
 }
 
-/* line */
+/* line: divider in the middle is 96px wide by default */
 .v-application--is-ltr .v-timeline--dense:not(.v-timeline--reverse):before {
-  left: 143px;
-}
-
-.opposite-width-force {
-  display: inline-block;
-  width: 95px;
-  text-align: right;
+  left: calc(
+    var(--timeline-opposite-item-width) + (96px - var(--timeline-line-width)) /
+      2
+  );
+  width: var(--timeline-line-width);
 }
 
 /* scrollbar modifications */

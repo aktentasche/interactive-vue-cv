@@ -20,9 +20,9 @@
     </v-hover>
 
     <template v-slot:opposite>
-      <div class="opposite-slot">
-        <div class="ma-3">{{ entry.start }} - {{ entry.end }}</div>
-      </div>
+      <v-row class="ml-6">
+        <div>{{ entry.start }} - {{ entry.end }}</div>
+      </v-row>
     </template>
   </v-timeline-item>
 
