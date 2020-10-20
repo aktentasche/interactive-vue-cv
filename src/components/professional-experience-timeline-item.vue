@@ -1,43 +1,46 @@
 <template>
   <v-timeline-item right fill-dot>
     <v-card class="mr-3" elevation="10">
-      <v-card-title>
+      <v-card-text>
         <v-layout>
-          <v-row no-gutters>
-            <v-col>
-              {{ entry.title }}
-              <div class="font-weight-light text-subtitle-2">
-                <v-icon class="mr-2">mdi-account-group</v-icon>
-                {{ entry.group }}
-                <br />
-
-                <v-icon class="mr-2">mdi-domain</v-icon>
-                {{ entry.entity }}
-                <br />
-
-                <v-icon class="mr-2">mdi-map-marker</v-icon>
-                {{ entry.place }}
-              </div>
-            </v-col>
-
-            <v-col>
+          <v-row>
+            <v-col id="infocolumn">
               <v-img
                 :src="entry.entity_image"
                 height="60px"
                 max-width="300px"
                 contain
+                class="mb-5"
               />
+
+              <h2 class="mb-3 text-center">{{ entry.title }}</h2>
+              <v-card class="pa-2" flat>
+                <div class="font-weight-light text-subtitle-2">
+                  <v-icon class="mr-2">mdi-domain</v-icon>
+                  <a target="empty" :href="entry.entity_url">{{
+                    entry.entity
+                  }}</a>
+                  <br />
+
+                  <v-icon class="mr-2">mdi-account-group</v-icon>
+                  {{ entry.group }}
+                  <br />
+
+                  <v-icon class="mr-2">mdi-map-marker</v-icon>
+                  {{ entry.place }}
+                </div>
+              </v-card>
+            </v-col>
+
+            <v-col>
+              <ul>
+                <li v-for="activity in entry.activities" :key="activity">
+                  {{ activity }}
+                </li>
+              </ul>
             </v-col>
           </v-row>
         </v-layout>
-      </v-card-title>
-
-      <v-card-text>
-        <ul>
-          <li v-for="activity in entry.activities" :key="activity">
-            {{ activity }}
-          </li>
-        </ul>
       </v-card-text>
     </v-card>
 
@@ -65,7 +68,7 @@ export default {
 </script>
 
 <style>
-.opposite-slot {
-  /*min-width: 200px;*/
+#infocolumn {
+  max-width: 320px;
 }
 </style>
