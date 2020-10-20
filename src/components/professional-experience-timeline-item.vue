@@ -2,16 +2,27 @@
   <v-timeline-item right fill-dot>
     <v-card class="mr-3" elevation="10">
       <v-card-title>
-        <v-img :src="entry.entity_image" height="60px" contain class="mb-5" />
-        {{ entry.title }}
+        <v-layout>
+          <v-row no-gutters>
+            <v-col>
+              <v-img :src="entry.entity_image" height="60px" class="mb-5" />
+              {{ entry.title }} {{ entry.place }}
+            </v-col>
+          </v-row>
+        </v-layout>
       </v-card-title>
-      <v-card-text v-if="hover">
-        asd
+      <v-card-subtitle> {{ entry.entity }} {{ entry.group }} </v-card-subtitle>
+      <v-card-text>
+        <ul>
+          <li v-for="activity in entry.activities" :key="activity">
+            {{ activity }}
+          </li>
+        </ul>
       </v-card-text>
     </v-card>
 
     <template v-slot:opposite>
-      <v-row class="ml-6">
+      <v-row class="ml-6  font-weight-bold">
         <div>{{ entry.start }} - {{ entry.end }}</div>
       </v-row>
     </template>

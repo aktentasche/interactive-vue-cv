@@ -1,6 +1,27 @@
 {
   "switchlanguage": "Switch language",
-  "professional_experience": [
+  "professional_experience_name": "Professional Experience",
+  "professional_experience_entries": [
+  {
+    "title": "Certification Specialist GNSS",
+    "group": "Hardware Integration Testing",
+    "entity": "u-blox AG",
+    "entity_image": "entity_images/ublox.png",
+    "place": "Thalwil, Switzerland",
+    "start": "06/2018",
+    "end": "today",
+    "activities"    : [
+      "Worldwide regulatory and industrial certification of positioning products",
+      "Planning and budget optimization of EMC, safety and performance testing activities in external laboratories",
+      "AE, R&D and management support for certification related topics",
+      "Liaison with certification and standartisation related organisations (REDCA, ETSI, C2CCC, GPSIA)",
+      "Software-defined radio development for HIL testing",
+      "Full stack development of internal databases",
+      "GNSS signal security verification (jamming & spoofing)",
+      "Tool development and automation for data analysis and test management",
+      "Devising specialized RF test setups for R&D studies"
+    ]
+  },
   {
     "title": "Young Graduate Trainee",
     "group": "Aerospace and Defence Section",

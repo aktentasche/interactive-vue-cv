@@ -22,7 +22,7 @@
       <template v-slot:extension>
         <!-- navigation -->
         <v-tabs align-with-title>
-          <v-tab>Professional</v-tab>
+          <v-tab>{{ $t("professional_experience_name") }}</v-tab>
           <v-tab>Education</v-tab>
           <v-tab>Skills</v-tab>
         </v-tabs>
@@ -60,16 +60,26 @@
     </v-app-bar>
 
     <!-- main content -->
-    <v-main>
-      <!--<v-container style="height: 1000px;"> </v-container>-->
-
-      <v-timeline dense>
-        <ProfessionalExperienceTimelineItem
-          v-for="entry of $t('professional_experience')"
-          :key="entry.title + entry.group"
-          :entry="entry"
-        />
-      </v-timeline>
+    <v-main id="main-container">
+      <v-container style="height: 1000px;"> </v-container>
+      <v-card class="rounded-0">
+        <!-- using color of dots of timeline -->
+        <v-card-title class="blue darken-2 justify-start">
+          <v-icon dark size="42">mdi-account-tie</v-icon>
+          <h2 class="display-1 ml-4 white--text font-weight-light">
+            {{ $t("professional_experience_name") }}
+          </h2>
+        </v-card-title>
+        <v-card-text>
+          <v-timeline dense>
+            <ProfessionalExperienceTimelineItem
+              v-for="entry of $t('professional_experience_entries')"
+              :key="entry.title + entry.group"
+              :entry="entry"
+            />
+          </v-timeline>
+        </v-card-text>
+      </v-card>
     </v-main>
   </v-app>
 </template>
