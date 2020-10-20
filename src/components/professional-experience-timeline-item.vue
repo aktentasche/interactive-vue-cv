@@ -1,25 +1,23 @@
- <template>
+<template>
   <v-timeline-item right>
     <v-card>
-    <v-card-title>
-          <v-img :src="entry.entity_image" height="60px" contain/>
-        </v-card-title>
+      <v-card-title>
+        <v-img :src="entry.entity_image" height="60px" contain />
+      </v-card-title>
 
-     {{ entry.title }}
-      
+      {{ entry.title }}
     </v-card>
 
     <template v-slot:opposite>
       <div class="align-top">
-        <span v-text="entry.start"/>
+        <span v-text="entry.start" />
         -
-        <span v-text="entry.end"/>
+        <span v-text="entry.end" />
       </div>
-      </template>
-
+    </template>
   </v-timeline-item>
 
- <!--
+  <!--
  <v-timeline-item
             v-for="professional_experience_entry of $t('professional_experience')" :key=professional_experience_entry.title
             small
@@ -41,17 +39,16 @@
 </template>
 
 <script>
-export default {    
-    props: {
-        entry: Object,
-    },
-    computed:{
-      entity_image_location: function(){
-        //have to use require here instead of directly binding, otherwise
-        //require is executed at every tick
-        return require(this)
-      }
+export default {
+  props: {
+    entry: Object
+  },
+  computed: {
+    entity_image_location: function() {
+      //have to use require here instead of directly binding, otherwise
+      //require is executed at every tick
+      return require(this);
     }
-    
-}
+  }
+};
 </script>
