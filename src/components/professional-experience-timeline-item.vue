@@ -34,7 +34,11 @@
 
             <v-col>
               <ul>
-                <li v-for="activity in entry.activities" :key="activity">
+                <li
+                  class="text-body-2"
+                  v-for="activity in entry.activities"
+                  :key="activity"
+                >
                   {{ activity }}
                 </li>
               </ul>

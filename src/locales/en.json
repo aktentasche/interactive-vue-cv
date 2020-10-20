@@ -6,6 +6,7 @@
     "title": "Certification Specialist GNSS",
     "group": "Hardware Integration Testing",
     "entity": "u-blox AG",
+    "entity_url": "https://www.u-blox.com",
     "entity_image": "entity_images/ublox.png",
     "place": "Thalwil, Switzerland",
     "start": "06/2018",
@@ -26,6 +27,7 @@
     "title": "Young Graduate Trainee",
     "group": "Aerospace and Defence Section",
     "entity": "Septentrio",
+    "entity_url": "https://www.septentrio.com",
     "entity_image": "entity_images/septentrio.png",
     "place": "Leuven, Belgium",
     "start": "07/2017",
@@ -41,6 +43,7 @@
     "title": "Young Graduate Trainee",
     "group": "Commercial Ground Segment",
     "entity": "European Space Agency",
+    "entity_url": "https://www.esa.int",
     "entity_image": "entity_images/esa.png",
     "place": "Noordwijk, The Netherlands",
     "start": "06/2016",
@@ -50,6 +53,37 @@
       "Feasibility studies for using the IoT protocol LoRa in a low earth orbit scenario",
       "Hybrid positioning testing with a Spirent LTS 8100 series solution",
       "GSTP Element 2 projects"
+    ]
+  },
+  {
+    "title": "Technical Student",
+    "group": "HeRSCheL Subdetector",
+    "entity": "LHCb collaboration, CERN",
+    "entity_url": "https://lhcb.web.cern.ch/",
+    "entity_image": "entity_images/lhcb.png",
+    "place": "Geneva, Switzerland",
+    "start": "04/2015",
+    "end": "05/2016",
+    "activities"    : [      
+      "FPGA programming and verification of the LHCb frontend electronics",
+      "HeRSCheL sub-detector expert: calibration and electronics maintenance",
+      "Shift leader for the LHCb detector: supervision and organisation",
+      "Official CERN guide and S’Cool lab tutor"
+    ]
+  },
+  {
+    "title": "Scientific Assistant",
+    "group": "Visual Inspections Department",
+    "entity": "Fraunhofer IOSB",
+    "entity_url": "https://www.iosb.fraunhofer.de/",
+    "entity_image": "entity_images/fhg_logo.png",
+    "place": "Karlsruhe, Germany",
+    "start": "06/2012",
+    "end": "03/2015",
+    "activities"    : [
+      "Lead developer of an integrated GUI for imaging spectroscopy",
+      "Operative responsibility for hyper spectral test benches in SWIR, VIS and UV",
+      "Design and construction of mechatronic components"
     ]
   }
 ]
