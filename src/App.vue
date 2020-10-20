@@ -5,16 +5,13 @@
       color="#6A76AB"
       dark
       shrink-on-scroll
-      prominent
-      src="./assets/test.jpg"
+      src="./assets/MVIMG_20201014_083354.jpg"
       fade-img-on-scroll
       scroll-target="#main-container"
+      height="300px"
     >
       <template v-slot:img="{ props }">
-        <v-img
-          v-bind="props"
-          gradient="to top right, rgba(100,115,201,.7), rgba(25,32,72,.7)"
-        ></v-img>
+        <v-img v-bind="props"></v-img>
       </template>
 
       <v-toolbar-title>Jonas Manthey</v-toolbar-title>
