@@ -16,7 +16,7 @@
 
       <v-toolbar-title>
         <div>Jonas Manthey</div>
-        <div class="text-subtitle-1">{{ quote }}</div>
+        <div class="text-subtitle-1">{{ $t("quote") }}</div>
       </v-toolbar-title>
 
       <template v-slot:extension>
@@ -65,90 +65,17 @@
 
     <!-- main content -->
     <v-main id="main-container">
-      <!------------------->
-      <!-- professional experience -->
-      <v-card class="rounded-0">
-        <!-- using color of dots of timeline -->
-        <v-card-title class="professional justify-start">
-          <v-icon dark size="42">mdi-account-tie</v-icon>
-          <h2 class="display-1 ml-4 white--text font-weight-light">
-            {{ $t("professional_experience_name") }}
-          </h2>
-        </v-card-title>
-        <v-card-text>
-          <v-timeline dense>
-            <ProfessionalExperienceTimelineItem
-              v-for="entry of $t('professional_experience_entries')"
-              :key="entry.title + entry.group"
-              :entry="entry"
-            />
-          </v-timeline>
-        </v-card-text>
-      </v-card>
-      <!------------------->
-      <!--education -->
-      <v-card class="rounded-0">
-        <!-- using color of dots of timeline -->
-        <v-card-title class="education justify-start">
-          <v-icon dark size="42" class="ml-4">mdi-school</v-icon>
-          <h2 class="display-1 ml-4 white--text">
-            {{ $t("education_name") }}
-          </h2>
-        </v-card-title>
-        <v-card-text>
-          <v-timeline dense>
-            <EducationTimelineItem
-              v-for="entry of $t('education_entries')"
-              :key="entry.title + entry.group"
-              :entry="entry"
-            />
-          </v-timeline>
-        </v-card-text>
-      </v-card>
-
-      <!------------------->
-      <!--skills -->
-      <v-card class="rounded-0">
-        <!-- using color of dots of timeline -->
-        <v-card-title class="skills justify-start">
-          <v-icon dark size="42" class="ml-4">mdi-cogs</v-icon>
-          <h2 class="display-1 ml-4 white--text">
-            {{ $t("skills_name") }}
-          </h2>
-        </v-card-title>
-        <v-card-text>
-          <v-row>
-            <v-col v-for="n in 3" :key="n">
-              <v-card class="pa-2" outlined tile>
-                <v-card-title>
-                  <div>
-                    <v-img
-                      src="skills_images/555px-Vue.js_Logo_2.png"
-                      height="60px"
-                      max-width="200px"
-                      contain
-                      class="mb-5"
-                    />
-                  </div>
-                  <div>
-                    <h2 class="mb-3 text-center">Vue</h2>
-                    Vue.js is a JavaScript framework for building UIs
-                  </div>
-                </v-card-title>
-
-                <v-card-text> assad</v-card-text>
-              </v-card>
-            </v-col>
-          </v-row>
-        </v-card-text>
-      </v-card>
+      <ProfessionalExperience />
+      <Education />
+      <Skills />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import ProfessionalExperienceTimelineItem from "./components/professional-experience-timeline-item";
-import EducationTimelineItem from "./components/education-timeline-item";
+import ProfessionalExperience from "./components/professional-experience";
+import Education from "./components/education";
+import Skills from "./components/skills";
 
 export default {
   name: "App",
@@ -164,13 +91,11 @@ export default {
   // msysto
 
   components: {
-    ProfessionalExperienceTimelineItem,
-    EducationTimelineItem
+    ProfessionalExperience,
+    Education,
+    Skills
   },
 
-  data: () => ({
-    quote: "What I cannot create, I do not understand - Richard Feynmann"
-  }),
   methods: {
     switchLanguageTo(short_iso) {
       this.$i18n.locale = short_iso;
