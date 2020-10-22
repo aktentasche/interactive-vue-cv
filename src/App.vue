@@ -136,7 +136,7 @@ export default {
       this.$vuetify.goTo(this.$refs[reference], {
         duration: 300,
         easing: "easeInOutCubic",
-        offset: 200,
+        offset: -1,
         container: this.$refs.maincontainerref
       });
     }

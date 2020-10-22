@@ -1,5 +1,5 @@
 <template>
-  <v-card id="maincard" class="rounded-0 elevation-2" flat>
+  <v-card id="maincard" class="rounded-0 elevation-0" flat>
     <!-- using color of dots of timeline -->
     <v-card-title class="primary">
       <span class="display-1 white--text font-weight-bold">
