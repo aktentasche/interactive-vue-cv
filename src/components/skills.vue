@@ -9,7 +9,7 @@
     </v-card-title>
     <v-card-text>
       <v-row>
-        <v-col v-for="n in 3" :key="n">
+        <v-col v-for="n in 24" :key="n">
           <v-card class="pa-2" outlined tile>
             <v-card-title>
               <div>

@@ -1,7 +1,7 @@
 <template>
   <v-card flat class="rounded-0">
     <!-- using color of dots of timeline -->
-    <v-card-title class="professional justify-start">
+    <v-card-title class="professional" dense>
       <v-icon dark size="42">mdi-account-tie</v-icon>
       <h2 class="display-1 ml-4 white--text font-weight-light">
         {{ $t("professional_experience_name") }}

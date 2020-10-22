@@ -2,53 +2,34 @@
   <v-app app>
     <v-app-bar
       app
-      inverted-scroll
-      class="professional"
-      scroll-target="#main-container"
-    >
-      <!--
-    <v-app-bar
-      app
-      color="#6A76AB"
       dark
-      shrink-on-scroll
-      src="me.jpg"
-      fade-img-on-scroll
+      :inverted-scroll="!pageWasScrolled"
+      class="elevation-0"
+      :class="currentActiveArea"
       scroll-target="#main-container"
-      height="150px"
+      height="74px"
     >
-    <template v-slot:img>
-        <v-avatar>
-          <v-img id="me-img" src="me.jpg" max-width="600px" />
-        </v-avatar>
-      </template>
-
-      <v-toolbar-title>
-        <div>Jonas Manthey</div>
-        <div class="text-subtitle-1">{{ $t("quote") }}</div>
-      </v-toolbar-title> -->
-
-      <!--<template v-slot:extension> -->
       <!-- navigation -->
       <v-tabs align-with-title>
-        <v-tab class="professional">{{
+        <v-tab @click="scrollTo('professional')">{{
           $t("professional_experience_name")
         }}</v-tab>
-        <v-tab class="education">{{ $t("education_name") }}</v-tab>
-        <v-tab class="skills">{{ $t("skills_name") }}</v-tab>
+        <v-tab @click="scrollTo('education')">{{ $t("education_name") }}</v-tab>
+        <v-tab @click="scrollTo('skills')">{{ $t("skills_name") }}</v-tab>
       </v-tabs>
       <v-spacer></v-spacer>
-      <!-- contact -->
-      <v-btn icon large>
-        <v-icon>mdi-email-outline</v-icon>
-      </v-btn>
+
       <!-- language menu -->
       <v-menu offset-y>
         <template v-slot:activator="{ on: menu }">
           <v-tooltip bottom>
             <template v-slot:activator="{ on: tooltip }">
               <v-btn icon v-on="{ ...tooltip, ...menu }">
-                <img :src="$t('language_flag_image')" width="40px" />
+                <img
+                  :src="$t('language_flag_image')"
+                  width="40px"
+                  class="mr-5"
+                />
               </v-btn>
             </template>
             <span>{{ $t("language_switch") }}</span>
@@ -75,22 +56,26 @@
     </v-app-bar>
 
     <!-- main content -->
-    <v-main id="main-container">
+    <v-main
+      v-on:scroll.native="handleScroll"
+      id="main-container"
+      ref="maincontainerref"
+    >
       <v-row no-gutters>
         <v-col :hidden="$vuetify.breakpoint.lgAndUp" cols="12">
           <AboutMe />
         </v-col>
 
-        <v-col :cols="$vuetify.breakpoint.lgAndUp ? 12 : 12">
-          <ProfessionalExperience />
-          <Education />
-          <Skills />
+        <v-col cols="12">
+          <ProfessionalExperience ref="professional" />
+          <Education ref="education" />
+          <Skills ref="skills" />
         </v-col>
 
         <v-col
           id="scrollingcard"
           :hidden="$vuetify.breakpoint.mdAndDown"
-          :cols="$vuetify.breakpoint.lgAndUp ? 3 : 12"
+          cols="3"
         >
           <AboutMe />
         </v-col>
@@ -107,7 +92,6 @@ import AboutMe from "./components/about-me";
 
 export default {
   name: "App",
-  //https://vuetifyjs.com/en/features/scrolling/
   // open source:
   // arch, debian, gnuradio, openhab, zigbee2mqtt, vscode, node-red, nextcloud
   // jellyfin, kodi, vue, vuetify, ungoogled-chromiumm, arduino ide, platformio
@@ -117,6 +101,13 @@ export default {
   // ökopolis
   // hstb
   // msysto
+  data() {
+    return {
+      scroll_options: {},
+      currentActiveArea: "professional",
+      pageWasScrolled: false
+    };
+  },
 
   components: {
     ProfessionalExperience,
@@ -125,9 +116,29 @@ export default {
     AboutMe
   },
 
+  created() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  destroyed() {
+    window.removeEventListener("scroll", this.handleScroll);
+  },
+
   methods: {
     switchLanguageTo(short_iso) {
       this.$i18n.locale = short_iso;
+    },
+    handleScroll(event) {
+      console.log(event);
+      this.pageWasScrolled = true;
+    },
+    scrollTo(reference) {
+      this.currentActiveArea = reference;
+      this.$vuetify.goTo(this.$refs[reference], {
+        duration: 300,
+        easing: "easeInOutCubic",
+        offset: 200,
+        container: this.$refs.maincontainerref
+      });
     }
   }
 };
@@ -145,8 +156,8 @@ export default {
 
 #scrollingcard {
   position: fixed;
-  right: 0px;
-  top: 68px;
+  right: 10px;
+  top: 74px;
 }
 
 :root {
@@ -186,12 +197,12 @@ export default {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: blueviolet;
+  background: #2196f3; /*primary color, blue*/
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: green;
+  background: #303f9f;
 }
 
 /* Handle on hover */
