@@ -5,7 +5,7 @@
       color="#6A76AB"
       dark
       shrink-on-scroll
-      src="./assets/MVIMG_20201014_083354.jpg"
+      src="me.jpg"
       fade-img-on-scroll
       scroll-target="#main-container"
       height="300px"
@@ -165,8 +165,8 @@ export default {
   },
 
   data: () => ({
-    quote: "What I cannot create, I do not understand - Richard Feynmann",
-    languages: [
+    quote: "What I cannot create, I do not understand - Richard Feynmann"
+    /*languages: [
       {
         name: "English",
         short_iso: "en",
@@ -177,17 +177,23 @@ export default {
         short_iso: "de",
         flag_image: require("./assets/flag-ger.png")
       }
-    ]
+    ]*/
   }),
   methods: {
     switchLanguageTo(short_iso) {
       this.$i18n.locale = short_iso;
+      console.log(this.$i18n.available_locales);
     }
   },
   computed: {
     currentFlagImg: function() {
       return this.languages.filter(x => x.short_iso === this.$i18n.locale)[0]
         .flag_image;
+    },
+    languages: function() {
+      console.log(this.$i18n.available_locales);
+
+      return this.$i18n.available_locales;
     }
   }
 };

@@ -1,5 +1,7 @@
 {
-    "switchlanguage": "Switch language",
+    "language": "English",
+    "language_switch": "Switch language",
+    "language_flag_image": "flag_images/flag-en.png",    
     "professional_experience_name": "Professional Experience",
     "education_name": "Education",
     "skills_name": "Skills",

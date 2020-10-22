@@ -25,11 +25,8 @@ function getLocaleMessages() {
         messages[locale]
       );
     });
-
-    //messages[locale] = Object.assign("asd2", messages[locale]);
-    //messages[locale].push(require("./../content/en-base.json"));
-    console.log(messages);
   });
+  return messages;
 }
 
 /*function loadLocaleMessages() {
@@ -53,5 +50,6 @@ function getLocaleMessages() {
 export default new VueI18n({
   locale: process.env.VUE_APP_I18N_LOCALE || "en",
   fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || "en",
-  messages: getLocaleMessages()
+  messages: getLocaleMessages(),
+  available_locales: available_locales
 });
