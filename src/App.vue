@@ -37,22 +37,26 @@
             <v-tooltip bottom>
               <template v-slot:activator="{ on: tooltip }">
                 <v-btn icon v-on="{ ...tooltip, ...menu }">
-                  <img :src="currentFlagImg" width="40px" />
+                  <img :src="$t('language_flag_image')" width="40px" />
                 </v-btn>
               </template>
-              <span>{{ $t("switchlanguage") }}</span>
+              <span>{{ $t("language_switch") }}</span>
             </v-tooltip>
           </template>
           <v-list>
             <v-list-item
-              v-for="language in languages"
-              :key="language.short_iso"
-              @click="switchLanguageTo(language.short_iso)"
+              v-for="language_short_iso in $i18n.availableLocales"
+              :key="language_short_iso"
+              @click="switchLanguageTo(language_short_iso)"
             >
               <v-list-item-avatar tile size="40">
-                <v-img :src="language.flag_image"></v-img>
+                <v-img
+                  :src="$i18n.messages[language_short_iso].language_flag_image"
+                ></v-img>
               </v-list-item-avatar>
-              <v-list-item-title>{{ language.name }}</v-list-item-title>
+              <v-list-item-title>{{
+                $i18n.messages[language_short_iso].language
+              }}</v-list-item-title>
             </v-list-item>
           </v-list>
         </v-menu>
@@ -152,7 +156,7 @@ export default {
   // open source:
   // arch, debian, gnuradio, openhab, zigbee2mqtt, vscode, node-red, nextcloud
   // jellyfin, kodi, vue, vuetify, ungoogled-chromiumm, arduino ide, platformio
-  // mysensors, wordpress, apache, bitwarden, terminator, paperless
+  // mysensors, wordpress, apache, bitwarden, terminator, paperless, lets encrypt
   // software
   // salesforce, matlab, labview, vscode
   // ökopolis
@@ -166,34 +170,10 @@ export default {
 
   data: () => ({
     quote: "What I cannot create, I do not understand - Richard Feynmann"
-    /*languages: [
-      {
-        name: "English",
-        short_iso: "en",
-        flag_image: require("./assets/flag-en.png")
-      },
-      {
-        name: "Deutsch",
-        short_iso: "de",
-        flag_image: require("./assets/flag-ger.png")
-      }
-    ]*/
   }),
   methods: {
     switchLanguageTo(short_iso) {
       this.$i18n.locale = short_iso;
-      console.log(this.$i18n.available_locales);
-    }
-  },
-  computed: {
-    currentFlagImg: function() {
-      return this.languages.filter(x => x.short_iso === this.$i18n.locale)[0]
-        .flag_image;
-    },
-    languages: function() {
-      console.log(this.$i18n.available_locales);
-
-      return this.$i18n.available_locales;
     }
   }
 };

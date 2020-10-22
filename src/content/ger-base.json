@@ -1,6 +1,8 @@
 {
-    "switchlanguage": "Sprache umschalten",
-    "professional_experience_name": "Professional Experience",
+    "language": "Deutsch",
+    "language_switch":  "Sprache umschalten",
+    "language_flag_image": "flag_images/flag-ger.png",    
+    "professional_experience_name": "Berufliche Laufbahn",
     "education_name": "Ausbildung",
     "skills_name": "Kompetenzen",
     "projects_name": "Projekte",
