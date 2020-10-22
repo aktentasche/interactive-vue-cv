@@ -56,20 +56,35 @@
     </v-app-bar>
 
     <!-- main content -->
-    <v-main
-      v-on:scroll.native="handleScroll"
-      id="main-container"
-      ref="maincontainerref"
-    >
+    <v-main id="main-container" ref="maincontainerref">
       <v-row no-gutters>
         <v-col :hidden="$vuetify.breakpoint.lgAndUp" cols="12">
           <AboutMe />
         </v-col>
 
         <v-col cols="12">
-          <ProfessionalExperience ref="professional" />
-          <Education ref="education" />
-          <Skills ref="skills" />
+          <ProfessionalExperience
+            ref="professional"
+            v-observe-visibility="{
+              callback: visibilityChangedProfessional,
+              throttle: 300
+            }"
+          />
+          />
+          <Education
+            ref="education"
+            v-observe-visibility="{
+              callback: visibilityChangedEducation,
+              throttle: 300
+            }"
+          />
+          <Skills
+            ref="skills"
+            v-observe-visibility="{
+              callback: visibilityChangedSkills,
+              throttle: 300
+            }"
+          />
         </v-col>
 
         <v-col
@@ -105,6 +120,9 @@ export default {
     return {
       scroll_options: {},
       currentActiveArea: "professional",
+      isVisibleProfessional: true, //starting point, hence always true at start
+      isVisibleEducation: false,
+      isVisibleSkills: false,
       pageWasScrolled: false
     };
   },
@@ -116,23 +134,34 @@ export default {
     AboutMe
   },
 
-  created() {
-    window.addEventListener("scroll", this.handleScroll);
-  },
-  destroyed() {
-    window.removeEventListener("scroll", this.handleScroll);
-  },
-
   methods: {
     switchLanguageTo(short_iso) {
       this.$i18n.locale = short_iso;
     },
-    handleScroll(event) {
-      console.log(event);
-      this.pageWasScrolled = true;
+    visibilityChangedProfessional(isVisible) {
+      this.isVisibleProfessional = isVisible;
+      this.setActiveArea();
     },
+    visibilityChangedEducation(isVisible) {
+      this.isVisibleEducation = isVisible;
+      this.setActiveArea();
+    },
+    visibilityChangedSkills(isVisible) {
+      this.Skills = isVisible;
+      this.setActiveArea();
+    },
+    setActiveArea() {
+      //prof and not ed
+      if (this.isVisibleProfessional && !this.isVisibleEducation) {
+        this.currentActiveArea = "professional";
+      }
+      //not prof and ed
+      else if (!this.isVisibleProfessional && this.isVisibleEducation) {
+        this.currentActiveArea = "education";
+      }
+    },
+
     scrollTo(reference) {
-      this.currentActiveArea = reference;
       this.$vuetify.goTo(this.$refs[reference], {
         duration: 300,
         easing: "easeInOutCubic",
@@ -168,11 +197,6 @@ export default {
 /* timeline hacking to have it aligned left, see https://github.com/vuetifyjs/vuetify/issues/6594 */
 .v-timeline--dense .v-timeline-item__opposite {
   display: inline-block;
-}
-
-.v-timeline-item__opposite {
-  flex: none;
-  min-width: var(--timeline-opposite-item-width);
 }
 
 .v-timeline-item__opposite {
