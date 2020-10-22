@@ -1,5 +1,5 @@
 <template>
-  <v-timeline-item right fill-dot color="professional">
+  <v-timeline-item right fill-dot color="education">
     <v-card class="mr-3" elevation="10">
       <v-card-text>
         <v-layout>
@@ -17,9 +17,9 @@
               <v-card class="pa-2" flat>
                 <div class="font-weight-light text-subtitle-2">
                   <v-icon class="mr-2">mdi-domain</v-icon>
-                  <a target="empty" :href="entry.entity_url">
-                    {{ entry.entity }}</a
-                  >
+                  <a target="empty" :href="entry.entity_url">{{
+                    entry.entity
+                  }}</a>
                   <br />
 
                   <v-icon class="mr-2">mdi-account-group</v-icon>
