@@ -59,7 +59,7 @@
     <v-main id="main-container" ref="maincontainerref">
       <v-row no-gutters>
         <v-col :hidden="$vuetify.breakpoint.lgAndUp" cols="12">
-          <AboutMe />
+          <AboutMe :is-big-img="true" />
         </v-col>
 
         <v-col cols="12">
@@ -70,7 +70,7 @@
               throttle: 300
             }"
           />
-          />
+
           <Education
             ref="education"
             v-observe-visibility="{
@@ -92,7 +92,7 @@
           :hidden="$vuetify.breakpoint.mdAndDown"
           cols="3"
         >
-          <AboutMe />
+          <AboutMe :is-big-img="false" />
         </v-col>
       </v-row>
     </v-main>
