@@ -147,7 +147,7 @@ export default {
       this.setActiveArea();
     },
     visibilityChangedSkills(isVisible) {
-      this.Skills = isVisible;
+      this.isVisibleSkills = isVisible;
       this.setActiveArea();
     },
     setActiveArea() {
@@ -158,6 +158,9 @@ export default {
       //not prof and ed
       else if (!this.isVisibleProfessional && this.isVisibleEducation) {
         this.currentActiveArea = "education";
+        //not education and skills
+      } else if (!this.isVisibleEducation && this.isVisibleSkills) {
+        this.currentActiveArea = "skills";
       }
     },
 

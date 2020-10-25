@@ -7,5 +7,8 @@
     "education_name": "Ausbildung",
     "skills_name": "Kompetenzen",
     "projects_name": "Projekte",
-    "software_name": "Programmiersprachen und Software"
+    "software_name": "Programmiersprachen und Software",
+    "about_me_headline": "Über mich",
+    "about_me_content": "TBD",
+    "contact": "Kontakt"
 }
