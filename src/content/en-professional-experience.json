@@ -2,7 +2,7 @@
     "professional_experience_entries": [
         {
           "title": "Certification Specialist GNSS",
-          "group": "Hardware Integration Testing",
+          "entity_group": "Hardware Integration Testing",
           "entity": "u-blox AG",
           "entity_url": "https://www.u-blox.com",
           "entity_image": "entity_images/ublox.png",
@@ -23,7 +23,7 @@
         },
         {
           "title": "Young Graduate Trainee",
-          "group": "Aerospace and Defence Section",
+          "entity_group": "Aerospace and Defence Section",
           "entity": "Septentrio",
           "entity_url": "https://www.septentrio.com",
           "entity_image": "entity_images/septentrio.png",
@@ -39,7 +39,7 @@
         },
         {
           "title": "Young Graduate Trainee",
-          "group": "Commercial Ground Segment",
+          "entity_group": "Commercial Ground Segment",
           "entity": "European Space Agency",
           "entity_url": "https://www.esa.int",
           "entity_image": "entity_images/esa.png",
@@ -55,7 +55,7 @@
         },
         {
           "title": "Technical Student",
-          "group": "HeRSCheL Subdetector",
+          "entity_group": "HeRSCheL Subdetector",
           "entity": "LHCb collaboration @ CERN",
           "entity_url": "https://lhcb.web.cern.ch/",
           "entity_image": "entity_images/lhcb.png",
@@ -71,7 +71,7 @@
         },
         {
           "title": "Scientific Assistant",
-          "group": "Visual Inspections Department",
+          "entity_group": "Visual Inspections Department",
           "entity": "Fraunhofer IOSB",
           "entity_url": "https://www.iosb.fraunhofer.de/",
           "entity_image": "entity_images/fhg_logo.png",

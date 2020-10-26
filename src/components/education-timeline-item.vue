@@ -1,5 +1,10 @@
 <template>
-  <v-timeline-item right fill-dot color="education">
+  <v-timeline-item
+    right
+    fill-dot
+    :icon="entry.type == 'degree' ? 'mdi-star' : ''"
+    color="education"
+  >
     <v-card class="mr-3" elevation="10">
       <v-card-text>
         <v-layout>
@@ -23,7 +28,7 @@
                   <br />
 
                   <v-icon class="mr-2">mdi-account-group</v-icon>
-                  {{ entry.group }}
+                  {{ entry.entity_group }}
                   <br />
 
                   <v-icon class="mr-2">mdi-map-marker</v-icon>

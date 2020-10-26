@@ -1,3 +1,38 @@
 {
-    "education_entries": []
+    "education_entries": [
+        {
+            "type": "degree",
+            "title": "Master's thesis",    
+            "title_thesis": "Integration of the HeRSCheL Subdetector into the TDAQ path of LHCb",
+            "entity": "LHCb collaboration @ CERN",
+            "entity_group": "HeRSCheL Subdetector",
+            "entity_url": "https://lhcb.web.cern.ch/",
+            "entity_image": "entity_images/lhcb.png",
+            "place": "Geneva, Switzerland",
+            "start": "04/2015",
+            "end": "05/2016",
+            "abstract": [
+                "Integration of the HeRSCheL Subdetector into the TDAQ path of LHCb"                
+            ]
+        },
+        {
+            "type": "studies",
+            "title": "Master studies",
+            "title_studies": " electrical and computer engineering - Telecommunications engineering",            
+            "title_academic": "Master of Science (M.Sc.)",
+            "grade": "1.9",
+            "entity": "Hochschule Karlsruhe",
+            "entity_group": "Faculty EIT",
+            "entity_url": "https://www.hs-karlsruhe.de/master-eit/",
+            "entity_image": "entity_images/hska.png",
+            "place": "Karlsruhe, Germany",
+            "start": "2016",
+            "end": "2013",
+            "contents": [
+                "bla1",
+                "bla2"
+            ]
+        }
+
+    ]
 }
