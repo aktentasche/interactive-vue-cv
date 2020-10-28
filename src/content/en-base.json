@@ -9,14 +9,11 @@
     "projects_name": "Projects",
     "software_name": "Languages and Software",
     "about_me_headline": "About me",
-    "about_me_content": "I am an electrical engineer with a strong background in software. I live and appreciate the following guidelines:",
+    "about_me_content": "I am an electrical engineer with a strong background in software. My guidelines are:",
     "about_me_rules": [
         "Be proactive and self-sufficient",
         "Focus on improvement and abstraction",
-        "Readability before complexity",
-        "Commit early and often",
-        "Prevent technical debt",
-        "Refactor, refactor, refactor"
+        "Prevent technical debt"
     ],
     "contact": "Contact",
     "background": "Background",

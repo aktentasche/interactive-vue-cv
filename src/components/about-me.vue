@@ -1,5 +1,5 @@
 <template>
-  <v-card id="aboutmecard" class="rounded-0 elevation-1">
+  <v-card class="rounded-1 elevation-3">
     <!-- using color of dots of timeline -->
     <v-card-title class="primary">
       <span class="display-1 white--text font-weight-bold">
@@ -9,7 +9,7 @@
     <!-- px3 to align with title -->
     <v-card-text class="px-3">
       <v-row>
-        <v-img src="me.jpg" :height="isBigImg ? 320 : 180" id="aboutmeimg" />
+        <v-img src="me.jpg" :height="isBigImg ? 320 : 160" id="aboutmeimg" />
       </v-row>
 
       <h2 class="pt-2 pb-2">{{ $t("about_me_headline") }}</h2>
@@ -28,27 +28,24 @@
       </v-row>
 
       <h2 class="pt-2 pb-2">{{ $t("contact") }}</h2>
-      <v-divider />
-      <v-row>
-        <v-col cols="1">
-          <!-- contact -->
-          <v-icon>mdi-email-outline</v-icon>
-        </v-col>
-        <v-col>
-          <a target="empty" href="mailto:jonas@amps.one">jonas@amps.one</a>
-        </v-col>
-      </v-row>
-      <v-row>
-        <v-col cols="1">
-          <!-- contact -->
-          <v-icon>mdi-linkedin</v-icon>
-        </v-col>
-        <v-col>
-          <a target="empty" href="https://www.linkedin.com/in/jonas-manthey/"
-            >LinkedIn profile</a
-          >
-        </v-col>
-      </v-row>
+      <v-divider class="pb-2" />
+      <!-- contact -->
+      <v-icon class="mr-2">mdi-email-outline</v-icon>
+      <a target="empty" :href="'mailto:' + emailaddress">{{ emailaddress }}</a>
+      <br />
+
+      <v-icon class="mr-2">mdi-linkedin</v-icon>
+      <a target="empty" href="https://www.linkedin.com/in/jonas-manthey/"
+        >LinkedIn profile</a
+      >
+      <br />
+      <v-icon class="mr-2">mdi-phone</v-icon>
+      <a v-if="phoneNumbeIsHidden" @click="phoneNumbeIsHidden = false" href="#"
+        >show
+      </a>
+      <span v-if="!phoneNumbeIsHidden">
+        {{ phoneNumber }}
+      </span>
     </v-card-text>
   </v-card>
 </template>
@@ -58,12 +55,14 @@ export default {
   props: {
     isBigImg: Boolean
   },
+  data() {
+    return {
+      emailaddress: "jonas@amps.one",
+      phoneNumber: "+41 76 677 113 37",
+      phoneNumbeIsHidden: true
+    };
+  },
+
   components: {}
 };
 </script>
-
-<style>
-#aboutmecard {
-  border-color: blue;
-}
-</style>

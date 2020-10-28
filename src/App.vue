@@ -110,7 +110,7 @@
           :hidden="$vuetify.breakpoint.mdAndDown"
           cols="3"
         >
-          <AboutMe :is-big-img="false" />
+          <AboutMe class="ma-4" :is-big-img="false" />
         </v-col>
       </v-row>
     </v-main>
@@ -208,8 +208,8 @@ export default {
 
 #scrollingcard {
   position: fixed;
-  right: 10px;
-  top: 74px;
+  right: 22px;
+  top: 81px;
 }
 
 .tabActive {
