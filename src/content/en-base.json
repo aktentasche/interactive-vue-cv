@@ -18,5 +18,9 @@
         "Prevent technical debt",
         "Refactor, refactor, refactor"
     ],
-    "contact": "Contact"
+    "contact": "Contact",
+    "background": "Background",
+    "content": "Content",
+    "curriculum": "Curriculum",
+    "activities": "Activities"
 }

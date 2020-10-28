@@ -16,10 +16,10 @@
               <h2 class="mb-3 text-center">{{ entry.title }}</h2>
               <v-card class="pa-2" flat>
                 <div class="font-weight-light text-subtitle-2">
-                  <v-icon class="mr-2">mdi-domain</v-icon>
-                  <a target="empty" :href="entry.entity_url">
-                    {{ entry.entity }}</a
-                  >
+                  <v-icon class="mr-3">mdi-domain</v-icon>
+                  <a target="empty" :href="entry.entity_url">{{
+                    entry.entity
+                  }}</a>
                   <br />
 
                   <v-icon class="mr-2">mdi-account-group</v-icon>
@@ -33,15 +33,22 @@
             </v-col>
 
             <v-col>
-              <ul>
-                <li
-                  class="text-body-2"
-                  v-for="activity in entry.activities"
-                  :key="activity"
-                >
-                  {{ activity }}
-                </li>
-              </ul>
+              <v-card flat>
+                <v-card-title class="pa-0">
+                  {{ $t("activities") }}
+                </v-card-title>
+                <v-card-text>
+                  <ul>
+                    <li
+                      class="text-body-2"
+                      v-for="activity in entry.activities"
+                      :key="activity"
+                    >
+                      {{ activity }}
+                    </li>
+                  </ul>
+                </v-card-text>
+              </v-card>
             </v-col>
           </v-row>
         </v-layout>
