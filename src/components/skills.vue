@@ -17,7 +17,12 @@
 
 <script>
 import MainColumnWrapper from "./main-column-wrapper";
-
+// open source:
+// arch, debian, gnuradio, openhab, zigbee2mqtt, vscode, node-red, nextcloud
+// jellyfin, kodi, vue, vuetify, ungoogled-chromiumm, arduino ide, platformio
+// mysensors, wordpress, apache, bitwarden, terminator, paperless, lets encrypt
+// software
+// salesforce, matlab, labview, vscode
 export default {
   components: {
     MainColumnWrapper

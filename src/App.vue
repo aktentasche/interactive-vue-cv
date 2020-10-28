@@ -126,15 +126,7 @@ import AboutMe from "./components/about-me";
 
 export default {
   name: "App",
-  // open source:
-  // arch, debian, gnuradio, openhab, zigbee2mqtt, vscode, node-red, nextcloud
-  // jellyfin, kodi, vue, vuetify, ungoogled-chromiumm, arduino ide, platformio
-  // mysensors, wordpress, apache, bitwarden, terminator, paperless, lets encrypt
-  // software
-  // salesforce, matlab, labview, vscode
-  // ökopolis
-  // hstb
-  // msysto
+
   data() {
     return {
       scroll_options: {},

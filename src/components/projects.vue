@@ -17,7 +17,10 @@
 
 <script>
 import MainColumnWrapper from "./main-column-wrapper";
-
+// ökopolis
+// hstb
+// msysto
+//interactive cv
 export default {
   components: {
     MainColumnWrapper
