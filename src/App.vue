@@ -3,19 +3,30 @@
     <v-app-bar
       app
       dark
-      :inverted-scroll="!pageWasScrolled"
+      inverted-scroll
       class="elevation-0"
       :class="currentActiveArea"
       scroll-target="#main-container"
       height="74px"
     >
       <!-- navigation -->
-      <v-tabs align-with-title>
-        <v-tab @click="scrollTo('professional')">{{
-          $t("professional_experience_name")
-        }}</v-tab>
-        <v-tab @click="scrollTo('education')">{{ $t("education_name") }}</v-tab>
-        <v-tab @click="scrollTo('skills')">{{ $t("skills_name") }}</v-tab>
+      <v-tabs fixed-tabs v-model="currentActiveTab">
+        <v-tab @click="scrollTo('professional')">
+          <v-icon dark size="36" class="mr-4">mdi-account-tie</v-icon>
+          {{ $t("professional_experience_name") }}</v-tab
+        >
+        <v-tab @click="scrollTo('education')">
+          <v-icon dark size="36" class="mr-4">mdi-school</v-icon>
+          {{ $t("education_name") }}</v-tab
+        >
+        <v-tab @click="scrollTo('skills')">
+          <v-icon dark size="36" class="mr-4">mdi-head-lightbulb</v-icon>
+          {{ $t("skills_name") }}</v-tab
+        >
+        <v-tab @click="scrollTo('projects')">
+          <v-icon dark size="36" class="mr-4">mdi-account-tie</v-icon>
+          {{ $t("projects_name") }}</v-tab
+        >
       </v-tabs>
       <v-spacer></v-spacer>
 
@@ -85,6 +96,13 @@
               throttle: 300
             }"
           />
+          <Projects
+            ref="projects"
+            v-observe-visibility="{
+              callback: visibilityChangedProjects,
+              throttle: 300
+            }"
+          />
         </v-col>
 
         <v-col
@@ -103,6 +121,7 @@
 import ProfessionalExperience from "./components/professional-experience";
 import Education from "./components/education";
 import Skills from "./components/skills";
+import Projects from "./components/projects";
 import AboutMe from "./components/about-me";
 
 export default {
@@ -120,10 +139,11 @@ export default {
     return {
       scroll_options: {},
       currentActiveArea: "professional",
+      currentActiveTab: 0, //first tab is 0, second 1 etc
       isVisibleProfessional: true, //starting point, hence always true at start
       isVisibleEducation: false,
       isVisibleSkills: false,
-      pageWasScrolled: false
+      isVisibleProjects: false
     };
   },
 
@@ -131,7 +151,8 @@ export default {
     ProfessionalExperience,
     Education,
     Skills,
-    AboutMe
+    AboutMe,
+    Projects
   },
 
   methods: {
@@ -140,27 +161,34 @@ export default {
     },
     visibilityChangedProfessional(isVisible) {
       this.isVisibleProfessional = isVisible;
-      this.setActiveArea();
+      this.setActiveAreaForNavColoring();
     },
     visibilityChangedEducation(isVisible) {
       this.isVisibleEducation = isVisible;
-      this.setActiveArea();
+      this.setActiveAreaForNavColoring();
     },
     visibilityChangedSkills(isVisible) {
       this.isVisibleSkills = isVisible;
-      this.setActiveArea();
+      this.setActiveAreaForNavColoring();
     },
-    setActiveArea() {
-      //prof and not ed
+    visibilityChangedProjects(isVisible) {
+      this.isVisibleProjects = isVisible;
+      this.setActiveAreaForNavColoring();
+    },
+
+    setActiveAreaForNavColoring() {
       if (this.isVisibleProfessional && !this.isVisibleEducation) {
         this.currentActiveArea = "professional";
-      }
-      //not prof and ed
-      else if (!this.isVisibleProfessional && this.isVisibleEducation) {
+        this.currentActiveTab = 0;
+      } else if (!this.isVisibleProfessional && this.isVisibleEducation) {
         this.currentActiveArea = "education";
-        //not education and skills
+        this.currentActiveTab = 1;
       } else if (!this.isVisibleEducation && this.isVisibleSkills) {
         this.currentActiveArea = "skills";
+        this.currentActiveTab = 2;
+      } else if (!this.isVisibleSkills && this.isVisibleProjects) {
+        this.currentActiveArea = "projects";
+        this.currentActiveTab = 2;
       }
     },
 
@@ -168,7 +196,7 @@ export default {
       this.$vuetify.goTo(this.$refs[reference], {
         duration: 300,
         easing: "easeInOutCubic",
-        offset: -1,
+        offset: 130,
         container: this.$refs.maincontainerref
       });
     }
@@ -190,6 +218,11 @@ export default {
   position: fixed;
   right: 10px;
   top: 74px;
+}
+
+.tabActive {
+  background-color: red;
+  font-family: "Courier New", Courier, monospace;
 }
 
 :root {

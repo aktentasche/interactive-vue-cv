@@ -1,10 +1,10 @@
 <template>
   <v-card class="rounded-0">
     <!-- using color of dots of timeline -->
-    <v-card-title class="skills">
-      <v-icon dark size="42" class="ml-4">mdi-mdi-head-lightbulb</v-icon>
+    <v-card-title class="projects">
+      <v-icon dark size="42" class="ml-4">mdi-school</v-icon>
       <h2 class="display-1 ml-4 white--text">
-        {{ $t("skills_name") }}
+        {{ $t("projects_name") }}
       </h2>
     </v-card-title>
     <v-card-text>
