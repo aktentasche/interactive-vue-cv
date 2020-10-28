@@ -89,6 +89,7 @@
               throttle: 300
             }"
           />
+
           <Skills
             ref="skills"
             v-observe-visibility="{
@@ -96,6 +97,7 @@
               throttle: 300
             }"
           />
+
           <Projects
             ref="projects"
             v-observe-visibility="{
