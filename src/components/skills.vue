@@ -10,16 +10,24 @@
     <v-card-text>
       <MainColumnWrapper>
         <v-row>
-          <v-col
-            cols="3"
-            v-for="entry in $t('skills_categories')"
-            :key="entry.id"
-          >
-            <v-checkbox
-              v-model="selectedCategories"
-              :label="entry.name"
-              :value="entry.id"
-            ></v-checkbox>
+          <v-col cols="12">
+            <v-btn-toggle
+              v-model="selectedSkillCategory"
+              tile
+              group
+              color="skills"
+            >
+              <v-btn value="all">
+                All
+              </v-btn>
+              <v-btn
+                v-for="entry in $t('skills_categories')"
+                :key="entry.id"
+                :value="entry.id"
+              >
+                {{ entry.name }}
+              </v-btn>
+            </v-btn-toggle>
           </v-col>
         </v-row>
 
@@ -93,29 +101,23 @@ export default {
   },
   data: () => ({
     //needs to be consistent with the ids in the base.json
-    selectedCategories: [
-      "hardware",
-      "software",
-      "programminglanguage",
-      "concept"
-    ]
+    selectedSkillCategory: "all"
   }),
   computed: {
     skills_filtered: function() {
-      var toreturn = this.$i18n.messages[this.$i18n.locale][
-        "skills_entries"
-      ].filter(entry => {
-        var isInFilter = false;
-        entry.types.forEach(type => {
-          if (this.selectedCategories.includes(type)) {
-            isInFilter = true;
-          }
-        });
-        return isInFilter;
-      });
+      var toreturn =
+        this.selectedSkillCategory == "all"
+          ? this.$i18n.messages[this.$i18n.locale]["skills_entries"]
+          : this.$i18n.messages[this.$i18n.locale]["skills_entries"].filter(
+              entry => {
+                return entry.types.includes(this.selectedSkillCategory);
+              }
+            );
 
+      console.log(toreturn);
       return toreturn;
     }
   }
 };
 </script>
+var toreturn =

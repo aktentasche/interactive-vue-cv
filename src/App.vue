@@ -74,6 +74,13 @@
         </v-col>
 
         <v-col cols="12">
+          <Skills
+            ref="skills"
+            v-observe-visibility="{
+              callback: visibilityChangedSkills,
+              throttle: 300
+            }"
+          />
           <ProfessionalExperience
             ref="professional"
             v-observe-visibility="{
@@ -86,14 +93,6 @@
             ref="education"
             v-observe-visibility="{
               callback: visibilityChangedEducation,
-              throttle: 300
-            }"
-          />
-
-          <Skills
-            ref="skills"
-            v-observe-visibility="{
-              callback: visibilityChangedSkills,
               throttle: 300
             }"
           />
