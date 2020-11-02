@@ -73,9 +73,23 @@
         {
             "types": ["programminglanguage", "software"],
             "name": "MySQL / MariaDB",
-            "description": "",
+            "description": "Relational database system",
             "url": "https://www.python.org/",
             "entry_img": "skills_images/mysql.png"
+        },
+        {
+            "types": ["software"],
+            "name": "Vuetify",
+            "description": "A material design framework for Vue.js",
+            "url": "https://vuetifyjs.com/",
+            "entry_img": "skills_images/vuetify.png"
+        },
+        {
+            "types": ["programminglanguage"],
+            "name": "C#",
+            "description": "Strongly object-oriented .NET language",
+            "url": "https://csharp.net/",
+            "entry_img": "skills_images/csharp.png"
         }
 ]
 }
