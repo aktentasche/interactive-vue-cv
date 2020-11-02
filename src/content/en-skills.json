@@ -122,7 +122,7 @@
         {
             "types": ["concept"],
             "name": "Software Architecture",
-            "description": "How to design interfaces and big programs",
+            "description": "How to design interfaces and large programs",
             "url": "",
             "entry_img": "skills_images/architecture.jpg"
         },
@@ -181,7 +181,23 @@
             "description": "Global satellite-based navigation",
             "url": "",
             "entry_img": "skills_images/gnss.png"
+        },
+        {
+            "types": ["software","concept"],
+            "name": "Jenkins",
+            "description": "Orchestration framework",
+            "url": "https://www.jenkins.io/",
+            "entry_img": "skills_images/jenkins.png"
+        },
+        {
+            "types": ["software"],
+            "name": "Visual Studio",
+            "description": "Profesional IDE for compiled languages",
+            "url": "https://visualstudio.microsoft.com/",
+            "entry_img": "skills_images/vstudio.png"
         }
+
+        
 ]
 }
 
