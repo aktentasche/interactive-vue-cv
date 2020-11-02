@@ -14,10 +14,18 @@ export default new Vuetify({
         info: "#2196F3",
         success: "#4CAF50",
         warning: "#FFC107",
-        professional: "#303F9F", //indigo darken-2
-        education: "#FFA000", //amber darken-2
-        skills: "#689F38", //light-green darken-2
-        projects: "#7B1FA2" //purple darken-2
+        professional: "#264653",
+        education: "#2a9d8f",
+        skills: "#e9c46a",
+        projects: "#f4a261"
+        /*professional: "#283d3b",
+        education: "#197278",
+        skills: "#c44536",
+        projects: "#edddd4"*/
+        /*professional: "#05668d",
+        education: "#028090",
+        skills: "#00a896",
+        projects: "#02c39a"*/
       }
     }
   }

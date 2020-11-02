@@ -39,7 +39,7 @@
                 <img
                   :src="$t('language_flag_image')"
                   width="40px"
-                  class="mr-5"
+                  class="mr-0"
                 />
               </v-btn>
             </template>
@@ -74,13 +74,6 @@
         </v-col>
 
         <v-col cols="12">
-          <Projects
-            ref="projects"
-            v-observe-visibility="{
-              callback: visibilityChangedProjects,
-              throttle: 300
-            }"
-          />
           <ProfessionalExperience
             ref="professional"
             v-observe-visibility="{
@@ -101,6 +94,14 @@
             ref="skills"
             v-observe-visibility="{
               callback: visibilityChangedSkills,
+              throttle: 300
+            }"
+          />
+
+          <Projects
+            ref="projects"
+            v-observe-visibility="{
+              callback: visibilityChangedProjects,
               throttle: 300
             }"
           />
@@ -181,7 +182,7 @@ export default {
         this.currentActiveTab = 2;
       } else if (!this.isVisibleSkills && this.isVisibleProjects) {
         this.currentActiveArea = "projects";
-        this.currentActiveTab = 2;
+        this.currentActiveTab = 3;
       }
     },
 

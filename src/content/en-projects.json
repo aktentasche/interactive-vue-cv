@@ -65,7 +65,7 @@
             "description": "Battery/solar powered installation of a LoRaWAN node to measure soil humidity and provide power",
             "url": "",
             "associated_stuff": ["LoRa","The Things Network", "C++"]
-        },
+        }
     ]
 }
 
