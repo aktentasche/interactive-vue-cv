@@ -90,6 +90,98 @@
             "description": "Strongly object-oriented .NET language",
             "url": "https://csharp.net/",
             "entry_img": "skills_images/csharp.png"
+        },
+        {
+            "types": ["programminglanguage","software"],
+            "name": "MATLAB",
+            "description": "Numerical Matrix simulation environment",
+            "url": "https://www.mathworks.com/products/matlab.html",
+            "entry_img": "skills_images/matlab.png"
+        },
+        {
+            "types": ["programminglanguage"],
+            "name": "VHDL",
+            "description": "Logic circuit description language",
+            "url": "https://en.wikipedia.org/wiki/VHDL",
+            "entry_img": "skills_images/vhdl.png"
+        },
+        {
+            "types": ["concept"],
+            "name": "RF Measurements",
+            "description": "Measuring signals in the RF domain",
+            "url": "",
+            "entry_img": "skills_images/emwave.gif"
+        },
+        {
+            "types": ["concept"],
+            "name": "Digital Signal Processing",
+            "description": "Dealing with digitized data",
+            "url": "",
+            "entry_img": "skills_images/sinc.png"
+        },
+        {
+            "types": ["concept"],
+            "name": "Software Architecture",
+            "description": "How to design interfaces and big programs",
+            "url": "",
+            "entry_img": "skills_images/architecture.jpg"
+        },
+        {
+            "types": ["hardware"],
+            "name": "Network Analyser",
+            "description": "Multi port instrument to obtain s-parameters of an electronic device",
+            "url": "",
+            "entry_img": "skills_images/networkanalyser.jpg"
+        },
+        {
+            "types": ["hardware"],
+            "name": "Spectrum Analyser",
+            "description": "Instrument to measure the spectrum of a signal",
+            "url": "",
+            "entry_img": "skills_images/spectrumanalyser.jpg"
+        },
+        {
+            "types": ["hardware"],
+            "name": "Oscilloscope",
+            "description": "Instrument to measure a signal in the time domain",
+            "url": "",
+            "entry_img": "skills_images/oscilloscope.jpg"
+        },
+        {
+            "types": ["hardware"],
+            "name": "Vector Signal Generator",
+            "description": "Complex/IQ signal generator",
+            "url": "",
+            "entry_img": "skills_images/vsg.jpeg"
+        },
+        {
+            "types": ["hardware"],
+            "name": "Soldering",
+            "description": "Connecting and fixing electronic components",
+            "url": "",
+            "entry_img": "skills_images/soldering.jpg"
+        },
+        {
+            "types": ["hardware"],
+            "name": "Software Defined Radio",
+            "description": "Radio that can be adjusted and controlled by software only",
+            "url": "",
+            "entry_img": "skills_images/sdr.jpg"
+        },
+        {
+            "types": ["concept"],
+            "name": "Regulatory Certification",
+            "description": "Legal requirements for market access",
+            "url": "",
+            "entry_img": "skills_images/ce.png"
+        },
+        {
+            "types": ["concept"],
+            "name": "GNSS",
+            "description": "Global satellite-based navigation",
+            "url": "",
+            "entry_img": "skills_images/gnss.png"
         }
 ]
 }
+

@@ -77,24 +77,7 @@
 
 <script>
 import MainColumnWrapper from "./main-column-wrapper";
-// open source:
-//  openhab, zigbee2mqtt, nextcloud
-// jellyfin, kodi, vue, vuetify, ungoogled-chromiumm, arduino ide, platformio
-// mysensors, wordpress, apache, bitwarden, terminator, paperless, lets encrypt
-// software
-// salesforce, matlab, labview,
-// rf measueemrnts
-// gnss
-// certification
-// software architecture
-// interfaces
-// network analyser
-// vector network analyyer
-// spectrum analyzer
-// vsgs
-// SDRs
-// oscilloscopes
-// soldering
+
 export default {
   components: {
     MainColumnWrapper
