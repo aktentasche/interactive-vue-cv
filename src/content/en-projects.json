@@ -1,3 +1,71 @@
 {
-    "projects_entries": []
+    "projects_entries": [
+        {            
+            "name": "interactive-vue-cv",
+            "description": "An interactive CV based on Vue.js (the very page you are seeing)",
+            "url": "https://github.com/aktentasche/interactive-vue-cv",
+            "associated_stuff": ["Javascript"]
+        },
+        {            
+            "name": "HSTB",
+            "description": "A GUI to control hyperspectral cameras and assess the taken data on-line.",
+            "url": "",
+            "associated_stuff": ["C#", "C++"]
+        },
+        {            
+            "name": "mz-forest-sensors",
+            "description": "Make Zürich 2018: Real-time occupancy rate of forest visitors",
+            "url": "https://makezurich.ch/2018/box/2/",
+            "associated_stuff": ["Sensors","The Things Network", "Visualization"]
+        },
+        {            
+            "name": "Ökopolis Website",
+            "description": "Website for the sustainability club Ökopolis Thalwil",
+            "url": "http://neu.oekopolis.ch/",
+            "associated_stuff": ["Wordpress", "Server Administration"]
+        },
+        {            
+            "name": "Home Automation 'betty'",
+            "description": "Lighting, temperature and humidity home automation system.",
+            "url": "",
+            "associated_stuff": ["Zigbee", "MQTT", "Philips Hue", "Xiaomi Aqara"]
+        },       
+        {            
+            "name": "Commercial GNSS Database",
+            "description": "GNSS industry database for receivers, antennas and others",
+            "url": "",
+            "associated_stuff": ["Javascript", "Microsoft Sharepoint"]
+        },
+        {            
+            "name": "Geospatial Data Processing",
+            "description": "Environmental classification based on OpenStreetMap data",
+            "url": "",
+            "associated_stuff": ["PostgreSQL", "PostGIS"]
+        },
+        {            
+            "name": "Metadata Database",
+            "description": "Tool used company-wide to select and assess metadata",
+            "url": "",
+            "associated_stuff": ["MySQL", "Vue.js"]
+        },
+        {            
+            "name": "Fast Synchronous Trigger",
+            "description": "FPGA implementation of a fast synchronous adder for the LHCb L0 trigger",
+            "url": "",
+            "associated_stuff": ["VHDL", "C++", "FPGA"]
+        },
+        {            
+            "name": "Design of Analog Filters",
+            "description": "Online tool to design analog filters including schematics and filter responses",
+            "url": "https://www.youtube.com/watch?v=VwFzBjJBPIU",
+            "associated_stuff": ["Silverlight", "C#"]
+        },
+        {            
+            "name": "Solar Powered Garden Supervisor",
+            "description": "Battery/solar powered installation of a LoRaWAN node to measure soil humidity and provide power",
+            "url": "",
+            "associated_stuff": ["LoRa","The Things Network", "C++"]
+        },
+    ]
 }
+

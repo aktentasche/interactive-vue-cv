@@ -74,10 +74,10 @@
         </v-col>
 
         <v-col cols="12">
-          <Skills
-            ref="skills"
+          <Projects
+            ref="projects"
             v-observe-visibility="{
-              callback: visibilityChangedSkills,
+              callback: visibilityChangedProjects,
               throttle: 300
             }"
           />
@@ -97,10 +97,10 @@
             }"
           />
 
-          <Projects
-            ref="projects"
+          <Skills
+            ref="skills"
             v-observe-visibility="{
-              callback: visibilityChangedProjects,
+              callback: visibilityChangedSkills,
               throttle: 300
             }"
           />
