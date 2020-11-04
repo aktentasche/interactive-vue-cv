@@ -18,7 +18,7 @@
               color="skills"
             >
               <v-btn value="all">
-                All
+                {{ $t("all") }}
               </v-btn>
               <v-btn
                 v-for="entry in $t('skills_categories')"

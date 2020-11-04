@@ -149,7 +149,7 @@
         },
         {
             "types": ["hardware"],
-            "name": "Vektor Signal Generator",
+            "name": "Vektorsignalgenerator",
             "description": "Signalgenerator für komplexe Signale",
             "url": "",
             "entry_img": "skills_images/vsg.jpeg"
@@ -157,7 +157,7 @@
         {
             "types": ["hardware"],
             "name": "Löten",
-            "description": "Verbinden und reparieren elektronischer Schaltungen",
+            "description": "Verbinden und Reparieren elektronischer Schaltungen",
             "url": "",
             "entry_img": "skills_images/soldering.jpg"
         },
