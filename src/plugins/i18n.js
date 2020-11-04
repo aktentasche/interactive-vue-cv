@@ -10,8 +10,7 @@ const suffixes = [
   "-education",
   "-professional-experience",
   "-projects",
-  "-skills",
-  "-software"
+  "-skills"
 ];
 
 function getLocaleMessages() {
