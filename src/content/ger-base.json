@@ -6,9 +6,36 @@
     "professional_experience_name": "Berufliche Laufbahn",
     "education_name": "Ausbildung",
     "skills_name": "Kompetenzen",
+    "skills_categories": [
+        {
+            "id": "hardware",
+            "name": "Hardware"
+        },
+        {
+            "id": "software",
+            "name": "Software"
+        },
+        {
+            "id": "programminglanguage",
+            "name": "Programming Language"
+        },
+        {
+            "id": "concept",
+            "name": "Concept"
+        }    
+    ],
     "projects_name": "Projekte",
     "software_name": "Programmiersprachen und Software",
     "about_me_headline": "Über mich",
-    "about_me_content": "TBD",
-    "contact": "Kontakt"
+    "about_me_content": "Ich bin ein Elektroingenieur mit starkem Fokus auf Software. Meine Leitlinien sind:",
+    "about_me_rules": [
+        "Sei proaktiv und eigenständig",
+        "Konzentriere dich auf Verbesserungen und Abstrahierungen",
+        "Technische Schulden sind zu verhindern"
+    ],
+    "contact": "Kontakt",
+    "background": "Hintergrund",
+    "content": "Inhalt",
+    "curriculum": "Curriculum",
+    "activities": "Aktivitäten"
 }

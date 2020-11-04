@@ -6,7 +6,6 @@
     "professional_experience_name": "Professional Experience",
     "education_name": "Education",
     "skills_name": "Skills",
-    "skill_categories_selection": "Skill categories selection",
     "skills_categories": [
         {
             "id": "hardware",
