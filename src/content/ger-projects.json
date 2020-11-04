@@ -1,3 +1,71 @@
 {
-    "projects_entries": []
+    "projects_entries": [
+        {            
+            "name": "interactive-vue-cv",
+            "description": "Interaktiver Lebenslauf basierend auf Vue.js (diese Webseite!)",
+            "url": "https://github.com/aktentasche/interactive-vue-cv",
+            "associated_stuff": ["Javascript"]
+        },
+        {            
+            "name": "HSTB",
+            "description": "GUI zur Kontrolle hyperspektraler Werkbänke und online Datenkontrolle.",
+            "url": "",
+            "associated_stuff": ["C#", "C++"]
+        },
+        {            
+            "name": "mz-forest-sensors",
+            "description": "Make Zürich 2018: Echtzeitanalyse von Waldbesucherströme",
+            "url": "https://makezurich.ch/2018/box/2/",
+            "associated_stuff": ["Sensoren","The Things Network", "Visualisierung"]
+        },
+        {            
+            "name": "Ökopolis Webseite",
+            "description": "Website für den Nachhaltigkeitsverein Ökopolis",
+            "url": "http://neu.oekopolis.ch/",
+            "associated_stuff": ["Wordpress", "Server Administrierung"]
+        },
+        {            
+            "name": "Heimautomatisierung 'betty'",
+            "description": "Licht, Temperatur und Feuchtigkeitskontrolle.",
+            "url": "",
+            "associated_stuff": ["Zigbee", "MQTT", "Philips Hue", "Xiaomi Aqara"]
+        },       
+        {            
+            "name": "GNSS Datenbank",
+            "description": "Datenbank für GNSS Empfänger und Antennen",
+            "url": "",
+            "associated_stuff": ["Javascript", "Microsoft Sharepoint"]
+        },
+        {            
+            "name": "Intelligente Datenverarbeitung von GIS Daten",
+            "description": "Klassifizierung basierend auf OpenStreetMap Daten",
+            "url": "",
+            "associated_stuff": ["PostgreSQL", "PostGIS"]
+        },
+        {            
+            "name": "Metadatenbank",
+            "description": "Firmenweit genutztes Tool zur Selektion und Beurteilung von Metadaten",
+            "url": "",
+            "associated_stuff": ["MySQL", "Vue.js"]
+        },
+        {            
+            "name": "Schneller, synchroner Trigger",
+            "description": "FPGA Implementierung einer schnellen, synchronen Addiererschaltung für den LHCb L0 Trigger",
+            "url": "",
+            "associated_stuff": ["VHDL", "C++", "FPGA"]
+        },
+        {            
+            "name": "Designapplikation Analoge Filter",
+            "description": "Online tool für das Design Analoger Filter",
+            "url": "https://www.youtube.com/watch?v=VwFzBjJBPIU",
+            "associated_stuff": ["Silverlight", "C#"]
+        },
+        {            
+            "name": "Solarbetriebener Supervisor für den Garten",
+            "description": "Solar/Batteriebetriebene Installation eines LoRaWAN Nodes zur Messung der Bodenfeuchte",
+            "url": "",
+            "associated_stuff": ["LoRa","The Things Network", "C++"]
+        }
+    ]
 }
+

@@ -6,6 +6,8 @@
       <h2 class="display-1 ml-4 white--text font-weight-light">
         {{ $t("professional_experience_name") }}
       </h2>
+      <v-spacer />
+      <LanguageSwitcher />
     </v-card-title>
     <v-card-text>
       <MainColumnWrapper>
@@ -24,11 +26,13 @@
 <script>
 import ProfessionalExperienceTimelineItem from "./professional-experience-timeline-item";
 import MainColumnWrapper from "./main-column-wrapper";
+import LanguageSwitcher from "./language-switcher";
 
 export default {
   components: {
     ProfessionalExperienceTimelineItem,
-    MainColumnWrapper
+    MainColumnWrapper,
+    LanguageSwitcher
   }
 };
 </script>
