@@ -36,7 +36,7 @@
 
       <v-icon class="mr-2">mdi-linkedin</v-icon>
       <a target="empty" href="https://www.linkedin.com/in/jonas-manthey/"
-        >LinkedIn profile</a
+        >LinkedIn</a
       >
       <br />
       <v-icon class="mr-2">mdi-phone</v-icon>
