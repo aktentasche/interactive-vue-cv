@@ -14,7 +14,7 @@
         },
         {            
             "name": "mz-forest-sensors",
-            "description": "Make Zürich 2018: Echtzeitanalyse von Waldbesucherströme",
+            "description": "Make Zürich 2018: Echtzeitanalyse von Waldbesucherströmen",
             "url": "https://makezurich.ch/2018/box/2/",
             "associated_stuff": ["Sensoren","The Things Network", "Visualisierung"]
         },
