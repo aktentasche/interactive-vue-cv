@@ -21,36 +21,44 @@
               <h2 class="mb-3 text-center">{{ entry.title }}</h2>
 
               <v-card class="pa-2" flat>
-                <div class="font-weight-light text-subtitle-2">
-                  <span v-if="entry.type == 'studies'">
-                    <v-icon class="mr-2">mdi-application</v-icon>
-                    {{ entry.title_studies }}
+                <v-text class="font-weight-light text-subtitle-2">
+                  <span v-if="entry.type == 'degree'">
+                    <v-icon class="mr-2">mdi-file-document</v-icon>
+                    {{ entry.title_thesis }}
                     <br />
-                    <v-icon v-if="entry.title_academic" class="mr-2"
-                      >mdi-school</v-icon
-                    >
-                    {{ entry.title_academic }}
-                    <br v-if="entry.title_academic" />
                   </span>
 
-                  <v-icon class="mr-3">mdi-domain</v-icon>
-                  <a target="empty" :href="entry.entity_url">{{
-                    entry.entity
-                  }}</a>
-                  <br />
+                  <div>
+                    <span v-if="entry.type == 'studies'">
+                      <v-icon class="mr-2">mdi-application</v-icon>
+                      {{ entry.title_studies }}
+                      <br />
+                      <v-icon v-if="entry.title_academic" class="mr-2"
+                        >mdi-school</v-icon
+                      >
+                      {{ entry.title_academic }}
+                      <br v-if="entry.title_academic" />
+                    </span>
 
-                  <v-icon class="mr-2">mdi-account-group</v-icon>
-                  {{ entry.entity_group }}
-                  <br />
+                    <v-icon class="mr-3">mdi-domain</v-icon>
+                    <a target="empty" :href="entry.entity_url">{{
+                      entry.entity
+                    }}</a>
+                    <br />
 
-                  <v-icon class="mr-2">mdi-map-marker</v-icon>
-                  {{ entry.place }}
-                  <br />
+                    <v-icon class="mr-2">mdi-account-group</v-icon>
+                    {{ entry.entity_group }}
+                    <br />
 
-                  <v-icon v-if="entry.grade" class="mr-2">mdi-medal</v-icon>
-                  {{ entry.grade }}
-                  <br />
-                </div>
+                    <v-icon class="mr-2">mdi-map-marker</v-icon>
+                    {{ entry.place }}
+                    <br />
+
+                    <v-icon v-if="entry.grade" class="mr-2">mdi-medal</v-icon>
+                    {{ entry.grade }}
+                    <br />
+                  </div>
+                </v-text>
               </v-card>
             </v-col>
 

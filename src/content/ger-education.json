@@ -1,3 +1,174 @@
 {
-    "education_entries": []
+    "education_entries": [
+        {
+            "type": "degree",
+            "title": "Masterarbeit",    
+            "title_thesis": "Integration des HeRSCheL Subdetektors in den TDAQ Pfad von LHCb",
+            "grade": "1.0",
+            "entity": "LHCb Kollaboration @ CERN",
+            "entity_group": "HeRSCheL Subdetektor",
+            "entity_url": "https://lhcb.web.cern.ch/",
+            "entity_image": "entity_images/lhcb.png",
+            "place": "Genf, Schweiz",
+            "start": "04/2015",
+            "end": "05/2016",
+            "background": [
+                "Der Large Hadron Collider (LHC) ist ein kreisförmiger Teilchenbeschleuniger am CERN in Genf. Protonen werden  ", 
+                "in einem der Experimente zu einer frontalen Interaktion gebracht. Jedes Experiment ",
+                "besteht aus mehreren Subdetektoren, die für verschiedene Aufgaben zuständig sind, zum Beispiel Energiemessung oder Partikelverfolgung. ",
+                "Am Wechselwirkungspunkt wird ein Teil der in den beschleunigten Protonen enthaltenen Energie in mehrere ",
+                "Sekundärteilchen umgewandelt, die dann von den Subdetektoren gemessen werden. Es hängt von den Trajektorien der wechselwirkenden Protonen ab, ",
+                "in welche Richtung der sekundäre Partikelschauer zeigt. Die Subdetektoren des LHCb-Experiments sind so ausgelegt, dass sie ",
+                "Teilchen messen können, deren Flugbahnen einen relativ kleinen Winkel zum primären Protonenstrahl aufweisen. ",
+                "Der High Rapidity Shower Counter für LHCb (HeRSCheL) wurde als Zusatz zum LHCb mit dem Zweck entwickelt, ",
+                "die Detektion von Teilchenschauern mit noch kleineren Winkel auszudehnen. HeRSCheL besteht aus Stationen entlang des Strahlrohrs in einer Entfernung von bis zu 114m vom Wechselwirkungspunkt. ",
+                "Jede Station besteht aus vier Szintillations-Detektoren, deren Lichtausgabe eine Photomultiplier-Röhre stimuliert. ",
+                "Die Stationen sind in zwei Seiten gruppiert: hinten und vorne, basierend auf ihrer relativen Position zum Wechselwirkungspunkt. ",
+                "Wechselwirkungen am LHC finden alle 25ns oder bei 40MHz statt. Jede Wechselwirkung kann potenziell Datenpakete ",
+                "von bis zu 100 Kilobyte produzieren, die die Messungen aller Subdetektoren enthält. Da die kumulierte Datenrate von 4 ",
+                "Terabyte pro Sekunde ist zu hoch, um in Echtzeit verarbeitet zu werden. Ein Filtermechanismus analysiert einen Teil der Daten einige Subdetektoren, ",
+                "wenn es ein für die Teilchenphysik interessantes Ereignis erkennt, werden alle Daten ausgelesen, die zuvor ",
+                "temporär gespeichert wurden. Diese Speicherung wird normalerweise als FIFO realisiert, das in ein FPGA integriert ist. ",
+                "HeRSCheL verwendet Komponenten aus anderen LHCb-Subdetektoren, um die Entwicklungszeit und -kosten niedrig zu halten. Allerdings ",
+                " sind diese Komponenten sind nicht für große Abstände zwischen den Subdetektorkomponenten ausgelegt und mussten dementsprechend modifiziert werden."
+            ],
+            "content": [
+                "Frontend Elektronik, Software: der VHDL Code des Trigger FPGAs wurde modifiziert um die zeitliche Ausrichtung in der Hauptlogik zu garantieren",
+                "Frontend Electronik, Hardware: Drei PCBs wurden in die Steuersysteme von LHCb integriert, Kontrollboards in den Stationen und Auswählboards in der LHCb Hauptsteuerung.",
+                "Kontrolle des Experiments: neue SCADA UI Elemente wurden programmiert um die Kontrolle von HeRSCheL zu ermöglichen."
+            ]        },
+        {
+            "type": "studies",
+            "title": "Masterstudium",
+            "title_studies": "Electrical and Computer Engineering",
+            "title_academic": "Master of Science (M.Eng.)",
+            "grade": "A",
+            "entity": "Ryerson University",
+            "entity_group": "Yeates School of Graduate Studies",
+            "entity_url": "https://www.ryerson.ca/graduate/programs/electrical-computer-engineering/",
+            "entity_image": "entity_images/ryerson.png",
+            "place": "Toronto, Kanada",
+            "start": "2015",
+            "end": "2016",
+            "contents": [
+                "Optische Kommunikationsnetze",
+                "Angewandte Optimierungstechniken",
+                "Modellierung von Computersystemen",
+                "Kabellose Kommunikation",
+                "Intelligente Systeme",
+                "FPGA Architekturen"
+            ]
+        },
+        {
+            "type": "studies",
+            "title": "Masterstudium",
+            "title_studies": "Elektro/Nachrichtentechnik",
+            "title_academic": "Master of Science (M.Sc.)",
+            "grade": "1.9",
+            "entity": "Hochschule Karlsruhe",
+            "entity_group": "Fakultät EIT",
+            "entity_url": "https://www.hs-karlsruhe.de/master-eit/",
+            "entity_image": "entity_images/hska.png",
+            "place": "Karlsruhe, Deutschland",
+            "start": "2013",
+            "end": "2016",
+            "contents": [
+                "Signaltheorie",
+                "Sicherheit in Automatisierung",
+                "Informationstheorie und Kodierung",
+                "Analog-digitale Systeme",
+                "HF Systeme",
+                "Design for Six Sigma",
+                "Prozessinformatik"
+            ]
+        },
+        {
+            "type": "degree",
+            "title": "Bachelorarbeit",    
+            "title_thesis": "Vergleich von unkonventionellen optischen Filtern zur spektralen Diskriminierung von Materialien im nahen Infrarot",
+            "grade": "1.3",
+            "entity": "Fraunhofer IOSB",
+            "entity_group": "Sichtprüfsysteme",
+            "entity_url": "https://www.iosb.fraunhofer.de/",
+            "entity_image": "entity_images/fhg_logo.png",
+            "place": "Karlsruhe, Deutschland",
+            "start": "06/2012",
+            "end": "09/2012",
+
+            "background": [
+                "In vielen Industriezweigen - z.B. in der Nahrungsmittelindustrie - werden automatisierte ",
+                "optische Messverfahren eingesetzt, um die Qualität eines Produktes zu ",
+                "gewährleisten. Neben dem sichtbaren kann insbesondere der nahinfrarote Bereich ",
+                "(NIR) des elektromagnetischen Spektrums aussagekräftig sein. Bei Wellenlängen von ",
+                "circa 800-2500nm werden viele organische Moleküle zu Oberschwingungen angeregt, ",
+                "was in einer Absorption der entsprechenden Wellenlänge resultiert. Dies führt zu ",
+                "Ausprägungen im Transmissions- oder Rektanzspektrum des Stoffes. Mit Hilfe ",
+                "dieser Spektren können nun gewünschte Stoffe von ungewünschten (z.B. Verunreinigungen) unterschieden werden. ",
+                "Allerdings verhindern die hohen Beförderungsgeschwindigkeiten in der Industrie den ",
+                "Einsatz von bildgebenden Spektrometern, die eine relativ geringe Bildaufnahmefrequenz (Framerate) von maximal 300Hz aufweisen. ",
+                "So würde zum Beispiel bei einer üblichen Fördergeschwindkeit von 3m/s nur jeden cm ein Spektrum aufgenommen, ",
+                "was bei kleinen Materialien wie Kaffee nicht ausreichend ist. Zeilenkameras hingegen können ",
+                "hohe Framerates von bis zu 20kHz erreichen, haben einen einfachen ",
+                "optischen Aufbau und sind billiger . Eine Zeilenkamera, dessen Detektorchip auf Silizium basiert, ist grundsätzlich für ",
+                "Wellenlängen von 200-1000nm empfindlich [10]. Stand der Technik sind mehrkanalige Zeilenkameras (z.B. RGB), ",
+                "die optische Bandpassflter verwenden. Diese Methodik wird als konventiell bezeichnet. ",
+                "Anstatt einen gaussförmigen Filter für eine Wellenlänge zu verwenden, werden mit ",
+                "verschiedenen mathematischen Verfahren unkonventionelle Filter entworfen, die gezielt Materialien ",
+                "anhand ihrer spektralen Eigenschaften detektieren können. Das von der Zeilenkamera ",
+                "erstellte Intensitätsprofl wird als mathematisches Zwischen ergebnis interpretiert, ",
+                "mit dessen Hilfe eine Klasseneinteilung durchgeführt werden kann."
+            ],
+            "content": [
+                "Construction and automation of an optical bench for gathering spectral data from different organic material",
+                "Interfacing and automation of a NIR spectrometer for MATLAB analysis of the organic materials",
+                "Interfacing and automation of a spectrally programmable NIR light source",
+                "Classification of organic materials based on gathered data and using the NIR light source."
+            ]
+        },      
+        {
+            "type": "studies",
+            "title": "Bachelorstudium",
+            "title_studies": "Elektro/Nachrichtentechnik",
+            "title_academic": "Bachelor of Engineering (B.Eng.)",
+            "grade": "1.9",
+            "entity": "Hochschule Karlsruhe",
+            "entity_group": "Fakultät EIT",
+            "entity_url": "https://www.hs-karlsruhe.de/fk-eit/bachelorstudium/elektro-und-informationstechnik",
+            "entity_image": "entity_images/hska.png",
+            "place": "Karlsruhe, Deutschland",
+            "start": "2009",
+            "end": "2013",
+            "contents": [
+                "Digitaltechnik",  
+                "Felder",
+                "Regelungstechnik",
+                "Elektronik",
+                "Informationsverarbeitung",
+                "Stochastische Signale und Systeme",
+                "Hochfrequenztechnik",
+                "Entwurfe analog-digitaler Systeme",
+                "Messtechnik"
+            ]
+        },
+        {
+            "type": "studies",
+            "title": "Auslandssemester",
+            "title_studies": "Elektrotechnik",
+            "title_academic": "",
+            "grade": "",
+            "entity": "Universitatea Politehnica",
+            "entity_group": "Faculty of Electronics and Telecommunications Engineering",
+            "entity_url": "http://www.upt.ro/international/index.php?id=&lb=en",
+            "entity_image": "entity_images/upt.jpg",
+            "place": "Timisoara, Romania",
+            "start": "2012",
+            "end": "2013",
+            "contents": [
+                "Digitale Signalverarbeitung",
+                "LabView",
+                "Kabellose Kommunikation"
+            ]
+        }
+
+    ]
 }

@@ -85,7 +85,7 @@
         {
             "type": "degree",
             "title": "Bachelor's thesis",    
-            "title_thesis": "",
+            "title_thesis": "Comparison of unconventional optical filters for discrimination of materials in NIR",
             "grade": "1.3",
             "entity": "Fraunhofer IOSB",
             "entity_group": "Visual Inspections Department",
@@ -131,7 +131,6 @@
             "start": "2009",
             "end": "2013",
             "contents": [
-                "Digital Signal Processing",
                 "Electrical Fields",
                 "Control Theory",
                 "Electronics",
@@ -139,7 +138,8 @@
                 "Stochastic Signals and Systems",
                 "RF Techniques",
                 "Design of Analogue and Digital Systems",
-                "Mobile Communication Systems"
+                "Mobile Communication Systems",
+                "Measurement Techniques"
             ]
         },
         {

@@ -17,11 +17,11 @@
         },
         {
             "id": "programminglanguage",
-            "name": "Programming Language"
+            "name": "Programmiersprache"
         },
         {
             "id": "concept",
-            "name": "Concept"
+            "name": "Konzept"
         }    
     ],
     "projects_name": "Projekte",
