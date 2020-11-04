@@ -242,25 +242,4 @@ export default {
   );
   width: var(--timeline-line-width);
 }
-
-/* scrollbar modifications */
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #2196f3; /*primary color, blue*/
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #303f9f;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: blue;
-}
 </style>

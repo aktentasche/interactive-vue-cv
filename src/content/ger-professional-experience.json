@@ -1,3 +1,88 @@
 {
-    "professional_experience_entries": []      
+    "professional_experience_entries": [
+        {
+          "title": "Zertifizierungsspezialist GNSS",
+          "entity_group": "Hardware Integration Testing",
+          "entity": "u-blox AG",
+          "entity_url": "https://www.u-blox.com",
+          "entity_image": "entity_images/ublox.png",
+          "place": "Thalwil, Schweiz",
+          "start": "06/2018",
+          "end": "heute",
+          "activities"    : [
+            "Weltweite regulatorische Zertifizierung von GNSS Produkten",            
+            "Planung und Budgetierung von EMI, Sicherheits und Performance Tests in Externen Laboren",
+            "AE, F&E und Management Support für Fragen zur Zertifizierung",
+            "Liason mit Zertifizierungs- und Standartisierungsorganisationen (REDCA, ETSI, C2CCC)",
+            "Software-defined Radio Entwicklung für HIL Tests",
+            "Full stack Entwicklung von internen Datenbanken",
+            "GNSS Signalsicherheit (jamming & spoofing)",
+            "Tool Entwicklung für automatisierte Datenanalyse",
+            "Spezialisierte HF Testsetups für F&E Studien"
+          ]
+        },
+        {
+          "title": "Young Graduate Trainee",
+          "entity_group": "Aerospace and Defence Group",
+          "entity": "Septentrio",
+          "entity_url": "https://www.septentrio.com",
+          "entity_image": "entity_images/septentrio.png",
+          "place": "Löwen, Belgien",
+          "start": "07/2017",
+          "end": "05/2018",
+          "activities"    : [
+            "Galileo FOC Test User Receiver Entwicklung",
+            "Migration manueller Tests in eine Jenkins/Robot Umgebung",
+            "RFCS Simulation von E1B/E5b INAV Frame Änderungen",            
+            "DOORS Requirements Management und Dokumentation von Testergebnissen"
+          ]
+        },
+        {
+          "title": "Young Graduate Trainee",
+          "entity_group": "Commercial Ground Segment",
+          "entity": "European Space Agency",
+          "entity_url": "https://www.esa.int",
+          "entity_image": "entity_images/esa.png",
+          "place": "Noordwijk, Niederlande",
+          "start": "06/2016",
+          "end": "06/2017",
+          "activities"    : [
+            "Design, Entwurf und Implementierung einer Datenbank für kommerzielle Produkte und Organisationen im Bereich GNSS",
+            "Machbarkeitsstudie: Verwendung des IoT protocols LoRa auf LEO Satelliten",
+            "Tests für hybride Positionierungstechnologien",            
+            "GSTP Element 2 Projekte"
+          ]
+        },
+        {
+          "title": "Technical Student",
+          "entity_group": "HeRSCheL Subdetektor",
+          "entity": "LHCb Kollaboration @ CERN",
+          "entity_url": "https://lhcb.web.cern.ch/",
+          "entity_image": "entity_images/lhcb.png",
+          "place": "Genf, Schweiz",
+          "start": "04/2015",
+          "end": "05/2016",
+          "activities"    : [      
+            "FPGA Programmierung",
+            "HeRSCheL Subdetektorexperte: Kalibrierung und Wartung",
+            "Shift Leader für den LHCb Detektor",
+            "Offizieller CERN guide und S’Cool lab Tutor"
+          ]
+        },
+        {
+          "title": "Hilfswissenschaftler",
+          "entity_group": "Sichtprüfsysteme",
+          "entity": "Fraunhofer IOSB",
+          "entity_url": "https://www.iosb.fraunhofer.de/",
+          "entity_image": "entity_images/fhg_logo.png",
+          "place": "Karlsruhe, Deutschland",
+          "start": "06/2012",
+          "end": "03/2015",
+          "activities"    : [
+            "Leitender Entwickler einer GUI für die bildgebende Spektroskopi",
+            "Verantwortung für hyperspektrale Werkbänke (SWIR, VIS, UV)",
+            "Entwurf und Konstruktion mechatronischer Komponenten"
+          ]
+        }
+    ]
 }
