@@ -37,7 +37,7 @@
             "associated_stuff": ["Javascript", "Microsoft Sharepoint"]
         },
         {            
-            "name": "Intelligente Datenverarbeitung von GIS Daten",
+            "name": "Verarbeitung von GIS Daten",
             "description": "Klassifizierung basierend auf OpenStreetMap Daten",
             "url": "",
             "associated_stuff": ["PostgreSQL", "PostGIS"]
@@ -55,13 +55,13 @@
             "associated_stuff": ["VHDL", "C++", "FPGA"]
         },
         {            
-            "name": "Designapplikation Analoge Filter",
+            "name": "Applikation Analoge Filter",
             "description": "Online tool für das Design Analoger Filter",
             "url": "https://www.youtube.com/watch?v=VwFzBjJBPIU",
             "associated_stuff": ["Silverlight", "C#"]
         },
         {            
-            "name": "Solarbetriebener Supervisor für den Garten",
+            "name": "Gartensolarsupervisor",
             "description": "Solar/Batteriebetriebene Installation eines LoRaWAN Nodes zur Messung der Bodenfeuchte",
             "url": "",
             "associated_stuff": ["LoRa","The Things Network", "C++"]
