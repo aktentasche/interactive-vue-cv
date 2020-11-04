@@ -122,7 +122,7 @@
         {
             "types": ["concept"],
             "name": "Software Architecture",
-            "description": "How to design interfaces and large programs",
+            "description": "How to design interfaces and large programs?",
             "url": "",
             "entry_img": "skills_images/architecture.jpg"
         },

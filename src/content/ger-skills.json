@@ -1,3 +1,203 @@
 {
-    "skills_entries": []
+    "skills_entries": [
+        {
+            "types": ["software"],
+            "name": "arch",
+            "description": "Rolling Release Linux Distribution",
+            "url": "https://www.archlinux.org/",
+            "entry_img": "skills_images/arch.png"
+        },
+        {
+            "types": ["software"],
+            "name": "Debian",
+            "description": "Stabile Linux Distribution",
+            "url": "https://www.debian.org/",
+            "entry_img": "skills_images/debian.png"
+        },
+        {
+            "types": ["software", "programminglanguage"],
+            "name": "Vue.js",
+            "description": "Javascript Framework für Single Page Applikationen",
+            "url": "https://vuejs.org/",
+            "entry_img": "skills_images/vue.png"
+        },
+        {
+            "types": ["software"],
+            "name": "GNURadio",
+            "description": "Software und Signalverarbeitungstoolkit",
+            "url": "https://www.gnuradio.org/",
+            "entry_img": "skills_images/gnuradio.png"
+        },
+        {
+            "types": ["software"],
+            "name": "Visual Studio Code",
+            "description": "Erweiterbarer Quellcodeeditor",
+            "url": "https://code.visualstudio.com/",
+            "entry_img": "skills_images/vscode.png"
+        },
+        {
+            "types": ["software"],
+            "name": "Node-RED",
+            "description": "Flow-basiertes Entwicklungstool für IoT",
+            "url": "https://nodered.org/",
+            "entry_img": "skills_images/nodered.png"
+        },
+        {
+            "types": ["programminglanguage"],
+            "name": "Python",
+            "description": "Rapid prototyping Programmiersprache",
+            "url": "https://www.python.org/",
+            "entry_img": "skills_images/python.png"
+        },
+        {
+            "types": ["programminglanguage"],
+            "name": "C++",
+            "description": "Universelle, objektorientierte Programmiersprache",
+            "url": "https://isocpp.org/",
+            "entry_img": "skills_images/cpp.png"
+        },
+        {
+            "types": ["software", "concept"],
+            "name": "git",
+            "description": "Verteiltes Versionskontrollsystem",
+            "url": "https://git-scm.com/",
+            "entry_img": "skills_images/git.png"
+        },
+        {
+            "types": ["programminglanguage","software"],
+            "name": "bash Shell",
+            "description": "Die Standardshell für Linux",
+            "url": "https://www.gnu.org/software/bash/",
+            "entry_img": "skills_images/bash.png"
+        },
+        {
+            "types": ["programminglanguage", "software"],
+            "name": "MySQL / MariaDB",
+            "description": "Relationale Datenbank",
+            "url": "https://www.python.org/",
+            "entry_img": "skills_images/mysql.png"
+        },
+        {
+            "types": ["software"],
+            "name": "Vuetify",
+            "description": "Material Design Framework für Vue.js",
+            "url": "https://vuetifyjs.com/",
+            "entry_img": "skills_images/vuetify.png"
+        },
+        {
+            "types": ["programminglanguage"],
+            "name": "C#",
+            "description": "Stark objektorientierte .NET Sprache",
+            "url": "https://csharp.net/",
+            "entry_img": "skills_images/csharp.png"
+        },
+        {
+            "types": ["programminglanguage","software"],
+            "name": "MATLAB",
+            "description": "Numerische Matrix Simulation",
+            "url": "https://www.mathworks.com/products/matlab.html",
+            "entry_img": "skills_images/matlab.png"
+        },
+        {
+            "types": ["programminglanguage"],
+            "name": "VHDL",
+            "description": "Hardwarebeschreibungssprache",
+            "url": "https://en.wikipedia.org/wiki/VHDL",
+            "entry_img": "skills_images/vhdl.png"
+        },
+        {
+            "types": ["concept"],
+            "name": "HF Messtechnik",
+            "description": "Messen von Hochfrequenzsignalen",
+            "url": "",
+            "entry_img": "skills_images/emwave.gif"
+        },
+        {
+            "types": ["concept"],
+            "name": "Digitale Signalverarbeitung",
+            "description": "Verarbeitung abgetasteter Daten",
+            "url": "",
+            "entry_img": "skills_images/sinc.png"
+        },
+        {
+            "types": ["concept"],
+            "name": "Softwarearchitektur",
+            "description": "Wie lässt sich elegant und effektiv Software designen?",
+            "url": "",
+            "entry_img": "skills_images/architecture.jpg"
+        },
+        {
+            "types": ["hardware"],
+            "name": "Netzwerkanalyser",
+            "description": "Multiport Instrument zum Messen von s-Parametern",
+            "url": "",
+            "entry_img": "skills_images/networkanalyser.jpg"
+        },
+        {
+            "types": ["hardware"],
+            "name": "Spektrumanalyser",
+            "description": "Instrument zum Messen von HF Spektren",
+            "url": "",
+            "entry_img": "skills_images/spectrumanalyser.jpg"
+        },
+        {
+            "types": ["hardware"],
+            "name": "Oszilloskop",
+            "description": "Messinstrument für den Zeitbereich",
+            "url": "",
+            "entry_img": "skills_images/oscilloscope.jpg"
+        },
+        {
+            "types": ["hardware"],
+            "name": "Vektor Signal Generator",
+            "description": "Signalgenerator für komplexe Signale",
+            "url": "",
+            "entry_img": "skills_images/vsg.jpeg"
+        },
+        {
+            "types": ["hardware"],
+            "name": "Löten",
+            "description": "Verbinden und reparieren elektronischer Schaltungen",
+            "url": "",
+            "entry_img": "skills_images/soldering.jpg"
+        },
+        {
+            "types": ["hardware"],
+            "name": "Software Defined Radio",
+            "description": "Softwarekontrollierte Radioquelle",
+            "url": "",
+            "entry_img": "skills_images/sdr.jpg"
+        },
+        {
+            "types": ["concept"],
+            "name": "Regulatorische Zertifizierung",
+            "description": "Gesetzliche Bestimmungen für den Marktzugang",
+            "url": "",
+            "entry_img": "skills_images/ce.png"
+        },
+        {
+            "types": ["concept"],
+            "name": "GNSS",
+            "description": "Globale, satellitenbasierte Navigation",
+            "url": "",
+            "entry_img": "skills_images/gnss.png"
+        },
+        {
+            "types": ["software","concept"],
+            "name": "Jenkins",
+            "description": "Framework zur Orchestrierung von Software",
+            "url": "https://www.jenkins.io/",
+            "entry_img": "skills_images/jenkins.png"
+        },
+        {
+            "types": ["software"],
+            "name": "Visual Studio",
+            "description": "Profesionelle IDE for kompilierte Sprachen",
+            "url": "https://visualstudio.microsoft.com/",
+            "entry_img": "skills_images/vstudio.png"
+        }
+
+        
+]
 }
+
