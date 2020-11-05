@@ -141,18 +141,18 @@ export default {
     },
 
     setActiveAreaForNavColoring() {
-      if (this.isVisibleProfessional && !this.isVisibleEducation) {
-        this.currentActiveArea = "professional";
-        this.currentActiveTab = 0;
-      } else if (!this.isVisibleProfessional && this.isVisibleEducation) {
-        this.currentActiveArea = "education";
-        this.currentActiveTab = 1;
-      } else if (!this.isVisibleEducation && this.isVisibleSkills) {
-        this.currentActiveArea = "skills";
-        this.currentActiveTab = 2;
-      } else if (!this.isVisibleSkills && this.isVisibleProjects) {
+      if (this.isVisibleProjects) {
         this.currentActiveArea = "projects";
         this.currentActiveTab = 3;
+      } else if (this.isVisibleSkills) {
+        this.currentActiveArea = "skills";
+        this.currentActiveTab = 2;
+      } else if (this.isVisibleEducation) {
+        this.currentActiveArea = "education";
+        this.currentActiveTab = 1;
+      } else if (this.isVisibleProfessional) {
+        this.currentActiveArea = "professional";
+        this.currentActiveTab = 0;
       }
     },
 
