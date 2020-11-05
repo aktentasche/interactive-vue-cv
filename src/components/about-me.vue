@@ -14,6 +14,8 @@
         <v-img src="me.jpg" :height="isBigImg ? 320 : 160" id="aboutmeimg" />
       </v-row>
 
+      <div v-if="tooSmall" class="pt-2 pb-2">{{ $t("toosmall") }}</div>
+
       <h2 class="pt-2 pb-2">{{ $t("about_me_headline") }}</h2>
       <v-divider />
 
@@ -57,7 +59,8 @@ import LanguageSwitcher from "./language-switcher";
 
 export default {
   props: {
-    isBigImg: Boolean
+    isBigImg: Boolean,
+    tooSmall: Boolean
   },
   components: {
     LanguageSwitcher

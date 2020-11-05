@@ -1,7 +1,7 @@
 <template>
   <v-app app>
     <span v-if="$vuetify.breakpoint.xsOnly">
-      ALERT
+      <AboutMe :is-big-img="true" :too-small="true" />
     </span>
     <span v-else>
       <v-app-bar
@@ -42,7 +42,7 @@
       <v-main id="main-container" ref="maincontainerref">
         <v-row no-gutters>
           <v-col :hidden="$vuetify.breakpoint.lgAndUp" cols="12">
-            <AboutMe :is-big-img="true" />
+            <AboutMe :is-big-img="true" :too-small="false" />
           </v-col>
 
           <v-col cols="12">
@@ -84,7 +84,7 @@
             :hidden="$vuetify.breakpoint.mdAndDown"
             cols="3"
           >
-            <AboutMe class="ma-4" :is-big-img="false" />
+            <AboutMe class="ma-4" :is-big-img="false" :too-small="false" />
           </v-col>
         </v-row>
       </v-main>

@@ -38,5 +38,6 @@
     "content": "Content",
     "curriculum": "Curriculum",
     "activities": "Activities",
-    "all": "All"
+    "all": "All",
+    "toosmall": "Thank you for visiting my CV. Unfortunately the size of your browser window prevents this site to be shown correctly. Please use a larger browser window or switch to another device. Thanks!"
 }
