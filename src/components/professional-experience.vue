@@ -7,7 +7,8 @@
         {{ $t("professional_experience_name") }}
       </h2>
       <v-spacer />
-      <LanguageSwitcher />
+      <!-- only show the language menu if the page is large -->
+      <LanguageSwitcher v-if="$vuetify.breakpoint.lgAndUp" />
     </v-card-title>
     <v-card-text>
       <MainColumnWrapper>

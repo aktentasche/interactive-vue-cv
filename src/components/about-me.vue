@@ -5,6 +5,8 @@
       <span class="display-1 white--text font-weight-bold">
         {{ $t("my_name") }}
       </span>
+      <v-spacer />
+      <LanguageSwitcher v-if="$vuetify.breakpoint.mdAndDown" />
     </v-card-title>
     <!-- px3 to align with title -->
     <v-card-text class="px-3">
@@ -51,9 +53,14 @@
 </template>
 
 <script>
+import LanguageSwitcher from "./language-switcher";
+
 export default {
   props: {
     isBigImg: Boolean
+  },
+  components: {
+    LanguageSwitcher
   },
   data() {
     return {
@@ -61,8 +68,6 @@ export default {
       phoneNumber: "+41 76 677 113 37",
       phoneNumbeIsHidden: true
     };
-  },
-
-  components: {}
+  }
 };
 </script>

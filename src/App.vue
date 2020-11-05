@@ -1,89 +1,94 @@
 <template>
   <v-app app>
-    <v-app-bar
-      app
-      dark
-      inverted-scroll
-      class="elevation-0"
-      :class="currentActiveArea"
-      scroll-target="#main-container"
-      height="74px"
-    >
-      <!-- navigation -->
-      <v-tabs fixed-tabs v-model="currentActiveTab">
-        <v-tab @click="scrollTo('professional')">
-          <v-icon dark size="36" class="mr-4">mdi-account-tie</v-icon>
-          {{ $t("professional_experience_name") }}</v-tab
-        >
-        <v-tab @click="scrollTo('education')">
-          <v-icon dark size="36" class="mr-4">mdi-school</v-icon>
-          {{ $t("education_name") }}</v-tab
-        >
-        <v-tab @click="scrollTo('skills')">
-          <v-icon dark size="36" class="mr-4">mdi-head-lightbulb</v-icon>
-          {{ $t("skills_name") }}</v-tab
-        >
-        <v-tab @click="scrollTo('projects')">
-          <v-icon dark size="36" class="mr-4">mdi-account-tie</v-icon>
-          {{ $t("projects_name") }}</v-tab
-        >
-      </v-tabs>
-      <v-spacer></v-spacer>
+    <span v-if="$vuetify.breakpoint.xsOnly">
+      ALERT
+    </span>
+    <span v-else>
+      <v-app-bar
+        app
+        dark
+        inverted-scroll
+        class="elevation-0"
+        :class="currentActiveArea"
+        scroll-target="#main-container"
+        height="74px"
+      >
+        <!-- navigation -->
+        <v-tabs fixed-tabs v-model="currentActiveTab">
+          <v-tab @click="scrollTo('professional')">
+            <v-icon dark size="36" class="mr-4">mdi-account-tie</v-icon>
+            {{ $t("professional_experience_name") }}</v-tab
+          >
+          <v-tab @click="scrollTo('education')">
+            <v-icon dark size="36" class="mr-4">mdi-school</v-icon>
+            {{ $t("education_name") }}</v-tab
+          >
+          <v-tab @click="scrollTo('skills')">
+            <v-icon dark size="36" class="mr-4">mdi-head-lightbulb</v-icon>
+            {{ $t("skills_name") }}</v-tab
+          >
+          <v-tab @click="scrollTo('projects')">
+            <v-icon dark size="36" class="mr-4">mdi-account-tie</v-icon>
+            {{ $t("projects_name") }}</v-tab
+          >
+        </v-tabs>
+        <v-spacer></v-spacer>
 
-      <!-- language menu -->
-      <LanguageSwitcher />
-    </v-app-bar>
+        <!-- language menu in app bar, hide when medium size-->
+        <LanguageSwitcher v-if="$vuetify.breakpoint.lgAndUp" />
+      </v-app-bar>
 
-    <!-- main content -->
-    <v-main id="main-container" ref="maincontainerref">
-      <v-row no-gutters>
-        <v-col :hidden="$vuetify.breakpoint.lgAndUp" cols="12">
-          <AboutMe :is-big-img="true" />
-        </v-col>
+      <!-- main content -->
+      <v-main id="main-container" ref="maincontainerref">
+        <v-row no-gutters>
+          <v-col :hidden="$vuetify.breakpoint.lgAndUp" cols="12">
+            <AboutMe :is-big-img="true" />
+          </v-col>
 
-        <v-col cols="12">
-          <ProfessionalExperience
-            ref="professional"
-            v-observe-visibility="{
-              callback: visibilityChangedProfessional,
-              throttle: 300
-            }"
-          />
+          <v-col cols="12">
+            <ProfessionalExperience
+              ref="professional"
+              v-observe-visibility="{
+                callback: visibilityChangedProfessional,
+                throttle: 300
+              }"
+            />
 
-          <Education
-            ref="education"
-            v-observe-visibility="{
-              callback: visibilityChangedEducation,
-              throttle: 300
-            }"
-          />
+            <Education
+              ref="education"
+              v-observe-visibility="{
+                callback: visibilityChangedEducation,
+                throttle: 300
+              }"
+            />
 
-          <Skills
-            ref="skills"
-            v-observe-visibility="{
-              callback: visibilityChangedSkills,
-              throttle: 300
-            }"
-          />
+            <Skills
+              ref="skills"
+              v-observe-visibility="{
+                callback: visibilityChangedSkills,
+                throttle: 300
+              }"
+            />
 
-          <Projects
-            ref="projects"
-            v-observe-visibility="{
-              callback: visibilityChangedProjects,
-              throttle: 300
-            }"
-          />
-        </v-col>
+            <Projects
+              ref="projects"
+              v-observe-visibility="{
+                callback: visibilityChangedProjects,
+                throttle: 300
+              }"
+            />
+          </v-col>
 
-        <v-col
-          id="scrollingcard"
-          :hidden="$vuetify.breakpoint.mdAndDown"
-          cols="3"
-        >
-          <AboutMe class="ma-4" :is-big-img="false" />
-        </v-col>
-      </v-row>
-    </v-main>
+          <v-col
+            id="scrollingcard"
+            :hidden="$vuetify.breakpoint.mdAndDown"
+            cols="3"
+          >
+            <AboutMe class="ma-4" :is-big-img="false" />
+          </v-col>
+        </v-row>
+      </v-main>
+    </span>
   </v-app>
 </template>
 

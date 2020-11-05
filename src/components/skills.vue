@@ -114,4 +114,3 @@ export default {
   }
 };
 </script>
-var toreturn =

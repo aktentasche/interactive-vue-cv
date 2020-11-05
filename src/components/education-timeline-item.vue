@@ -21,7 +21,7 @@
               <h2 class="mb-3 text-center">{{ entry.title }}</h2>
 
               <v-card class="pa-2" flat>
-                <v-text class="font-weight-light text-subtitle-2">
+                <span class="font-weight-light text-subtitle-2">
                   <span v-if="entry.type == 'degree'">
                     <v-icon class="mr-2">mdi-file-document</v-icon>
                     {{ entry.title_thesis }}
@@ -58,7 +58,7 @@
                     {{ entry.grade }}
                     <br />
                   </div>
-                </v-text>
+                </span>
               </v-card>
             </v-col>
 
