@@ -119,10 +119,10 @@
                 "mit dessen Hilfe eine Klasseneinteilung durchgeführt werden kann."
             ],
             "content": [
-                "Construction and automation of an optical bench for gathering spectral data from different organic material",
-                "Interfacing and automation of a NIR spectrometer for MATLAB analysis of the organic materials",
-                "Interfacing and automation of a spectrally programmable NIR light source",
-                "Classification of organic materials based on gathered data and using the NIR light source."
+                "Konstruktion und Automatisierung einer optischen Werkbank um spektrale Daten organischer Materialien zu sammeln",
+                "Ansteuerung eines NIR Spektrometer und Datenextraktion für die MATLAB Analyse",
+                "Ansteuerung einer spektral steuerbaren Lichtquelle",
+                "Klassifizierung von organischen Material aufgrund ihrer spektralen Signatur"
             ]
         },      
         {
