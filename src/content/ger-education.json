@@ -127,6 +127,25 @@
         },      
         {
             "type": "studies",
+            "title": "Auslandssemester",
+            "title_studies": "Elektrotechnik",
+            "title_academic": "",
+            "grade": "",
+            "entity": "Universitatea Politehnica",
+            "entity_group": "Faculty of Electronics and Telecommunications Engineering",
+            "entity_url": "http://www.upt.ro/international/index.php?id=&lb=en",
+            "entity_image": "entity_images/upt.jpg",
+            "place": "Timisoara, Romania",
+            "start": "2012",
+            "end": "2013",
+            "contents": [
+                "Digitale Signalverarbeitung",
+                "LabView",
+                "Kabellose Kommunikation"
+            ]
+        },
+        {
+            "type": "studies",
             "title": "Bachelorstudium",
             "title_studies": "Elektro/Nachrichtentechnik",
             "title_academic": "Bachelor of Engineering (B.Eng.)",
@@ -149,26 +168,6 @@
                 "Entwurfe analog-digitaler Systeme",
                 "Messtechnik"
             ]
-        },
-        {
-            "type": "studies",
-            "title": "Auslandssemester",
-            "title_studies": "Elektrotechnik",
-            "title_academic": "",
-            "grade": "",
-            "entity": "Universitatea Politehnica",
-            "entity_group": "Faculty of Electronics and Telecommunications Engineering",
-            "entity_url": "http://www.upt.ro/international/index.php?id=&lb=en",
-            "entity_image": "entity_images/upt.jpg",
-            "place": "Timisoara, Romania",
-            "start": "2012",
-            "end": "2013",
-            "contents": [
-                "Digitale Signalverarbeitung",
-                "LabView",
-                "Kabellose Kommunikation"
-            ]
-        }
-
+        } 
     ]
 }
