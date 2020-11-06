@@ -7,22 +7,15 @@ export default new Vuetify({
   theme: {
     themes: {
       light: {
-        primary: "#20686c",
+        // color scheme based on https://colorpalettes.net/color-palette-4122/
+        primary: "#005236",
         secondary: "#424242",
         accent: "#82B1FF",
         error: "#FF5252",
         info: "#2196F3",
         success: "#4CAF50",
         warning: "#FFC107",
-        /*professional: "#264653",
-        education: "#2a9d8f",
-        skills: "#e9c46a",
-        projects: "#f4a261"*/
-        /*professional: "#283d3b",
-        education: "#197278",
-        skills: "#c44536",
-        projects: "#edddd4"*/
-        professional: "#005236",
+        professional: "#20686c",
         education: "#6bc4a6",
         skills: "#fe982a",
         projects: "#bc4f07"

@@ -116,13 +116,6 @@ export default {
   },
   components: {
     CollapsibleCard
-  },
-  computed: {
-    entity_image_location: function() {
-      //have to use require here instead of directly binding, otherwise
-      //require is executed at every tick
-      return require(this);
-    }
   }
 };
 </script>
