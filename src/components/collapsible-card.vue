@@ -14,9 +14,8 @@
       <span v-else>
         <span v-if="!readMoreIsActivated"
           >{{ text.slice(0, 220) }}
-          ...
           <a @click="readMoreIsActivated = true" href="#">
-            read more
+            {{ $t("read_more") }}
           </a>
         </span>
         <span v-else>
