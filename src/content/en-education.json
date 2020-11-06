@@ -119,6 +119,25 @@
         },      
         {
             "type": "studies",
+            "title": "Semester abroad",
+            "title_studies": "Electrical & Telecommunication Engineering",
+            "title_academic": "",
+            "grade": "",
+            "entity": "Universitatea Politehnica",
+            "entity_group": "Faculty of Electronics and Telecommunications Engineering",
+            "entity_url": "http://www.upt.ro/international/index.php?id=&lb=en",
+            "entity_image": "entity_images/upt.jpg",
+            "place": "Timisoara, Romania",
+            "start": "2012",
+            "end": "2013",
+            "contents": [
+                "Digital Signal Processing",
+                "LabView Automation",
+                "Wireless Communication"              
+            ]
+        },
+        {
+            "type": "studies",
             "title": "Bachelor studies",
             "title_studies": "Electrical Engineering",
             "title_academic": "Bachelor of Engineering (B.Eng.)",
@@ -141,26 +160,6 @@
                 "Mobile Communication Systems",
                 "Measurement Techniques"
             ]
-        },
-        {
-            "type": "studies",
-            "title": "Semester abroad",
-            "title_studies": "Electrical & Telecommunication Engineering",
-            "title_academic": "",
-            "grade": "",
-            "entity": "Universitatea Politehnica",
-            "entity_group": "Faculty of Electronics and Telecommunications Engineering",
-            "entity_url": "http://www.upt.ro/international/index.php?id=&lb=en",
-            "entity_image": "entity_images/upt.jpg",
-            "place": "Timisoara, Romania",
-            "start": "2012",
-            "end": "2013",
-            "contents": [
-                "Digital Signal Processing",
-                "LabView Automation",
-                "Wireless Communication"              
-            ]
-        }
-
+        }        
     ]
 }
