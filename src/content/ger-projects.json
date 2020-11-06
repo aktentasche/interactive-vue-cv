@@ -28,7 +28,7 @@
             "name": "Heimautomatisierung 'betty'",
             "description": "Licht, Temperatur und Feuchtigkeitskontrolle.",
             "url": "",
-            "associated_stuff": ["Zigbee", "MQTT", "Philips Hue", "Xiaomi Aqara"]
+            "associated_stuff": ["Zigbee", "MQTT"]
         },       
         {            
             "name": "GNSS Datenbank",

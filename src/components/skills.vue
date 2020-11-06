@@ -60,7 +60,9 @@
               </v-card-title>
 
               <v-card-text>
-                {{ entry.description }} <br />
+                <div class="skilldescription">
+                  {{ entry.description }}
+                </div>
                 <v-chip x-small v-for="type in entry.types" :key="type">
                   {{
                     $t("skills_categories").find(entry => entry.id == type).name
@@ -114,3 +116,10 @@ export default {
   }
 };
 </script>
+
+<style>
+/* line height is 1.375rem, hence 2 lines 2*1.375 = 2.75, 4.125*/
+.skilldescription {
+  height: 2.75rem;
+}
+</style>

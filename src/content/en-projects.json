@@ -28,7 +28,7 @@
             "name": "Home Automation 'betty'",
             "description": "Lighting, temperature and humidity home automation system.",
             "url": "",
-            "associated_stuff": ["Zigbee", "MQTT", "Philips Hue", "Xiaomi Aqara"]
+            "associated_stuff": ["Zigbee", "MQTT"]
         },       
         {            
             "name": "Commercial GNSS Database",

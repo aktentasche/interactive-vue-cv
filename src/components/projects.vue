@@ -30,7 +30,9 @@
               </v-card-title>
 
               <v-card-text>
-                {{ entry.description }} <br />
+                <div class="projectdescription">
+                  {{ entry.description }}
+                </div>
                 <v-chip
                   x-small
                   v-for="stuff in entry.associated_stuff"
@@ -74,3 +76,10 @@ export default {
   }
 };
 </script>
+
+<style>
+/* line height is 1.375rem, hence 2 lines 2*1.375 = 2.75, 4.125*/
+.projectdescription {
+  height: 4.125rem;
+}
+</style>
