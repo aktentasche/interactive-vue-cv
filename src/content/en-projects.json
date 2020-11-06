@@ -16,7 +16,7 @@
             "name": "mz-forest-sensors",
             "description": "Make Zürich 2018: Real-time occupancy rate of forest visitors",
             "url": "https://makezurich.ch/2018/box/2/",
-            "associated_stuff": ["Sensors","The Things Network", "Visualization"]
+            "associated_stuff": ["Sensors","TTN", "Visualization"]
         },
         {            
             "name": "Ökopolis Website",
@@ -61,10 +61,10 @@
             "associated_stuff": ["Silverlight", "C#"]
         },
         {            
-            "name": "Solar Powered Garden Supervisor",
+            "name": "Solar Garden Supervisor",
             "description": "Battery/solar powered installation of a LoRaWAN node to measure soil humidity and provide power",
             "url": "",
-            "associated_stuff": ["LoRa","The Things Network", "C++"]
+            "associated_stuff": ["LoRa","TTN", "C++"]
         }
     ]
 }

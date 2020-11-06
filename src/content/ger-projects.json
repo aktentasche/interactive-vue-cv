@@ -16,7 +16,7 @@
             "name": "mz-forest-sensors",
             "description": "Make Zürich 2018: Echtzeitanalyse von Waldbesucherströmen",
             "url": "https://makezurich.ch/2018/box/2/",
-            "associated_stuff": ["Sensoren","The Things Network", "Visualisierung"]
+            "associated_stuff": ["Sensoren","TTN", "Visualisierung"]
         },
         {            
             "name": "Ökopolis Webseite",
@@ -64,7 +64,7 @@
             "name": "Gartensolarsupervisor",
             "description": "Solar/Batteriebetriebene Installation eines LoRaWAN Nodes zur Messung der Bodenfeuchte",
             "url": "",
-            "associated_stuff": ["LoRa","The Things Network", "C++"]
+            "associated_stuff": ["LoRa","TTN", "C++"]
         }
     ]
 }
