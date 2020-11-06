@@ -20,7 +20,9 @@
         </span>
         <span v-else>
           {{ text }}
-          <a @click="readMoreIsActivated = false" href="#"> less </a>
+          <a @click="readMoreIsActivated = false" href="#">
+            {{ $t("read_less") }}
+          </a>
         </span>
       </span>
     </v-card-text>
