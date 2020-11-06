@@ -45,7 +45,7 @@
       <br />
       <v-icon class="mr-2">mdi-phone</v-icon>
       <a v-if="phoneNumbeIsHidden" @click="phoneNumbeIsHidden = false" href="#"
-        >show
+        >{{ $t("show_number") }}
       </a>
       <span v-if="!phoneNumbeIsHidden">
         {{ phoneNumber }}
