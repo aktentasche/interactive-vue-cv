@@ -1,7 +1,7 @@
 <template>
   <v-app app>
     <span v-if="$vuetify.breakpoint.xsOnly">
-      <AboutMe :is-big-img="true" :too-small="true" />
+      <AboutMe :is-big-img="false" :too-small="true" />
     </span>
     <span v-else>
       <v-app-bar
