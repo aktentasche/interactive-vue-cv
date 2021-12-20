@@ -1,5 +1,5 @@
 # interactive-vue-cv
-An interactive CV based on vue.js and vuetify.	An interactive CV based on vue.js
+An interactive CV based on vue.js and vuetify.
 
 See the resume in action at cv.amps.one
 
@@ -27,8 +27,11 @@ Run
 npm run build
 ```
 
-in the command line inside the root directory and copy the contents of the dist directory to your html root.
+in the command line inside the root directory and copy the contents of the dist directory to your html root, e.g.:
 
+```
+sudo mv dist/ /var/www/interactive-vue-cv
+```
 
 # Thanks
 To @lupas for inspiration for the language picker component (https://github.com/lupas/vuetify-i18n-language-switcher-nuxt)
