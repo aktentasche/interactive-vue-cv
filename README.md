@@ -11,13 +11,24 @@ See the resume in action at cv.amps.one
 * VSCode is recommended but not necessary. Any editor will do.
 
 ## Start a local development server with hot-reload
-Either run 
+Run 
 
 ```
 npm run serve
 ```
 
-in the command line inside the root directory, or use the built-in task in VSCode.
+in the command line inside the root directory.
+
+## Build for produciton
+
+Run 
+
+```
+npm run build
+```
+
+in the command line inside the root directory and copy the contents of the dist directory to your html root.
+
 
 # Thanks
 To @lupas for inspiration for the language picker component (https://github.com/lupas/vuetify-i18n-language-switcher-nuxt)
