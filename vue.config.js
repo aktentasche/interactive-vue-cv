@@ -1,7 +1,7 @@
 module.exports = {
   transpileDependencies: ["vuetify"],
   // the server path has to be corresponding to your public server path
-  publicPath: process.env.NODE_ENV === "production" ? "/cv/" : "/",
+  // publicPath: process.env.NODE_ENV === "production" ? "/cv/" : "/",
 
   pluginOptions: {
     i18n: {
