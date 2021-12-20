@@ -1,7 +1,7 @@
 # interactive-vue-cv
 An interactive CV based on vue.js and vuetify.
 
-See the resume in action at cv.amps.one
+See the resume in action at [cv.amps.one](https://cv.amps.one).
 
 ## Requirements for running
 * Apache server
