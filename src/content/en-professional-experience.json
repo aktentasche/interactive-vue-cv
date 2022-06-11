@@ -1,6 +1,19 @@
 {
     "professional_experience_entries": [
         {
+          "title": "Quantum Control Systems Engineer",
+          "entity_group": "Quantum Computing Hub",
+          "entity": "ETH Zürich/Paul Scherrer Institut",
+          "entity_url": "https://qchub.psi.ch/",
+          "entity_image": "entity_images/eth_psi_logo.jpg",
+          "place": "Villigen, Switzerland",
+          "start": "05/2021",
+          "end": "today",
+          "activities"    : [
+            "TBD"          
+          ]
+        },
+        {
           "title": "Certification Specialist GNSS",
           "entity_group": "Hardware Integration Testing",
           "entity": "u-blox AG",
@@ -8,7 +21,7 @@
           "entity_image": "entity_images/ublox.png",
           "place": "Thalwil, Switzerland",
           "start": "06/2018",
-          "end": "today",
+          "end": "07/2021",
           "activities"    : [
             "Worldwide regulatory and industrial certification of positioning products",
             "Planning and budget optimization of EMC, safety and performance testing activities in external laboratories",
