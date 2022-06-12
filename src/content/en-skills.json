@@ -73,9 +73,16 @@
         {
             "types": ["programminglanguage", "software"],
             "name": "MySQL / MariaDB",
-            "description": "Relational database system",
+            "description": "Relational database",
             "url": "https://www.python.org/",
             "entry_img": "skills_images/mysql.png"
+        },
+        {
+            "types": ["programminglanguage", "software"],
+            "name": "timescaledb / postgres",
+            "description": "Relational database with time data extensions ",
+            "url": "https://www.timescale.com/",
+            "entry_img": "skills_images/timescale.png"
         },
         {
             "types": ["software"],
@@ -85,9 +92,16 @@
             "entry_img": "skills_images/vuetify.png"
         },
         {
+            "types": ["software"],
+            "name": "Quasar",
+            "description": "A material design framework for Vue.js",
+            "url": "https://quasar.dev/",
+            "entry_img": "skills_images/quasar.png"
+        },
+        {
             "types": ["programminglanguage"],
             "name": "C#",
-            "description": "Strongly object-oriented .NET language",
+            "description": "Object-oriented language leveraging .NET",
             "url": "https://csharp.net/",
             "entry_img": "skills_images/csharp.png"
         },
@@ -122,14 +136,14 @@
         {
             "types": ["concept"],
             "name": "Software Architecture",
-            "description": "How to design interfaces and large programs?",
+            "description": "How to design interfaces and large scale programs?",
             "url": "",
             "entry_img": "skills_images/architecture.jpg"
         },
         {
             "types": ["hardware"],
             "name": "Network Analyser",
-            "description": "Multi port instrument to obtain s-parameters of an electronic device",
+            "description": "Multi-port instrument to obtain s-parameters of active and passive RF devices",
             "url": "",
             "entry_img": "skills_images/networkanalyser.jpg"
         },
@@ -143,7 +157,7 @@
         {
             "types": ["hardware"],
             "name": "Oscilloscope",
-            "description": "Instrument to measure a signal in the time domain",
+            "description": "Instrument to measure signals in the time domain",
             "url": "",
             "entry_img": "skills_images/oscilloscope.jpg"
         },
@@ -157,14 +171,14 @@
         {
             "types": ["hardware"],
             "name": "Soldering",
-            "description": "Connecting and fixing electronic components",
+            "description": "Assembling, connecting and fixing of electronic components",
             "url": "",
             "entry_img": "skills_images/soldering.jpg"
         },
         {
             "types": ["hardware"],
             "name": "Software Defined Radio",
-            "description": "Radio that can be adjusted and controlled by software only",
+            "description": "Radio that can be adjusted and controlled by software",
             "url": "",
             "entry_img": "skills_images/sdr.jpg"
         },
@@ -192,9 +206,37 @@
         {
             "types": ["software"],
             "name": "Visual Studio",
-            "description": "Profesional IDE for compiled languages",
+            "description": "Professional IDE for compiled languages",
             "url": "https://visualstudio.microsoft.com/",
             "entry_img": "skills_images/vstudio.png"
+        },
+        {
+            "types": ["software"],
+            "name": "ansible",
+            "description": "IT infrastructure automation",
+            "url": "https://www.ansible.com/",
+            "entry_img": "skills_images/ansible.png"
+        },
+        {
+            "types": ["software"],
+            "name": "RabbitMQ",
+            "description": "AMQP message broker",
+            "url": "https://www.rabbitmq.com/",
+            "entry_img": "skills_images/rabbitmq.png"
+        },
+        {
+            "types": ["concept"],
+            "name": "Quantum information processing",
+            "description": "QIP using quantum states of trapped ions",
+            "url": "",
+            "entry_img": "skills_images/qipions.png"
+        },
+        {
+            "types": ["concept"],
+            "name": "PCB design",
+            "description": "Design, verification and assembly of small-volume circuit boards",
+            "url": "",
+            "entry_img": "skills_images/pcb.jpg"
         }
 
         
