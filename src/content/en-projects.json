@@ -7,6 +7,12 @@
             "associated_stuff": ["Javascript"]
         },
         {            
+            "name": "ICON",
+            "description": "Ion CONtrol: next generation full quantum control stack and visualisation framework",
+            "url": "",
+            "associated_stuff": ["Python", "AMQP", "Vue.js"]
+        },
+        {            
             "name": "HSTB",
             "description": "A GUI to control hyperspectral cameras and assess the taken data on-line.",
             "url": "",

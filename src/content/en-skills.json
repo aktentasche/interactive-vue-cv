@@ -113,6 +113,13 @@
             "entry_img": "skills_images/matlab.png"
         },
         {
+            "types": ["concept","software"],
+            "name": "proxmox",
+            "description": "Type 1 hypervisor",
+            "url": "https://www.proxmox.com/",
+            "entry_img": "skills_images/proxmox.png"
+        },
+        {
             "types": ["programminglanguage"],
             "name": "VHDL",
             "description": "Logic circuit description language",
@@ -232,7 +239,7 @@
             "entry_img": "skills_images/qipions.png"
         },
         {
-            "types": ["concept"],
+            "types": ["concept", "hardware"],
             "name": "PCB design",
             "description": "Design, verification and assembly of small-volume circuit boards",
             "url": "",
