@@ -134,6 +134,20 @@
             "entry_img": "skills_images/emwave.gif"
         },
         {
+            "types": ["software"],
+            "name": "Jira",
+            "description": "Class-leading ticketing solution",
+            "url": "",
+            "entry_img": "skills_images/jira.png"
+        },
+        {
+            "types": ["concept"],
+            "name": "SCRUM",
+            "description": "Team coordination and project management framework",
+            "url": "",
+            "entry_img": "skills_images/scrum.png"
+        },
+        {
             "types": ["concept"],
             "name": "3D printing",
             "description": "Small series prototyping for cases and mounts",
