@@ -5,12 +5,16 @@
           "entity_group": "Quantum Computing Hub",
           "entity": "ETH Zürich/Paul Scherrer Institut",
           "entity_url": "https://qchub.psi.ch/",
-          "entity_image": "entity_images/eth_psi_logo.jpg",
+          "entity_image": "entity_images/eth_logo.png",
           "place": "Villigen, Switzerland",
           "start": "05/2021",
           "end": "today",
           "activities"    : [
-            "TBD"          
+            "Design and implementation of a next generation, full quantum stack ion trap orchestration and visualisation framework",
+            "RF, electronics and PCB design support for experiments and laser infrastructure",
+            "Network, IT and CI setup and maintenance",
+            "Evaluation and integration of commercial quantum control hardware",
+            "Laboratory infrastructure planning and build-up"
           ]
         },
         {
@@ -23,15 +27,12 @@
           "start": "06/2018",
           "end": "07/2021",
           "activities"    : [
-            "Worldwide regulatory and industrial certification of positioning products",
+            "Regulatory and industrial certification of positioning products",
             "Planning and budget optimization of EMC, safety and performance testing activities in external laboratories",
-            "AE, R&D and management support for certification related topics",
-            "Liaison with certification and standartisation related organisations (REDCA, ETSI, C2CCC)",
-            "Software-defined radio development for HIL testing",
-            "Full stack development of internal databases",
-            "GNSS signal security verification (jamming & spoofing)",
-            "Tool development and automation for data analysis and test management",
-            "Devising specialized RF test setups for R&D studies"
+            "Full stack development of internal data processing and visualisation tools",
+            "GNSS signal security verification (jamming &amp; spoofing)",
+            "Application Engineering, &amp; and management certification support",
+            "Liaison and standards drafting within ETSI and REDCA"
           ]
         },
         {

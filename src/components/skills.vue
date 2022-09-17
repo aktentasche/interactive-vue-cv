@@ -17,9 +17,6 @@
               group
               color="skills"
             >
-              <v-btn value="all">
-                {{ $t("all") }}
-              </v-btn>
               <v-btn
                 v-for="entry in $t('skills_categories')"
                 :key="entry.id"
@@ -37,10 +34,20 @@
             v-for="entry in skills_filtered"
             :key="entry.name"
           >
-            <v-card class="justify-center " outlined tile>
+            <v-card class="justify-center" outlined tile>
               <v-card-title class="pa-0 pt-2">
                 <v-row>
-                  <v-col cols="12" class="d-flex justify-center">
+                  <v-col cols="2" class="d-flex justify-center fill-height">
+                    <v-icon
+                      v-if="entry.types.includes('highlight')"
+                      color="yellow darken-2"
+                      size="42"
+                      class="ml-4"
+                      >mdi-star</v-icon
+                    ></v-col
+                  >
+
+                  <v-col cols="8" class="d-flex justify-center">
                     <v-img
                       :src="entry.entry_img"
                       height="80px"
@@ -48,6 +55,8 @@
                       contain
                     />
                   </v-col>
+                  <v-col cols="2" class="d-flex justify-center"></v-col>
+
                   <v-col cols="12" class="d-flex justify-center">
                     <div>
                       <a v-if="entry.url" target="none" :href="entry.url">{{
@@ -63,11 +72,14 @@
                 <div class="skilldescription">
                   {{ entry.description }}
                 </div>
-                <v-chip x-small v-for="type in entry.types" :key="type">
-                  {{
-                    $t("skills_categories").find(entry => entry.id == type).name
-                  }}
-                </v-chip>
+                <span v-for="type in entry.types" :key="type">
+                  <v-chip x-small v-if="type != 'highlight'">
+                    {{
+                      $t("skills_categories").find((entry) => entry.id == type)
+                        .name
+                    }}
+                  </v-chip>
+                </span>
               </v-card-text>
             </v-card>
           </v-col>
@@ -82,19 +94,19 @@ import MainColumnWrapper from "./main-column-wrapper";
 
 export default {
   components: {
-    MainColumnWrapper
+    MainColumnWrapper,
   },
   data: () => ({
     //needs to be consistent with the ids in the base.json
-    selectedSkillCategory: "all"
+    selectedSkillCategory: "highlight",
   }),
   computed: {
-    skills_filtered: function() {
+    skills_filtered: function () {
       var toreturn =
-        this.selectedSkillCategory == "all"
+        this.selectedSkillCategory == undefined
           ? this.$i18n.messages[this.$i18n.locale]["skills_entries"]
           : this.$i18n.messages[this.$i18n.locale]["skills_entries"].filter(
-              entry => {
+              (entry) => {
                 return entry.types.includes(this.selectedSkillCategory);
               }
             );
@@ -112,8 +124,8 @@ export default {
         return 0;
       });
       return toreturn;
-    }
-  }
+    },
+  },
 };
 </script>
 

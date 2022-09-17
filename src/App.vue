@@ -50,7 +50,7 @@
               ref="professional"
               v-observe-visibility="{
                 callback: visibilityChangedProfessional,
-                throttle: 300
+                throttle: 300,
               }"
             />
 
@@ -58,7 +58,7 @@
               ref="education"
               v-observe-visibility="{
                 callback: visibilityChangedEducation,
-                throttle: 300
+                throttle: 300,
               }"
             />
 
@@ -66,7 +66,7 @@
               ref="skills"
               v-observe-visibility="{
                 callback: visibilityChangedSkills,
-                throttle: 300
+                throttle: 300,
               }"
             />
 
@@ -74,7 +74,7 @@
               ref="projects"
               v-observe-visibility="{
                 callback: visibilityChangedProjects,
-                throttle: 300
+                throttle: 300,
               }"
             />
           </v-col>
@@ -111,7 +111,7 @@ export default {
       isVisibleProfessional: true, //starting point, hence always true at start
       isVisibleEducation: false,
       isVisibleSkills: false,
-      isVisibleProjects: false
+      isVisibleProjects: false,
     };
   },
 
@@ -121,7 +121,7 @@ export default {
     Skills,
     AboutMe,
     Projects,
-    LanguageSwitcher
+    LanguageSwitcher,
   },
 
   methods: {
@@ -166,10 +166,10 @@ export default {
         duration: 300,
         easing: "easeInOutCubic",
         offset: 130,
-        container: this.$refs.maincontainerref
+        container: this.$refs.maincontainerref,
       });
-    }
-  }
+    },
+  },
 };
 </script>
 

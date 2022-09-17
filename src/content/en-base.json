@@ -8,6 +8,10 @@
     "skills_name": "Skills",
     "skills_categories": [
         {
+            "id": "highlight",
+            "name": "Highlights"
+        },
+        {
             "id": "hardware",
             "name": "Hardware"
         },
@@ -16,8 +20,8 @@
             "name": "Software"
         },
         {
-            "id": "programminglanguage",
-            "name": "Programming Language"
+            "id": "programming",
+            "name": "Programming"
         },
         {
             "id": "concept",

@@ -1,16 +1,52 @@
 {
     "projects_entries": [
         {            
-            "name": "interactive-vue-cv",
-            "description": "An interactive CV based on Vue.js (the very page you are seeing)",
-            "url": "https://github.com/aktentasche/interactive-vue-cv",
-            "associated_stuff": ["Javascript"]
+            "name": "ICON",
+            "description": "Ion Control and Orchestration: next generation full quantum control stack and visualisation framework",
+            "url": "",
+            "associated_stuff": ["Python", "AMQP", "Vue.js", "C++"]
         },
         {            
-            "name": "ICON",
-            "description": "Ion CONtrol: next generation full quantum control stack and visualisation framework",
+            "name": "Iguana",
+            "description": "Photodiode readout and processing",
             "url": "",
-            "associated_stuff": ["Python", "AMQP", "Vue.js"]
+            "associated_stuff": ["PCB design", "hardware interfaces"]
+        },
+        {            
+            "name": "Fast Synchronous Trigger",
+            "description": "FPGA implementation of a fast synchronous L0 trigger for LHCb",
+            "url": "",
+            "associated_stuff": ["VHDL", "C++", "FPGA"]
+        },
+        {            
+            "name": "Spider sensors",
+            "description": "Low-cost modular sensor solution for physics experiments",
+            "url": "",
+            "associated_stuff": ["I2C", "microcontrollers"]
+        },
+        {            
+            "name": "interactive-vue-cv",
+            "description": "An interactive CV",
+            "url": "https://github.com/aktentasche/interactive-vue-cv",
+            "associated_stuff": ["Vue.js"]
+        },       
+        {            
+            "name": "LoRaWAN over satellite",
+            "description": "Feasibility study to transmit LoRaWAN messages over LEO satellites",
+            "url": "",
+            "associated_stuff": ["RF","channel simulation"]
+        },
+        {            
+            "name": "Geospatial Data Processing",
+            "description": "Environmental classification based on OpenStreetMap data",
+            "url": "",
+            "associated_stuff": ["PostgreSQL", "PostGIS"]
+        },      
+        {            
+            "name": "High power base station impact on GNSS",
+            "description": "Study on the impact of high power cellular base stations on GNSS",
+            "url": "",
+            "associated_stuff": ["RF","channel simulation"]
         },
         {            
             "name": "HSTB",
@@ -19,59 +55,18 @@
             "associated_stuff": ["C#", "C++"]
         },
         {            
-            "name": "mz-forest-sensors",
-            "description": "Make Zürich 2018: Real-time occupancy rate of forest visitors",
-            "url": "https://makezurich.ch/2018/box/2/",
-            "associated_stuff": ["Sensors","TTN", "Visualization"]
-        },
-        {            
-            "name": "Ökopolis Website",
-            "description": "Website for the sustainability club Ökopolis Thalwil",
-            "url": "http://neu.oekopolis.ch/",
-            "associated_stuff": ["Wordpress", "Server Administration"]
-        },
-        {            
             "name": "Home Automation 'betty'",
             "description": "Lighting, temperature and humidity home automation system.",
             "url": "",
             "associated_stuff": ["Zigbee", "MQTT"]
-        },       
-        {            
-            "name": "Commercial GNSS Database",
-            "description": "GNSS industry database for receivers, antennas and others",
-            "url": "",
-            "associated_stuff": ["Javascript", "Microsoft Sharepoint"]
-        },
-        {            
-            "name": "Geospatial Data Processing",
-            "description": "Environmental classification based on OpenStreetMap data",
-            "url": "",
-            "associated_stuff": ["PostgreSQL", "PostGIS"]
-        },
-        {            
-            "name": "Metadata Database",
-            "description": "Tool used company-wide to select and assess metadata",
-            "url": "",
-            "associated_stuff": ["MySQL", "Vue.js"]
-        },
-        {            
-            "name": "Fast Synchronous Trigger",
-            "description": "FPGA implementation of a fast synchronous adder for the LHCb L0 trigger",
-            "url": "",
-            "associated_stuff": ["VHDL", "C++", "FPGA"]
-        },
+        },                             
         {            
             "name": "Design of Analog Filters",
             "description": "Online tool to design analog filters including schematics and filter responses",
             "url": "https://www.youtube.com/watch?v=VwFzBjJBPIU",
-            "associated_stuff": ["Silverlight", "C#"]
-        },
-        {            
-            "name": "Solar Garden Supervisor",
-            "description": "Battery/solar powered installation of a LoRaWAN node to measure soil humidity and provide power",
-            "url": "",
-            "associated_stuff": ["LoRa","TTN", "C++"]
+            "associated_stuff": ["C#"]
         }
+        
     ]
 }
 

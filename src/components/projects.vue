@@ -12,10 +12,10 @@
         <v-row>
           <v-col
             :cols="$vuetify.breakpoint.lgAndUp ? 4 : 6"
-            v-for="entry in projects_sorted"
+            v-for="entry in projects_unsorted"
             :key="entry.name"
           >
-            <v-card class="justify-center " outlined tile>
+            <v-card class="justify-center" outlined tile>
               <v-card-title class="pa-0 pt-2">
                 <v-row>
                   <v-col cols="12" class="d-flex justify-center">
@@ -54,10 +54,13 @@ import MainColumnWrapper from "./main-column-wrapper";
 
 export default {
   components: {
-    MainColumnWrapper
+    MainColumnWrapper,
   },
   computed: {
-    projects_sorted: function() {
+    projects_unsorted: function () {
+      return this.$i18n.messages[this.$i18n.locale]["projects_entries"];
+    },
+    projects_sorted: function () {
       var toreturn = this.$i18n.messages[this.$i18n.locale]["projects_entries"];
       toreturn.sort((a, b) => {
         let fa = a.name.toLowerCase(),
@@ -72,8 +75,8 @@ export default {
         return 0;
       });
       return toreturn;
-    }
-  }
+    },
+  },
 };
 </script>
 

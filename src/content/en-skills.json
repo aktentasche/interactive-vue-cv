@@ -15,7 +15,7 @@
             "entry_img": "skills_images/debian.png"
         },
         {
-            "types": ["software", "programminglanguage"],
+            "types": ["programming"],
             "name": "Vue.js",
             "description": "Javascript framework for web applications",
             "url": "https://vuejs.org/",
@@ -29,28 +29,28 @@
             "entry_img": "skills_images/gnuradio.png"
         },
         {
-            "types": ["software"],
+            "types": ["software", "programming"],
             "name": "Visual Studio Code",
             "description": "Extensible source-code editor",
             "url": "https://code.visualstudio.com/",
             "entry_img": "skills_images/vscode.png"
         },
         {
-            "types": ["software"],
+            "types": ["programming"],
             "name": "Node-RED",
             "description": "Flow-based development tool for IoT",
             "url": "https://nodered.org/",
             "entry_img": "skills_images/nodered.png"
         },
         {
-            "types": ["programminglanguage"],
+            "types": ["programming", "highlight"],
             "name": "Python",
             "description": "Multi-paradigm rapid prototyping language",
             "url": "https://www.python.org/",
             "entry_img": "skills_images/python.png"
         },
         {
-            "types": ["programminglanguage"],
+            "types": ["programming", "highlight"],
             "name": "C++",
             "description": "Object-oriented general purpose language",
             "url": "https://isocpp.org/",
@@ -64,49 +64,49 @@
             "entry_img": "skills_images/git.png"
         },
         {
-            "types": ["programminglanguage","software"],
+            "types": ["programming"],
             "name": "bash Shell",
             "description": "The default and versatile shell for linux",
             "url": "https://www.gnu.org/software/bash/",
             "entry_img": "skills_images/bash.png"
         },
         {
-            "types": ["programminglanguage", "software"],
+            "types": ["programming"],
             "name": "MySQL / MariaDB",
             "description": "Relational database",
             "url": "https://www.python.org/",
             "entry_img": "skills_images/mysql.png"
         },
         {
-            "types": ["programminglanguage", "software"],
+            "types": ["programming"],
             "name": "timescaledb / postgres",
             "description": "Relational database with time data extensions ",
             "url": "https://www.timescale.com/",
             "entry_img": "skills_images/timescale.png"
         },
         {
-            "types": ["software"],
+            "types": ["programming"],
             "name": "Vuetify",
             "description": "A material design framework for Vue.js",
             "url": "https://vuetifyjs.com/",
             "entry_img": "skills_images/vuetify.png"
         },
         {
-            "types": ["software"],
+            "types": ["programming"],
             "name": "Quasar",
             "description": "A material design framework for Vue.js",
             "url": "https://quasar.dev/",
             "entry_img": "skills_images/quasar.png"
         },
         {
-            "types": ["programminglanguage"],
+            "types": ["programming"],
             "name": "C#",
             "description": "Object-oriented language leveraging .NET",
             "url": "https://csharp.net/",
             "entry_img": "skills_images/csharp.png"
         },
         {
-            "types": ["programminglanguage","software"],
+            "types": ["programming","software"],
             "name": "MATLAB",
             "description": "Numerical Matrix simulation environment",
             "url": "https://www.mathworks.com/products/matlab.html",
@@ -120,18 +120,25 @@
             "entry_img": "skills_images/proxmox.png"
         },
         {
-            "types": ["programminglanguage"],
+            "types": ["programming", "highlight"],
             "name": "VHDL",
             "description": "Logic circuit description language",
             "url": "https://en.wikipedia.org/wiki/VHDL",
             "entry_img": "skills_images/vhdl.png"
         },
         {
-            "types": ["concept"],
+            "types": ["concept", "highlight"],
             "name": "RF Measurements",
             "description": "Measuring signals in the RF domain",
             "url": "",
             "entry_img": "skills_images/emwave.gif"
+        },
+        {
+            "types": ["concept"],
+            "name": "3D printing",
+            "description": "Small series prototyping for cases and mounts",
+            "url": "",
+            "entry_img": "skills_images/3dprinter.jpg"
         },
         {
             "types": ["concept"],
@@ -141,7 +148,7 @@
             "entry_img": "skills_images/sinc.png"
         },
         {
-            "types": ["concept"],
+            "types": ["concept", "highlight"],
             "name": "Software Architecture",
             "description": "How to design interfaces and large scale programs?",
             "url": "",
@@ -211,21 +218,21 @@
             "entry_img": "skills_images/jenkins.png"
         },
         {
-            "types": ["software"],
+            "types": ["software","programming"],
             "name": "Visual Studio",
             "description": "Professional IDE for compiled languages",
             "url": "https://visualstudio.microsoft.com/",
             "entry_img": "skills_images/vstudio.png"
         },
         {
-            "types": ["software"],
+            "types": ["programming"],
             "name": "ansible",
             "description": "IT infrastructure automation",
             "url": "https://www.ansible.com/",
             "entry_img": "skills_images/ansible.png"
         },
         {
-            "types": ["software"],
+            "types": ["programming"],
             "name": "RabbitMQ",
             "description": "AMQP message broker",
             "url": "https://www.rabbitmq.com/",
@@ -239,7 +246,7 @@
             "entry_img": "skills_images/qipions.png"
         },
         {
-            "types": ["concept", "hardware"],
+            "types": ["concept", "hardware", "highlight"],
             "name": "PCB design",
             "description": "Design, verification and assembly of small-volume circuit boards",
             "url": "",
