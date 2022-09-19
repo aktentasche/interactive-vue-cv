@@ -69,7 +69,7 @@
         },
         {
           "title": "Technical Student",
-          "entity_group": "HeRSCheL Subdetector",
+          "entity_group": "HeRSCheL subdetector",
           "entity": "LHCb collaboration @ CERN",
           "entity_url": "https://lhcb.web.cern.ch/",
           "entity_image": "entity_images/lhcb.png",
@@ -80,7 +80,7 @@
             "FPGA programming and verification of the LHCb frontend electronics",
             "HeRSCheL sub-detector expert: calibration and electronics maintenance",
             "Shift leader for the LHCb detector: supervision and organisation",
-            "Official CERN guide and S’Cool lab tutor"
+            "Official CERN guide and S'Cool lab tutor"
           ]
         },
         {

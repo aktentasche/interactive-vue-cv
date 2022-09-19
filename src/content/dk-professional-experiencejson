@@ -1,0 +1,102 @@
+{
+    "professional_experience_entries": [
+        {
+          "title": "Ingeniør i Quantum-kontrolsystemer",
+          "entity_group": "Quantum Computing Hub",
+          "entity": "ETH Zürich/Paul Scherrer Institut",
+          "entity_url": "https://qchub.psi.ch/",
+          "entity_image": "entity_images/eth_logo.png",
+          "place": "Villigen, Schweiz",
+          "start": "05/2021",
+          "end": "i dag",
+          "activities"    : [
+            "Design og implementering af en næste generation af en fuld kvantestak-ionfælde-orkestrering og visualiseringsramme",
+            "Støtte til RF-, elektronik- og PCB-design til eksperimenter og laserinfrastruktur",
+            "opsætning og vedligeholdelse af netværk, IT og CI",
+            "Evaluering og integration af kommerciel kvantekontrolhardware",
+            "Planlægning og opbygning af laboratorieinfrastruktur"
+          ]
+        },
+        {
+          "title": "Certificeringsspecialist GNSS",
+          "entity_group": "Hardware Integration Testing",
+          "entity": "u-blox AG",
+          "entity_url": "https://www.u-blox.com",
+          "entity_image": "entity_images/ublox.png",
+          "place": "Thalwil, Schweiz",
+          "start": "06/2018",
+          "end": "07/2021",
+          "activities"    : [
+            "Lovgivningsmæssig og industriel certificering af positioneringsprodukter",
+            "Planlægning og budgetoptimering af EMC-, sikkerheds- og præstationsafprøvningsaktiviteter i eksterne laboratorier",
+            "Fuldstændig udvikling af interne værktøjer til databehandling og visualisering",
+            "Verifikation af GNSS-signalsikkerhed (jamming og spoofing)",
+            "Støtte til applikationsteknik, &amp; og ledelsescertificering",
+            "Forbindelse og udarbejdelse af standarder inden for ETSI og REDCA"
+          ]
+        },
+        {
+          "title": "Young Graduate Trainee",
+          "entity_group": "Aerospace and Defence Section",
+          "entity": "Septentrio",
+          "entity_url": "https://www.septentrio.com",
+          "entity_image": "entity_images/septentrio.png",
+          "place": "Leuven, Belgien",
+          "start": "07/2017",
+          "end": "05/2018",
+          "activities"    : [
+            "Udvikling af Galileo FOC-testbrugermodtager",
+            "Migration af manuelle testprocedurer til Jenkins/Robot",
+            "Brug af en RFCS til at simulere kommende ændringer i E1B/E5b INAV-rammen",
+            "DOORS-kravsstyring og dokumentation af testresultater"
+          ]
+        },
+        {
+          "title": "Young Graduate Trainee",
+          "entity_group": "Commercial Ground Segment",
+          "entity": "European Space Agency",
+          "entity_url": "https://www.esa.int",
+          "entity_image": "entity_images/esa.png",
+          "place": "Noordwijk, Nederlandene",
+          "start": "06/2016",
+          "end": "06/2017",
+          "activities"    : [
+            "Kommerciel GNSS-database design, implementering og migration af ældre data",
+            "Gennemførlighedsundersøgelser for anvendelse af IoT-protokollen LoRa i et scenario i lavt kredsløb om jorden",
+            "Test af hybrid positionering med en Spirent LTS 8100-serie-løsning",
+            "GSTP Element 2-projekter"
+          ]
+        },
+        {
+          "title": "Teknisk studerende",
+          "entity_group": "HeRSCheL subdetector",
+          "entity": "LHCb collaboration @ CERN",
+          "entity_url": "https://lhcb.web.cern.ch/",
+          "entity_image": "entity_images/lhcb.png",
+          "place": "Genève, Schweiz",
+          "start": "04/2015",
+          "end": "05/2016",
+          "activities"    : [      
+            "FPGA-programmering og verifikation af LHCb-frontend-elektronikken",
+            "HeRSCheL-subdetektorekspert: kalibrering og vedligeholdelse af elektronik",
+            "Skiftleder for LHCb-detektoren: tilsyn og organisation",
+            "Officiel CERN-guide og S'Cool-laboratorievejleder"
+          ]
+        },
+        {
+          "title": "Videnskabelig assistent",
+          "entity_group": "Visual Inspections Department",
+          "entity": "Fraunhofer IOSB",
+          "entity_url": "https://www.iosb.fraunhofer.de/",
+          "entity_image": "entity_images/fhg_logo.png",
+          "place": "Karlsruhe, Tyskland",
+          "start": "06/2012",
+          "end": "03/2015",
+          "activities"    : [
+            "Ledende udvikler af en integreret GUI til billedspektroskopi",
+            "Operativt ansvar for hyperspektrale testbænke i SWIR, VIS og UV",
+            "Design og konstruktion af mekatroniske komponenter"
+          ]
+        }
+    ]
+}
