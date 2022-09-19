@@ -3,112 +3,112 @@
         {
             "types": ["software"],
             "name": "arch",
-            "description": "Rolling release Linux distribution",
+            "description": "Linux-distribution med rullende udgivelse",
             "url": "https://www.archlinux.org/",
             "entry_img": "skills_images/arch.png"
         },
         {
             "types": ["software"],
             "name": "Debian",
-            "description": "Stable Linux distribution",
+            "description": "Stabil Linux-distribution",
             "url": "https://www.debian.org/",
             "entry_img": "skills_images/debian.png"
         },
         {
             "types": ["programming"],
             "name": "Vue.js",
-            "description": "Javascript framework for web applications",
+            "description": "Javascript-ramme til webapplikationer",
             "url": "https://vuejs.org/",
             "entry_img": "skills_images/vue.png"
         },
         {
             "types": ["software"],
             "name": "GNURadio",
-            "description": "Signal processing and software radio toolkit",
+            "description": "Værktøjssæt til signalbehandling og softwareradio",
             "url": "https://www.gnuradio.org/",
             "entry_img": "skills_images/gnuradio.png"
         },
         {
             "types": ["software", "programming"],
             "name": "Visual Studio Code",
-            "description": "Extensible source-code editor",
+            "description": "Udvidelig kildekode-editor",
             "url": "https://code.visualstudio.com/",
             "entry_img": "skills_images/vscode.png"
         },
         {
             "types": ["programming"],
             "name": "Node-RED",
-            "description": "Flow-based development tool for IoT",
+            "description": "Flow-baseret udviklingsværktøj til IoT",
             "url": "https://nodered.org/",
             "entry_img": "skills_images/nodered.png"
         },
         {
             "types": ["programming", "highlight"],
             "name": "Python",
-            "description": "Multi-paradigm rapid prototyping language",
+            "description": "Hurtigt prototypeudviklingssprog med flere paradigmer",
             "url": "https://www.python.org/",
             "entry_img": "skills_images/python.png"
         },
         {
             "types": ["programming", "highlight"],
             "name": "C++",
-            "description": "Object-oriented general purpose language",
+            "description": "Objektorienteret sprog til generelle formål",
             "url": "https://isocpp.org/",
             "entry_img": "skills_images/cpp.png"
         },
         {
             "types": ["software", "concept"],
             "name": "git",
-            "description": "Distributed version control system",
+            "description": "Distribueret versionsstyringssystem",
             "url": "https://git-scm.com/",
             "entry_img": "skills_images/git.png"
         },
         {
             "types": ["programming"],
             "name": "bash Shell",
-            "description": "The default and versatile shell for linux",
+            "description": "Den standard og alsidige shell til linux",
             "url": "https://www.gnu.org/software/bash/",
             "entry_img": "skills_images/bash.png"
         },
         {
             "types": ["programming"],
             "name": "MySQL / MariaDB",
-            "description": "Relational database",
+            "description": "Relationel database",
             "url": "https://www.python.org/",
             "entry_img": "skills_images/mysql.png"
         },
         {
             "types": ["programming"],
             "name": "timescaledb / postgres",
-            "description": "Relational database with time data extensions",
+            "description": "Relationel database med udvidelser til tidsdata",
             "url": "https://www.timescale.com/",
             "entry_img": "skills_images/timescale.png"
         },
         {
             "types": ["programming"],
             "name": "Vuetify",
-            "description": "A material design framework for Vue.js",
+            "description": "En ramme for materiale design til Vue.js",
             "url": "https://vuetifyjs.com/",
             "entry_img": "skills_images/vuetify.png"
         },
         {
             "types": ["programming"],
             "name": "Quasar",
-            "description": "A material design framework for Vue.js",
+            "description": "En ramme for materiale design til Vue.js",
             "url": "https://quasar.dev/",
             "entry_img": "skills_images/quasar.png"
         },
         {
             "types": ["programming"],
             "name": "C#",
-            "description": "Object-oriented language leveraging .NET",
+            "description": "Objektorienteret sprog, der udnytter .NET",
             "url": "https://csharp.net/",
             "entry_img": "skills_images/csharp.png"
         },
         {
             "types": ["programming","software"],
             "name": "MATLAB",
-            "description": "Numerical Matrix simulation environment",
+            "description": "Numerisk Matrix-simuleringsmiljø",
             "url": "https://www.mathworks.com/products/matlab.html",
             "entry_img": "skills_images/matlab.png"
         },
@@ -122,147 +122,147 @@
         {
             "types": ["programming", "highlight"],
             "name": "VHDL",
-            "description": "Logic circuit description language",
+            "description": "Logisk kredsløbsbeskrivelsessprog",
             "url": "https://en.wikipedia.org/wiki/VHDL",
             "entry_img": "skills_images/vhdl.png"
         },
         {
             "types": ["concept", "highlight"],
-            "name": "RF Measurements",
-            "description": "Measuring signals in the RF domain",
+            "name": "RF Målinger",
+            "description": "Måling af signaler i RF-domænet",
             "url": "",
             "entry_img": "skills_images/emwave.gif"
         },
         {
             "types": ["software"],
             "name": "Jira",
-            "description": "Class-leading ticketing solution",
+            "description": "Klasseledende billetløsning",
             "url": "",
             "entry_img": "skills_images/jira.png"
         },
         {
             "types": ["concept"],
             "name": "SCRUM",
-            "description": "Team coordination and project management framework",
+            "description": "Rammer for teamkoordinering og projektstyring",
             "url": "",
             "entry_img": "skills_images/scrum.png"
         },
         {
             "types": ["concept"],
-            "name": "3D printing",
-            "description": "Small series prototyping for cases and mounts",
+            "name": "3D-printning",
+            "description": "Prototyper i små serier til kasser og beslag",
             "url": "",
             "entry_img": "skills_images/3dprinter.jpg"
         },
         {
             "types": ["concept"],
-            "name": "Digital Signal Processing",
-            "description": "Processing digitized data",
+            "name": "Digital signalbehandling",
+            "description": "Behandling af digitaliserede data",
             "url": "",
             "entry_img": "skills_images/sinc.png"
         },
         {
             "types": ["concept", "highlight"],
-            "name": "Software Architecture",
-            "description": "How to design interfaces and large scale programs?",
+            "name": "Softwarearkitektur",
+            "description": "Hvordan designer man grænseflader og programmer i stor skala?",
             "url": "",
             "entry_img": "skills_images/architecture.jpg"
         },
         {
             "types": ["hardware"],
-            "name": "Network Analyser",
-            "description": "Multi-port instrument to obtain s-parameters of active and passive RF devices",
+            "name": "Netværksanalysator",
+            "description": "Instrument med flere porte til bestemmelse af s-parametre for aktive og passive RF-enheder",
             "url": "",
             "entry_img": "skills_images/networkanalyser.jpg"
         },
         {
             "types": ["hardware"],
-            "name": "Spectrum Analyser",
-            "description": "Instrument to measure the spectrum of a signal",
+            "name": "Spektrumanalysator",
+            "description": "Instrument til måling af spektret af et signal",
             "url": "",
             "entry_img": "skills_images/spectrumanalyser.jpg"
         },
         {
             "types": ["hardware"],
-            "name": "Oscilloscope",
-            "description": "Instrument to measure signals in the time domain",
+            "name": "Oscilloskop",
+            "description": "Instrument til måling af signaler i tidsdomænet",
             "url": "",
             "entry_img": "skills_images/oscilloscope.jpg"
         },
         {
             "types": ["hardware"],
-            "name": "Vector Signal Generator",
-            "description": "Complex/IQ signal generator",
+            "name": "Vektorsignalgenerator",
+            "description": "Kompleks/IQ-signalgenerator",
             "url": "",
             "entry_img": "skills_images/vsg.jpeg"
         },
         {
             "types": ["hardware"],
-            "name": "Soldering",
-            "description": "Assembling, connecting and fixing of electronic components",
+            "name": "Lodning",
+            "description": "Samling, tilslutning og fastgørelse af elektroniske komponenter",
             "url": "",
             "entry_img": "skills_images/soldering.jpg"
         },
         {
             "types": ["hardware"],
-            "name": "Software Defined Radio",
-            "description": "Radio that can be adjusted and controlled by software",
+            "name": "Software-defineret radio",
+            "description": "Radio, der kan justeres og styres ved hjælp af software",
             "url": "",
             "entry_img": "skills_images/sdr.jpg"
         },
         {
             "types": ["concept"],
-            "name": "Regulatory Certification",
-            "description": "Legal requirements for market access",
+            "name": "Lovpligtig certificering",
+            "description": "Juridiske krav til markedsadgang",
             "url": "",
             "entry_img": "skills_images/ce.png"
         },
         {
             "types": ["concept"],
             "name": "GNSS",
-            "description": "Satellite-based navigation",
+            "description": "Satellitbaseret navigation",
             "url": "",
             "entry_img": "skills_images/gnss.png"
         },
         {
             "types": ["software","concept"],
             "name": "Jenkins",
-            "description": "Orchestration framework",
+            "description": "Ramme for orkestrering",
             "url": "https://www.jenkins.io/",
             "entry_img": "skills_images/jenkins.png"
         },
         {
             "types": ["software","programming"],
             "name": "Visual Studio",
-            "description": "Professional IDE for compiled languages",
+            "description": "Professionel IDE til kompilerede sprog",
             "url": "https://visualstudio.microsoft.com/",
             "entry_img": "skills_images/vstudio.png"
         },
         {
             "types": ["programming"],
             "name": "ansible",
-            "description": "IT infrastructure automation",
+            "description": "Automatisering af it-infrastruktur",
             "url": "https://www.ansible.com/",
             "entry_img": "skills_images/ansible.png"
         },
         {
             "types": ["programming"],
             "name": "RabbitMQ",
-            "description": "AMQP message broker",
+            "description": "AMQP-meddelelsesmægler",
             "url": "https://www.rabbitmq.com/",
             "entry_img": "skills_images/rabbitmq.png"
         },
         {
             "types": ["concept"],
-            "name": "Quantum information processing",
-            "description": "QIP using quantum states of trapped ions",
+            "name": "Kvanteinformationsbehandling",
+            "description": "QIP ved hjælp af kvantetilstande af indfangede ioner",
             "url": "",
             "entry_img": "skills_images/qipions.png"
         },
         {
             "types": ["concept", "hardware", "highlight"],
             "name": "PCB design",
-            "description": "Design, verification and assembly of small-volume circuit boards",
+            "description": "Design, verifikation og samling af printplader i små serier",
             "url": "",
             "entry_img": "skills_images/pcb.jpg"
         }
