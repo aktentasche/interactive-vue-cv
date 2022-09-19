@@ -3,7 +3,7 @@ import VueI18n from "vue-i18n";
 
 Vue.use(VueI18n);
 
-const available_short_isos = ["en", "ger"];
+const available_short_isos = ["en", "dk", "ger"];
 
 const suffixes = [
   "-base",

@@ -16,7 +16,7 @@
         :key="language_short_iso"
         @click="switchLanguageTo(language_short_iso)"
       >
-        <v-list-item-avatar tile size="40">
+        <v-list-item-avatar tile width="40px" height="26px">
           <v-img
             :src="$i18n.messages[language_short_iso].language_flag_image"
           ></v-img>
@@ -34,7 +34,7 @@ export default {
   methods: {
     switchLanguageTo(short_iso) {
       this.$i18n.locale = short_iso;
-    }
-  }
+    },
+  },
 };
 </script>
