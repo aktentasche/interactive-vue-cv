@@ -2,67 +2,67 @@
     "projects_entries": [
         {            
             "name": "ICON",
-            "description": "Ion Control and Orchestration: next generation full quantum control stack and visualisation framework",
+            "description": "Ion Control and Orchestration: næste generation af en fuld kvantekontrolstack og visualiseringsramme",
             "url": "",
             "associated_stuff": ["Python", "AMQP", "Vue.js", "C++"]
         },
         {            
             "name": "Iguana",
-            "description": "Photodiode readout and processing",
+            "description": "Fotodiodeudlæsning og -behandling",
             "url": "",
-            "associated_stuff": ["PCB design", "hardware interfaces"]
+            "associated_stuff": ["PCB design", "hardware-grænseflader"]
         },
         {            
             "name": "Fast synchronous trigger",
-            "description": "FPGA implementation of a fast synchronous L0 trigger for LHCb",
+            "description": "FPGA-implementering af en hurtig synkron L0-trigger til LHCb",
             "url": "",
             "associated_stuff": ["VHDL", "C++", "FPGA"]
         },
         {            
             "name": "Spider sensors",
-            "description": "Low-cost modular sensor solution for physics experiments",
+            "description": "Billig modulær sensorløsning til fysikeksperimenter til lave omkostningers",
             "url": "",
             "associated_stuff": ["I2C", "microcontrollers"]
         },
         {            
             "name": "interactive-vue-cv",
-            "description": "An interactive CV",
+            "description": "Et interaktivt CV",
             "url": "https://github.com/aktentasche/interactive-vue-cv",
             "associated_stuff": ["Vue.js"]
         },       
         {            
             "name": "LoRaWAN over satellite",
-            "description": "Feasibility study to transmit LoRaWAN messages over LEO satellites",
+            "description": "Gennemførlighedsundersøgelse af overførsel af LoRaWAN-meddelelser via LEO-satellitter",
             "url": "",
-            "associated_stuff": ["RF","channel simulation"]
+            "associated_stuff": ["RF","kanalsimulering"]
         },
         {            
-            "name": "Geospatial data processing",
-            "description": "Environmental classification based on OpenStreetMap data",
+            "name": "Geospatial databehandling",
+            "description": "Miljøklassificering baseret på OpenStreetMap-data",
             "url": "",
             "associated_stuff": ["PostgreSQL", "PostGIS"]
         },      
         {            
             "name": "High power base station impact on GNSS",
-            "description": "Study on the impact of high power cellular base stations on GNSS",
+            "description": "Undersøgelse af virkningen af højeffektive cellulære basisstationer på GNSS",
             "url": "",
-            "associated_stuff": ["RF","channel simulation"]
+            "associated_stuff": ["RF","kanalsimulering"]
         },
         {            
             "name": "HSTB",
-            "description": "A GUI to control hyperspectral cameras and assess the taken data on-line",
+            "description": "En GUI til at styre hyperspektrale kameraer og vurdere de optagne data online",
             "url": "",
             "associated_stuff": ["C#", "C++"]
         },
         {            
-            "name": "Home automation 'betty'",
-            "description": "Lighting, temperature and humidity home automation system.",
+            "name": "Hjemmeautomatisering 'betty'",
+            "description": "Hjemmeautomatiseringssystem til belysning, temperatur og luftfugtighed.",
             "url": "",
             "associated_stuff": ["Zigbee", "MQTT"]
         },                             
         {            
-            "name": "Design of Analog Filters",
-            "description": "Online tool to design analog filters including schematics and filter responses",
+            "name": "Design af analoge filtre",
+            "description": "Online værktøj til at designe analoge filtre, herunder skematikker og filterresponser",
             "url": "https://www.youtube.com/watch?v=VwFzBjJBPIU",
             "associated_stuff": ["C#"]
         }
