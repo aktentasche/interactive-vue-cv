@@ -1,11 +1,11 @@
 {
     "my_name": "Jonas Manthey",
-    "language": "English",
-    "language_switch": "Switch language",
+    "language": "Dansk",
+    "language_switch": "Skift sprog",
     "language_flag_image": "flag_images/flag-en.png",    
-    "professional_experience_name": "Professional Experience",
-    "education_name": "Education",
-    "skills_name": "Skills",
+    "professional_experience_name": "Professionel erfaring",
+    "education_name": "Uddannelse",
+    "skills_name": "Færdigheder",
     "skills_categories": [
         {
             "id": "highlight",
@@ -21,16 +21,21 @@
         },
         {
             "id": "programming",
-            "name": "Programming"
+            "name": "Programmering"
         },
         {
             "id": "concept",
-            "name": "Concept"
+            "name": "Koncepter"
         }    
     ],
-    "projects_name": "Projects",
-    "about_me_headline": "About me",
-    "about_me_content": "I am a telecommunication engineer with a strong background in software engineering. In my private life I love spending time with my children and making electronic music.",
+    "projects_name": "Projekter",
+    "about_me_headline": "Om mig",
+    "about_me_content": "I am an electrical engineer with a strong background in software. My guidelines are:",
+    "about_me_rules": [
+        "Be proactive and self-sufficient",
+        "Focus on improvement and abstraction",
+        "Prevent technical debt"
+    ],
     "contact": "Contact",
     "background": "Background",
     "content": "Content",

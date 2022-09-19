@@ -22,12 +22,6 @@
       <v-row>
         <div class="pl-3 pt-2">
           {{ $t("about_me_content") }}
-
-          <ol class="pt-1">
-            <li v-for="entry of $t('about_me_rules')" :key="entry">
-              {{ entry }}
-            </li>
-          </ol>
         </div>
       </v-row>
 
@@ -60,17 +54,17 @@ import LanguageSwitcher from "./language-switcher";
 export default {
   props: {
     isBigImg: Boolean,
-    tooSmall: Boolean
+    tooSmall: Boolean,
   },
   components: {
-    LanguageSwitcher
+    LanguageSwitcher,
   },
   data() {
     return {
       emailaddress: "jonas@amps.one",
       phoneNumber: "+41 76 677 113 37",
-      phoneNumbeIsHidden: true
+      phoneNumbeIsHidden: true,
     };
-  }
+  },
 };
 </script>
