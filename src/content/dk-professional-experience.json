@@ -10,10 +10,10 @@
           "start": "05/2021",
           "end": "i dag",
           "activities"    : [
-            "Design og implementering af en næste generation af en fuld kvantestak-ionfælde-orkestrering og visualiseringsramme",
-            "Støtte til RF-, elektronik- og PCB-design til eksperimenter og laserinfrastruktur",
-            "opsætning og vedligeholdelse af netværk, IT og CI",
-            "Evaluering og integration af kommerciel kvantekontrolhardware",
+            "Design og implementering af næste generation af quantum stack ion trap orchestration and visualisation framework",
+            "Support til RF-, elektronik- og PCB-design til eksperimenter og laserinfrastruktur",
+            "Opsætning og vedligeholdelse af netværk, IT og CI",
+            "Evaluering og integration af kommerciel quantum control hardware",
             "Planlægning og opbygning af laboratorieinfrastruktur"
           ]
         },
@@ -27,12 +27,12 @@
           "start": "06/2018",
           "end": "07/2021",
           "activities"    : [
-            "Lovgivningsmæssig og industriel certificering af positioneringsprodukter",
+            "Regulativ og industriel certificering af produkter til positionering",
             "Planlægning og budgetoptimering af EMC-, sikkerheds- og præstationsafprøvningsaktiviteter i eksterne laboratorier",
-            "Fuldstændig udvikling af interne værktøjer til databehandling og visualisering",
+            "Full stack development af interne værktøjer til databehandling og visualisering",
             "Verifikation af GNSS-signalsikkerhed (jamming og spoofing)",
-            "Støtte til applikationsteknik, &amp; og ledelsescertificering",
-            "Forbindelse og udarbejdelse af standarder inden for ETSI og REDCA"
+            "Support til applikationsteknik og ledelsescertificering",
+            "Liaison indenfor ETSI og REDCA samt udarbejdelse af standarder"
           ]
         },
         {
@@ -45,10 +45,10 @@
           "start": "07/2017",
           "end": "05/2018",
           "activities"    : [
-            "Udvikling af Galileo FOC-testbrugermodtager",
+            "Udvikling af Galileo FOC Test User Receiver",
             "Migration af manuelle testprocedurer til Jenkins/Robot",
-            "Brug af en RFCS til at simulere kommende ændringer i E1B/E5b INAV-rammen",
-            "DOORS-kravsstyring og dokumentation af testresultater"
+            "Simulere ændringer i E1B/E5b INAV-rammen ved brug af RFCS",
+            "DOORS requirements management og dokumentation af testresultater"
           ]
         },
         {
@@ -61,9 +61,9 @@
           "start": "06/2016",
           "end": "06/2017",
           "activities"    : [
-            "Kommerciel GNSS-database design, implementering og migration af ældre data",
-            "Gennemførlighedsundersøgelser for anvendelse af IoT-protokollen LoRa i et scenario i lavt kredsløb om jorden",
-            "Test af hybrid positionering med en Spirent LTS 8100-serie-løsning",
+            "Kommerciel GNSS-database design, implementering og migration af legacy data",
+            "Forundersøgelse for anvendelse af IoT-protokollen LoRa i et scenario i et low earth orbit scenario",
+            "Test af hybrid positionering ved hjælp af Spirent LTS 8100",
             "GSTP Element 2-projekter"
           ]
         },
@@ -77,9 +77,9 @@
           "start": "04/2015",
           "end": "05/2016",
           "activities"    : [      
-            "FPGA-programmering og verifikation af LHCb-frontend-elektronikken",
+            "FPGA-programmering og verifikation af LHCb-frontend-elektronik",
             "HeRSCheL-subdetektorekspert: kalibrering og vedligeholdelse af elektronik",
-            "Skiftleder for LHCb-detektoren: tilsyn og organisation",
+            "Skiftleder for LHCb-detektoren: supervision og organisering",
             "Officiel CERN-guide og S'Cool-laboratorievejleder"
           ]
         },
@@ -93,8 +93,8 @@
           "start": "06/2012",
           "end": "03/2015",
           "activities"    : [
-            "Ledende udvikler af en integreret GUI til billedspektroskopi",
-            "Operativt ansvar for hyperspektrale testbænke i SWIR, VIS og UV",
+            "Ledende udvikler af en integreret GUI til XXX",
+            "Operativt ansvar for hyperspektrale XXX i SWIR, VIS og UV",
             "Design og konstruktion af mekatroniske komponenter"
           ]
         }

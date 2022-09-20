@@ -5,7 +5,7 @@
     "language_flag_image": "flag_images/DK.svg",    
     "professional_experience_name": "Professionel erfaring",
     "education_name": "Uddannelse",
-    "skills_name": "Færdigheder",
+    "skills_name": "Kompetencer",
     "skills_categories": [
         {
             "id": "highlight",
@@ -36,8 +36,7 @@
     "content": "Indhold",
     "curriculum": "Curriculum",
     "activities": "Aktiviteter",
-    "all": "Alle",
     "read_more": "...læs mere",
     "read_less": "...mindre",
-    "show_number": "vise"
+    "show_number": "vis"
 }
