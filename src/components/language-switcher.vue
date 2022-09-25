@@ -1,14 +1,9 @@
 <template>
   <v-menu offset-y>
     <template v-slot:activator="{ on: menu }">
-      <v-tooltip bottom>
-        <template v-slot:activator="{ on: tooltip }">
-          <v-btn icon v-on="{ ...tooltip, ...menu }">
-            <img :src="$t('language_flag_image')" width="40px" class="mr-0" />
-          </v-btn>
-        </template>
-        <span>{{ $t("language_switch") }}</span>
-      </v-tooltip>
+      <v-btn icon v-on="{ ...menu }">
+        <img :src="$t('language_flag_image')" width="40px" class="mr-0" />
+      </v-btn>
     </template>
     <v-list>
       <v-list-item

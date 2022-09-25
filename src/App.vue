@@ -1,9 +1,6 @@
 <template>
   <v-app app>
-    <span v-if="$vuetify.breakpoint.xsOnly">
-      <AboutMe :is-big-img="false" :too-small="true" />
-    </span>
-    <span v-else>
+    <span>
       <v-app-bar
         app
         dark
