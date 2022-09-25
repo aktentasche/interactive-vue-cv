@@ -3,7 +3,7 @@
         {
             "types": ["software","highlight"],
             "name": "Linux",
-            "description": "Open source operating system",
+            "description": "Open source operativsystem",
             "url": "https://www.kernel.org/",
             "entry_img": "skills_images/tux.png"
         },              
@@ -67,7 +67,7 @@
             "types": ["programming"],
             "name": "MySQL / MariaDB",
             "description": "Relationel database",
-            "url": "https://www.python.org/",
+            "url": "https://mariadb.org/",
             "entry_img": "skills_images/mysql.png"
         },
         {
