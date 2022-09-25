@@ -3,7 +3,7 @@
         {
             "types": ["software"],
             "name": "arch",
-            "description": "Linux-distribution med rullende udgivelse",
+            "description": "Rolling release Linux distribution",
             "url": "https://www.archlinux.org/",
             "entry_img": "skills_images/arch.png"
         },
@@ -17,21 +17,21 @@
         {
             "types": ["programming"],
             "name": "Vue.js",
-            "description": "Javascript-ramme til webapplikationer",
+            "description": "Javascript framework til webapplikationer",
             "url": "https://vuejs.org/",
             "entry_img": "skills_images/vue.png"
         },
         {
             "types": ["software"],
             "name": "GNURadio",
-            "description": "Værktøjssæt til signalbehandling og softwareradio",
+            "description": "Toolkit til signalbehandling og softwareradio",
             "url": "https://www.gnuradio.org/",
             "entry_img": "skills_images/gnuradio.png"
         },
         {
             "types": ["software", "programming"],
             "name": "Visual Studio Code",
-            "description": "Udvidelig kildekode-editor",
+            "description": "Extensible source-code editor",
             "url": "https://code.visualstudio.com/",
             "entry_img": "skills_images/vscode.png"
         },
@@ -45,14 +45,14 @@
         {
             "types": ["programming", "highlight"],
             "name": "Python",
-            "description": "Hurtigt prototypeudviklingssprog med flere paradigmer",
+            "description": "Multi-paradigm rapid prototyping language",
             "url": "https://www.python.org/",
             "entry_img": "skills_images/python.png"
         },
         {
             "types": ["programming", "highlight"],
             "name": "C++",
-            "description": "Objektorienteret sprog til generelle formål",
+            "description": "Objektorienteret language til generelle formål",
             "url": "https://isocpp.org/",
             "entry_img": "skills_images/cpp.png"
         },
@@ -66,7 +66,7 @@
         {
             "types": ["programming"],
             "name": "bash Shell",
-            "description": "Den standard og alsidige shell til linux",
+            "description": "Standard og alsidige shell til linux",
             "url": "https://www.gnu.org/software/bash/",
             "entry_img": "skills_images/bash.png"
         },
@@ -80,28 +80,28 @@
         {
             "types": ["programming"],
             "name": "timescaledb / postgres",
-            "description": "Relationel database med udvidelser til tidsdata",
+            "description": "Relationel database med tilføjelse til tidsdata",
             "url": "https://www.timescale.com/",
             "entry_img": "skills_images/timescale.png"
         },
         {
             "types": ["programming"],
             "name": "Vuetify",
-            "description": "En ramme for materiale design til Vue.js",
+            "description": "En framework for materiale design til Vue.js",
             "url": "https://vuetifyjs.com/",
             "entry_img": "skills_images/vuetify.png"
         },
         {
             "types": ["programming"],
             "name": "Quasar",
-            "description": "En ramme for materiale design til Vue.js",
+            "description": "En framework for materiale design til Vue.js",
             "url": "https://quasar.dev/",
             "entry_img": "skills_images/quasar.png"
         },
         {
             "types": ["programming"],
             "name": "C#",
-            "description": "Objektorienteret sprog, der udnytter .NET",
+            "description": "Objektorienteret language, som anvender .NET",
             "url": "https://csharp.net/",
             "entry_img": "skills_images/csharp.png"
         },
@@ -122,7 +122,7 @@
         {
             "types": ["programming", "highlight"],
             "name": "VHDL",
-            "description": "Logisk kredsløbsbeskrivelsessprog",
+            "description": "Logic circuit description language",
             "url": "https://en.wikipedia.org/wiki/VHDL",
             "entry_img": "skills_images/vhdl.png"
         },
@@ -136,14 +136,14 @@
         {
             "types": ["software"],
             "name": "Jira",
-            "description": "Klasseledende billetløsning",
+            "description": "Class-leading ticketing solution",
             "url": "",
             "entry_img": "skills_images/jira.png"
         },
         {
             "types": ["concept"],
             "name": "SCRUM",
-            "description": "Rammer for teamkoordinering og projektstyring",
+            "description": "Framework for teamkoordinering og projektstyring",
             "url": "",
             "entry_img": "skills_images/scrum.png"
         },

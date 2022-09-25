@@ -13,23 +13,23 @@
             "start": "04/2015",
             "end": "05/2016",
             "background": [
-                "Large Hadron Collider (LHC) er en cirkulær partikelaccelerator, der er placeret ved CERN i Genève. Protoner accelereres til ", 
+                "Large Hadron Collider (LHC) er en cirkulær partikelaccelerator, der er placeret ved CERN i Genève. Protoner accelereres og ", 
                 "bringes til frontalinteraktion med hinanden i et af eksperimenterne. Hvert eksperiment ",
                 "består af flere underdetektorer, der er ansvarlige for forskellige opgaver, f.eks. energimåling eller partikelsporing. ",
                 "I vekselvirkningspunktet (IP) omdannes en del af den energi, der er indeholdt i de accelererede protoner, til flere ",
                 "sekundære partikler, som derefter måles af subdetektorerne. Det afhænger af de interagerende protoners baner ",
-                "i hvilken retning den sekundære partikelregn peger. Subdetektorerne i LHCb-eksperimentet er konstrueret således, at de ",
+                "i hvilken retning den sekundære particle shower peger. Subdetektorerne i LHCb-eksperimentet er konstrueret således, at de ",
                 "kan måle partikler, hvis baner har en relativt lille vinkel i forhold til den primære protonstråle. ",
                 "High Rapidity Shower Counter for LHCb (HeRSCheL) er blevet designet som en tilføjelse til LHCb med det formål ",
                 "at udvide dækningen til endnu mindre vinkler. HeRSCheL består af stationer langs strålerøret op til ±114 m fra IP. ",
-                "Hver station består af fire scintillerende paddetektorer, hvis lysudgang stimulerer et fotomultiplikatorrør. ",
+                "Hver station består af fire scintillating paddetektorer, hvis lysudgang stimulerer et fotomultiplikatorrør. ",
                 "Stationerne er grupperet i to sider: fremad og bagud, afhængigt af deres relative position i forhold til IP.",
-                "Interaktioner ved LHC sker hver 25ns eller med 40 MHz. Hver interaktion kan potentielt skabe en datapakke med ",
-                "størrelsen på omkring 100 Kilobyte, der indeholder målingerne fra alle underdetektorer. Da den akkumulerede datahastighed på 4 ",
-                "terabyte pr. sekund er for stor til at blive behandlet i realtid, analyserer en filtreringsmekanisme nogle af subdetektorerne ",
-                "data. Hvis den genkender en interessant begivenhed for partikelfysikken, udløser den udlæsning af data, som midlertidigt ",
+                "Interaktioner ved LHC sker hver 25ns eller med 40 MHz. Hver interaktion kan potentielt skabe en datapakke på ",
+                "størrelsen med omkring 100 Kilobyte, der indeholder målingerne fra alle underdetektorer. Da den akkumulerede datahastighed på 4 ",
+                "terabyte pr. sekund er for stor til at blive behandlet i realtid, analyserer en filtreringsmekanisme nogle af subdetektorernes ",
+                "data. Hvis den genkender en interessant begivenhed for partikelfysikken, udløser den udlæsning af data, som midlertidigt bliver ",
                 "gemt i hver enkelt subdetektor. Denne lagring er normalt realiseret som en FIFO integreret i en FPGA. ",
-                "HeRSCheL genbruger komponenter fra andre LHCb-subdetektorer for at holde udviklingstiden og omkostningerne nede. Imidlertid, ",
+                "HeRSCheL genbruger komponenter fra andre LHCb-subdetektorer for at holde udviklingstiden og omkostningerne nede. Men ",
                 "disse komponenter er ikke designet til store afstande mellem subdetektorkomponenterne."
             ],
             "content": [
@@ -97,24 +97,24 @@
 
             "background": [
                 "I mange industrier, f.eks. inden for fødevareforarbejdning, anvendes automatiserede optiske måleteknikker ",
-                "anvendes til at sikre et produkts kvalitet. Ud over den synlige del af det elektromagnetiske bølgespektrum ",
-                "er også den nærinfrarøde del mellem 800-2500 nm af betydning, fordi mange organiske molekyler ophidses, hvilket ",
+                "til at sikre et produkts kvalitet. Ud over den synlige del af det elektromagnetiske bølgespektrum ",
+                "er også den nærinfrarøde del mellem 800-2500 nm af betydning, fordi mange organiske molekyler exiteres,",
                 "hvilket igen fører til en absorption eller transmission af en bestemt bølgelængde. Ved hjælp af disse spektrer kan uønsket materiale ",
                 " (f.eks. snavs) adskilles fra det ønskede produkt. Men de høje transporthastigheder i industrien ",
                 "forhindrer brugen af billedspektrometre, der har en maksimal billedhastighed på ca. 300 Hz. For eksempel ved en almindelig transporthastighed ",
                 "på 3 meter i sekundet vil kun hver centimeter af det transporterede gods blive analyseret. Det er for lidt til små materialer",
                 "som f.eks. kaffe. Linjekameraer kan derimod have høje billedfrekvenser på op til 20 kHz, er enkelt opbygget og billigere.",
-                "Et linjekamera, hvis detektorchips er baseret på silikone, er følsomme over for bølgelængder fra 200-1000nm. Almindelige er kameraer ",
-                "der har flere kanaler og derfor filtre for en bestemt farve (f.eks. rød, grøn og blå). ",
+                "Et linjekamera, hvis detektorchips er baseret på silikone, er følsomme over for bølgelængder fra 200-1000nm. Almindeligvis har kameraer ",
+                "flere kanaler og derfor filtre for en bestemt farve (f.eks. rød, grøn og blå). ",
                 "I stedet for at bruge et konventionelt, Gauss-formet optisk filter med transmissionsspektrum kan man bruge ikke-konventionelle optiske filtre",
                 "med et andet transmissionsspektrum. Dette transmissionsspektrum vil være baseret på det materiale, der skal detekteres, og kan konstrueres ",
                 "ved hjælp af maskinlæring og klassifikationsprocedurer."
             ],
             "content": [
-                "Konstruktion og automatisering af en optisk bænk til indsamling af spektrale data fra forskellige organiske materialer",
+                "Konstruktion og automatisering af en optical bench til indsamling af spektrale data fra forskellige organiske materialer",
                 "Tilslutning og automatisering af et NIR-spektrometer til MATLAB-analyse af de organiske materialer",
                 "Grænseflader og automatisering af en spektralt programmerbar NIR-lyskilde",
-                "Klassificering af organiske materialer på grundlag af indsamlede data og ved hjælp af NIR-lyskilden."
+                "Klassificering af organiske materialer på baggrund af indsamlede data og ved hjælp af NIR-lyskilden."
             ]
         },      
         {
@@ -153,7 +153,7 @@
                 "Elektriske felter",
                 "Kontrolteori",
                 "Elektronik",
-                "informationsteori",
+                "Informationsteori",
                 "Stokastiske signaler og systemer",
                 "RF-teknikker",
                 "Design af analoge og digitale systemer",

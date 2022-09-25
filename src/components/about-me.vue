@@ -1,5 +1,5 @@
 <template>
-  <v-card class="rounded-1 elevation-3">
+  <v-card class="rounded-1 elevation-7">
     <!-- using color of dots of timeline -->
     <v-card-title class="primary">
       <span class="display-1 white--text font-weight-bold">
@@ -11,7 +11,14 @@
     <!-- px3 to align with title -->
     <v-card-text class="px-3">
       <v-row>
-        <v-img src="me.jpg" :height="isBigImg ? 320 : 160" id="aboutmeimg" />
+        <v-img
+          v-if="$vuetify.breakpoint.lgAndUp"
+          src="me.jpg"
+          min-height="300px"
+          max-height="500px"
+          min-width="200px"
+          id="aboutmeimg"
+        />
       </v-row>
 
       <div v-if="tooSmall" class="pt-2 pb-2">TO BE FIXED}</div>
@@ -52,10 +59,6 @@
 import LanguageSwitcher from "./language-switcher";
 
 export default {
-  props: {
-    isBigImg: Boolean,
-    tooSmall: Boolean,
-  },
   components: {
     LanguageSwitcher,
   },
