@@ -39,7 +39,7 @@
       <v-main id="main-container" ref="maincontainerref">
         <v-row no-gutters>
           <v-col :hidden="$vuetify.breakpoint.lgAndUp" cols="12">
-            <AboutMe :is-big-img="true" :too-small="false" />
+            <AboutMe />
           </v-col>
 
           <v-col cols="12">
@@ -81,7 +81,7 @@
             :hidden="$vuetify.breakpoint.mdAndDown"
             cols="3"
           >
-            <AboutMe class="ma-4" :is-big-img="false" :too-small="false" />
+            <AboutMe class="ma-4" />
           </v-col>
         </v-row>
       </v-main>
