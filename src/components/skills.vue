@@ -17,7 +17,16 @@
       <MainColumnWrapper>
         <v-row>
           <v-col cols="12">
+            <v-select
+              v-if="$vuetify.breakpoint.mdAndDown"
+              v-model="selectedSkillCategory"
+              :items="$t('skills_categories')"
+              item-text="name"
+              item-value="id"
+            ></v-select>
+
             <v-btn-toggle
+              v-if="$vuetify.breakpoint.lgAndUp"
               v-model="selectedSkillCategory"
               tile
               group
@@ -35,8 +44,10 @@
         </v-row>
 
         <v-row>
+          <!-- 12 / 4 = 3 columns, 12 / 12 = 1 column -->
+
           <v-col
-            :cols="$vuetify.breakpoint.lgAndUp ? 4 : 6"
+            :cols="$vuetify.breakpoint.lgAndUp ? 4 : 12"
             v-for="entry in skills_filtered"
             :key="entry.name"
           >
@@ -45,7 +56,10 @@
                 <v-row>
                   <v-col cols="2" class="d-flex justify-center fill-height">
                     <v-icon
-                      v-if="entry.types.includes('highlight')"
+                      v-if="
+                        entry.types.includes('highlight') &&
+                        $vuetify.breakpoint.lgAndUp
+                      "
                       color="yellow darken-2"
                       size="42"
                       class="ml-4"

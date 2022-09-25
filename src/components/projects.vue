@@ -18,7 +18,7 @@
       <MainColumnWrapper>
         <v-row>
           <v-col
-            :cols="$vuetify.breakpoint.lgAndUp ? 4 : 6"
+            :cols="$vuetify.breakpoint.lgAndUp ? 4 : 12"
             v-for="entry in projects_unsorted"
             :key="entry.name"
           >
