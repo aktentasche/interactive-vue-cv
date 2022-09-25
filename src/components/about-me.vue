@@ -12,7 +12,6 @@
     <v-card-text class="px-3">
       <v-row>
         <v-img
-          v-if="$vuetify.breakpoint.lgAndUp"
           src="me.jpg"
           min-height="300px"
           max-height="500px"
@@ -20,8 +19,6 @@
           id="aboutmeimg"
         />
       </v-row>
-
-      <div v-if="tooSmall" class="pt-2 pb-2">TO BE FIXED}</div>
 
       <h2 class="pt-2 pb-2">{{ $t("about_me_headline") }}</h2>
       <v-divider />

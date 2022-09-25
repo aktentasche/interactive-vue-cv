@@ -1,19 +1,12 @@
 {
     "skills_entries": [
         {
-            "types": ["software"],
-            "name": "arch",
-            "description": "Rolling release Linux distribution",
-            "url": "https://www.archlinux.org/",
-            "entry_img": "skills_images/arch.png"
-        },
-        {
-            "types": ["software"],
-            "name": "Debian",
-            "description": "Stabil Linux-distribution",
-            "url": "https://www.debian.org/",
-            "entry_img": "skills_images/debian.png"
-        },
+            "types": ["software","highlight"],
+            "name": "Linux",
+            "description": "Open source operating system",
+            "url": "https://www.kernel.org/",
+            "entry_img": "skills_images/tux.png"
+        },              
         {
             "types": ["programming"],
             "name": "Vue.js",
@@ -50,7 +43,7 @@
             "entry_img": "skills_images/python.png"
         },
         {
-            "types": ["programming", "highlight"],
+            "types": ["programming"],
             "name": "C++",
             "description": "Objektorienteret language til generelle formål",
             "url": "https://isocpp.org/",
@@ -120,7 +113,7 @@
             "entry_img": "skills_images/proxmox.png"
         },
         {
-            "types": ["programming", "highlight"],
+            "types": ["programming"],
             "name": "VHDL",
             "description": "Logic circuit description language",
             "url": "https://en.wikipedia.org/wiki/VHDL",
@@ -128,8 +121,8 @@
         },
         {
             "types": ["concept", "highlight"],
-            "name": "RF Målinger",
-            "description": "Måling af signaler i RF-domænet",
+            "name": "RF-signaler",
+            "description": "Generering, måling og analyse af signaler i RF-domænet",
             "url": "",
             "entry_img": "skills_images/emwave.gif"
         },
@@ -141,7 +134,7 @@
             "entry_img": "skills_images/jira.png"
         },
         {
-            "types": ["concept"],
+            "types": ["concept","highlight"],
             "name": "SCRUM",
             "description": "Framework for teamkoordinering og projektstyring",
             "url": "",

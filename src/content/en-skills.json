@@ -1,19 +1,12 @@
 {
     "skills_entries": [
         {
-            "types": ["software"],
-            "name": "arch",
-            "description": "Rolling release Linux distribution",
-            "url": "https://www.archlinux.org/",
-            "entry_img": "skills_images/arch.png"
-        },
-        {
-            "types": ["software"],
-            "name": "Debian",
-            "description": "Stable Linux distribution",
-            "url": "https://www.debian.org/",
-            "entry_img": "skills_images/debian.png"
-        },
+            "types": ["software","highlight"],
+            "name": "Linux",
+            "description": "Open source operating system",
+            "url": "https://www.kernel.org/",
+            "entry_img": "skills_images/tux.png"
+        },       
         {
             "types": ["programming"],
             "name": "Vue.js",
@@ -50,7 +43,7 @@
             "entry_img": "skills_images/python.png"
         },
         {
-            "types": ["programming", "highlight"],
+            "types": ["programming"],
             "name": "C++",
             "description": "Object-oriented general purpose language",
             "url": "https://isocpp.org/",
@@ -74,12 +67,12 @@
             "types": ["programming"],
             "name": "MySQL / MariaDB",
             "description": "Relational database",
-            "url": "https://www.python.org/",
+            "url": "https://mariadb.org/",
             "entry_img": "skills_images/mysql.png"
         },
         {
             "types": ["programming"],
-            "name": "timescaledb / postgres",
+            "name": "postgres / timescaledb",
             "description": "Relational database with time data extensions",
             "url": "https://www.timescale.com/",
             "entry_img": "skills_images/timescale.png"
@@ -120,7 +113,7 @@
             "entry_img": "skills_images/proxmox.png"
         },
         {
-            "types": ["programming", "highlight"],
+            "types": ["programming"],
             "name": "VHDL",
             "description": "Logic circuit description language",
             "url": "https://en.wikipedia.org/wiki/VHDL",
@@ -128,8 +121,8 @@
         },
         {
             "types": ["concept", "highlight"],
-            "name": "RF Measurements",
-            "description": "Measuring signals in the RF domain",
+            "name": "RF signals",
+            "description": "Generating, measuring and analysing signals in the RF domain",
             "url": "",
             "entry_img": "skills_images/emwave.gif"
         },
@@ -141,7 +134,7 @@
             "entry_img": "skills_images/jira.png"
         },
         {
-            "types": ["concept"],
+            "types": ["concept","highlight"],
             "name": "SCRUM",
             "description": "Team coordination and project management framework",
             "url": "",
