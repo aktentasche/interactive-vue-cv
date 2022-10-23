@@ -1,12 +1,19 @@
 {
     "skills_entries": [
         {
-            "types": ["software","highlight"],
+            "types": ["software"],
             "name": "Linux",
             "description": "Open source operativsystem",
             "url": "https://www.kernel.org/",
             "entry_img": "skills_images/tux.png"
         },              
+        {
+            "types": ["concept","highlight"],
+            "name": "Data Visualisation",
+            "description": "Realtime and offline reportering af performance indicators",
+            "url": "",
+            "entry_img": "skills_images/datavisualisation.png"
+        },   
         {
             "types": ["programming"],
             "name": "Vue.js",
@@ -120,7 +127,7 @@
             "entry_img": "skills_images/vhdl.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "RF-signaler",
             "description": "Generering, måling og analyse af signaler i RF-domænet",
             "url": "",
@@ -253,11 +260,25 @@
             "entry_img": "skills_images/qipions.png"
         },
         {
-            "types": ["concept", "hardware", "highlight"],
+            "types": ["concept", "hardware"],
             "name": "PCB design",
             "description": "Design, verifikation og samling af printplader i små serier",
             "url": "",
             "entry_img": "skills_images/pcb.jpg"
+        },
+        {
+            "types": ["concept", "highlight"],
+            "name": "Extract-Transform-Load",
+            "description": "Læsning, behandling og lagring af data fra heterogene kilder",
+            "url": "https://en.wikipedia.org/wiki/Extract,_transform,_load",
+            "entry_img": "skills_images/etl.png"
+        },
+        {
+            "types": ["concept", "highlight"],
+            "name": "Relational and Non-relational databases",
+            "description": "Skalerbar og konsistent lagring af data",
+            "url": "",
+            "entry_img": "skills_images/databases.png"
         }
 
         
