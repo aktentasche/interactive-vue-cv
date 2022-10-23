@@ -11,13 +11,13 @@
     <!-- px3 to align with title -->
     <v-card-text class="px-3">
       <v-row>
-        <!-- <v-img
+        <v-img
           src="me.jpg"
           min-height="300px"
           max-height="500px"
           min-width="200px"
           id="aboutmeimg"
-        /> -->
+        />
       </v-row>
 
       <h2 class="pt-2 pb-2">{{ $t("about_me_headline") }}</h2>
