@@ -58,6 +58,9 @@
           <td>
             <v-icon class="pl-4" size="28">mdi-star</v-icon>
             <v-icon v-for="index in 1" :key="index" size="28">mdi-star</v-icon>
+            <v-icon v-for="index in 3" :key="index + 10" size="28"
+              >mdi-star-outline</v-icon
+            >
           </td>
         </tr>
         <tr>
@@ -67,6 +70,9 @@
           <td>
             <v-icon class="pl-4" size="28">mdi-star</v-icon>
             <v-icon v-for="index in 0" :key="index" size="28">mdi-star</v-icon>
+            <v-icon v-for="index in 4" :key="index + 10" size="28"
+              >mdi-star-outline</v-icon
+            >
           </td>
         </tr>
       </table>
