@@ -35,7 +35,12 @@
       <table>
         <tr>
           <td>
-            <v-img width="30px" src="flag_images/DE.svg" class="ml-1"></v-img>
+            <v-img
+              width="30px"
+              height="20px"
+              src="flag_images/de.png"
+              class="ml-1"
+            ></v-img>
           </td>
           <td>
             <v-icon class="pl-4" size="28">mdi-star</v-icon>
@@ -44,7 +49,12 @@
         </tr>
         <tr>
           <td>
-            <v-img width="30px" src="flag_images/GB.svg" class="ml-1"></v-img>
+            <v-img
+              width="30px"
+              height="20px"
+              src="flag_images/gb.png"
+              class="ml-1"
+            ></v-img>
           </td>
           <td>
             <v-icon class="pl-4" size="28">mdi-star</v-icon>
@@ -53,7 +63,12 @@
         </tr>
         <tr>
           <td>
-            <v-img width="30px" src="flag_images/FR.svg" class="ml-1"></v-img>
+            <v-img
+              width="30px"
+              height="20px"
+              src="flag_images/fr.png"
+              class="ml-1"
+            ></v-img>
           </td>
           <td>
             <v-icon class="pl-4" size="28">mdi-star</v-icon>
@@ -65,7 +80,12 @@
         </tr>
         <tr>
           <td>
-            <v-img width="30px" src="flag_images/DK.svg" class="ml-1"></v-img>
+            <v-img
+              width="30px"
+              height="20px"
+              src="flag_images/dk.png"
+              class="ml-1"
+            ></v-img>
           </td>
           <td>
             <v-icon class="pl-4" size="28">mdi-star</v-icon>
