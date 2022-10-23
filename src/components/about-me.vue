@@ -35,12 +35,12 @@
       <table>
         <tr>
           <td>
-            <v-img
+            <!-- <v-img
               width="30px"
               height="20px"
               src="flag_images/de.png"
               class="ml-1"
-            ></v-img>
+            ></v-img> -->
           </td>
           <td>
             <v-icon class="pl-4" size="28">mdi-star</v-icon>
