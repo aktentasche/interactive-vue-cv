@@ -8,7 +8,7 @@
             "entry_img": "skills_images/tux.png"
         },              
         {
-            "types": ["concept","highlight"],
+            "types": ["concept"],
             "name": "Data Visualisation",
             "description": "Realtime and offline reportering af performance indicators",
             "url": "",
@@ -127,7 +127,7 @@
             "entry_img": "skills_images/vhdl.png"
         },
         {
-            "types": ["concept"],
+            "types": ["concept", "highlight"],
             "name": "RF-signaler",
             "description": "Generering, måling og analyse af signaler i RF-domænet",
             "url": "",
@@ -141,7 +141,7 @@
             "entry_img": "skills_images/jira.png"
         },
         {
-            "types": ["concept","highlight"],
+            "types": ["concept"],
             "name": "SCRUM",
             "description": "Framework for teamkoordinering og projektstyring",
             "url": "",
@@ -155,14 +155,14 @@
             "entry_img": "skills_images/3dprinter.jpg"
         },
         {
-            "types": ["concept"],
+            "types": ["concept", "highlight"],
             "name": "Digital signalbehandling",
             "description": "Behandling af digitaliserede data",
             "url": "",
             "entry_img": "skills_images/sinc.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Softwarearkitektur",
             "description": "Hvordan designer man grænseflader og programmer i stor skala?",
             "url": "",
@@ -197,14 +197,14 @@
             "entry_img": "skills_images/vsg.jpeg"
         },
         {
-            "types": ["hardware"],
+            "types": ["hardware", "highlight"],
             "name": "Lodning",
             "description": "Samling, tilslutning og fastgørelse af elektroniske komponenter",
             "url": "",
             "entry_img": "skills_images/soldering.jpg"
         },
         {
-            "types": ["hardware"],
+            "types": ["hardware", "highlight"],
             "name": "Software-defineret radio",
             "description": "Radio, der kan justeres og styres ved hjælp af software",
             "url": "",
@@ -260,21 +260,21 @@
             "entry_img": "skills_images/qipions.png"
         },
         {
-            "types": ["concept", "hardware"],
+            "types": ["concept", "hardware", "highlight"],
             "name": "PCB design",
             "description": "Design, verifikation og samling af printplader i små serier",
             "url": "",
             "entry_img": "skills_images/pcb.jpg"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Extract-Transform-Load",
             "description": "Læsning, behandling og lagring af data fra heterogene kilder",
             "url": "https://en.wikipedia.org/wiki/Extract,_transform,_load",
             "entry_img": "skills_images/etl.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Relational and Non-relational databases",
             "description": "Skalerbar og konsistent lagring af data",
             "url": "",

@@ -8,7 +8,7 @@
             "entry_img": "skills_images/tux.png"
         },     
         {
-            "types": ["concept","highlight"],
+            "types": ["concept"],
             "name": "Data Visualisation",
             "description": "Realtime and offline reporting of performance indicators",
             "url": "",
@@ -127,7 +127,7 @@
             "entry_img": "skills_images/vhdl.png"
         },
         {
-            "types": ["concept"],
+            "types": ["concept", "highlight"],
             "name": "RF signals",
             "description": "Generating, measuring and analysing signals in the RF domain",
             "url": "",
@@ -141,7 +141,7 @@
             "entry_img": "skills_images/jira.png"
         },
         {
-            "types": ["concept","highlight"],
+            "types": ["concept"],
             "name": "SCRUM",
             "description": "Team coordination and project management framework",
             "url": "",
@@ -155,14 +155,14 @@
             "entry_img": "skills_images/3dprinter.jpg"
         },
         {
-            "types": ["concept"],
+            "types": ["concept", "highlight"],
             "name": "Digital Signal Processing",
             "description": "Processing digitized data",
             "url": "",
             "entry_img": "skills_images/sinc.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Software Architecture",
             "description": "How to design interfaces and large scale programs?",
             "url": "",
@@ -197,14 +197,14 @@
             "entry_img": "skills_images/vsg.jpeg"
         },
         {
-            "types": ["hardware"],
+            "types": ["hardware", "highlight"],
             "name": "Soldering",
             "description": "Assembling, connecting and fixing of electronic components",
             "url": "",
             "entry_img": "skills_images/soldering.jpg"
         },
         {
-            "types": ["hardware"],
+            "types": ["hardware", "highlight"],
             "name": "Software Defined Radio",
             "description": "Radio that can be adjusted and controlled by software",
             "url": "",
@@ -260,21 +260,21 @@
             "entry_img": "skills_images/qipions.png"
         },
         {
-            "types": ["concept", "hardware"],
+            "types": ["concept", "hardware", "highlight"],
             "name": "PCB design",
             "description": "Design, verification and assembly of small-volume circuit boards",
             "url": "",
             "entry_img": "skills_images/pcb.jpg"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Extract-Transform-Load",
             "description": "Reading, processing and storing data from heterogenous sources",
             "url": "https://en.wikipedia.org/wiki/Extract,_transform,_load",
             "entry_img": "skills_images/etl.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Relational and Non-relational databases",
             "description": "Scalable and consistent storage of data",
             "url": "",
