@@ -190,7 +190,7 @@
             "entry_img": "skills_images/sinc.png"
         },
         {
-            "types": ["concept"],
+            "types": ["concept","highlight"],
             "name": "Software Architecture",
             "description": "How to design interfaces and large scale programs?",
             "url": "",
@@ -204,7 +204,7 @@
             "entry_img": "skills_images/networkanalyser.jpg"
         },
         {
-            "types": ["hardware"],
+            "types": ["hardware", "highlight"],
             "name": "Spectrum Analyser",
             "description": "Instrument to measure the spectrum of a signal",
             "url": "",
@@ -232,7 +232,7 @@
             "entry_img": "skills_images/soldering.jpg"
         },
         {
-            "types": ["hardware", "highlight"],
+            "types": ["hardware"],
             "name": "Software Defined Radio",
             "description": "Radio that can be adjusted and controlled by software",
             "url": "",
@@ -288,7 +288,7 @@
             "entry_img": "skills_images/qipions.png"
         },
         {
-            "types": ["concept", "hardware", "highlight"],
+            "types": ["concept", "hardware"],
             "name": "PCB design",
             "description": "Design, verification and assembly of small-volume circuit boards",
             "url": "",

@@ -190,7 +190,7 @@
             "entry_img": "skills_images/sinc.png"
         },
         {
-            "types": ["concept"],
+            "types": ["concept", "highlight"],
             "name": "Softwarearkitektur",
             "description": "Hvordan designer man grænseflader og programmer i stor skala?",
             "url": "",
@@ -204,7 +204,7 @@
             "entry_img": "skills_images/networkanalyser.jpg"
         },
         {
-            "types": ["hardware"],
+            "types": ["hardware", "highlight"],
             "name": "Spektrumanalysator",
             "description": "Instrument til måling af spektret af et signal",
             "url": "",
@@ -232,7 +232,7 @@
             "entry_img": "skills_images/soldering.jpg"
         },
         {
-            "types": ["hardware", "highlight"],
+            "types": ["hardware"],
             "name": "Software-defineret radio",
             "description": "Radio, der kan justeres og styres ved hjælp af software",
             "url": "",
@@ -288,7 +288,7 @@
             "entry_img": "skills_images/qipions.png"
         },
         {
-            "types": ["concept", "hardware", "highlight"],
+            "types": ["concept", "hardware"],
             "name": "PCB design",
             "description": "Design, verifikation og samling af printplader i små serier",
             "url": "",
