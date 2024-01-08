@@ -1,6 +1,21 @@
 {
     "professional_experience_entries": [
         {
+          "title": "Manufacturing Intelligence Ingeniør",
+          "entity_group": "Robotics& OT, Device Manufacturing Development",
+          "entity": "Novo Nordisk",
+          "entity_url": "https://www.novonordisk.com/",
+          "entity_image": "entity_images/nn_logo.png",
+          "place": "Hillerød, Danmark",
+          "start": "04/2023",
+          "end": "i dag",
+          "activities"    : [
+            "Avanceret dataanalyse og PLC-dataekstraktion",
+            "Proof of concepts for industry 4.0",
+            "Udviklingsprojekt og interessentstyring"
+          ]
+        },
+        {
           "title": "Ingeniør i Quantum-kontrolsystemer",
           "entity_group": "Quantum Computing Hub",
           "entity": "ETH Zürich/Paul Scherrer Institut",
@@ -8,7 +23,7 @@
           "entity_image": "entity_images/eth_logo.png",
           "place": "Villigen, Schweiz",
           "start": "05/2021",
-          "end": "i dag",
+          "end": "03/2023",
           "activities"    : [
             "Design og implementering af næste generation af quantum stack ion trap orchestration and visualisation framework",
             "Support til RF-, elektronik- og PCB-design til eksperimenter og laserinfrastruktur",
