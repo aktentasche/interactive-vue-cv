@@ -2,6 +2,34 @@
     "skills_entries": [
         {
             "types": ["software"],
+            "name": "Cloud Computing",
+            "description": "Scalable computing resources using AWS and Azure",
+            "url": "",
+            "entry_img": "skills_images/cloud.png"
+        },     
+        {
+            "types": ["software"],
+            "name": "Apache Kafka",
+            "description": "Distributed event store and stream-processing platform",
+            "url": "https://kafka.apache.org/",
+            "entry_img": "skills_images/kafka.png"
+        },     
+        {
+            "types": ["software"],
+            "name": "Azure DevOps",
+            "description": "Cloud service for software development and CI",
+            "url": "https://azure.microsoft.com/en-us/products/devops",
+            "entry_img": "skills_images/azure_devops.png"
+        },     
+        {
+            "types": ["concept"],
+            "name": "Edge Computing",
+            "description": "Data processing close to the source",
+            "url": "",
+            "entry_img": "skills_images/edge.png"
+        },     
+        {
+            "types": ["software"],
             "name": "Linux",
             "description": "Open source operating system",
             "url": "https://www.kernel.org/",
