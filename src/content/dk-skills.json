@@ -307,6 +307,20 @@
             "description": "Skalerbar og konsistent lagring af data",
             "url": "",
             "entry_img": "skills_images/databases.png"
+        },
+        {
+            "types": ["concept", "software"],
+            "name": "Cloud computing",
+            "description": "On-demand tilrådighedsstillelse af computer- og lagerressourcer",
+            "url": "",
+            "entry_img": "skills_images/cloud.jpg"
+        },
+        {
+            "types": ["software"],
+            "name": "Azure",
+            "description": "Cloud services by Microsoft",
+            "url": "",
+            "entry_img": "skills_images/azure.png"
         }
 
         

@@ -307,6 +307,20 @@
             "description": "Scalable and consistent storage of data",
             "url": "",
             "entry_img": "skills_images/databases.png"
+        },
+        {
+            "types": ["concept", "software"],
+            "name": "Cloud computing",
+            "description": "On-demand provisioning of computing and storage resources",
+            "url": "",
+            "entry_img": "skills_images/cloud.jpg"
+        },
+        {
+            "types": ["software"],
+            "name": "Azure",
+            "description": "Cloud services by Microsoft",
+            "url": "",
+            "entry_img": "skills_images/azure.png"
         }
 ]
 }
