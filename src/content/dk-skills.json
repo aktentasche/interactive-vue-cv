@@ -319,8 +319,22 @@
             "types": ["software"],
             "name": "Azure",
             "description": "Cloud services by Microsoft",
-            "url": "",
+            "url": "https://azure.microsoft.com/",
             "entry_img": "skills_images/azure.png"
+        },
+        {
+            "types": ["concept", "highlight"],
+            "name": "Computer networks",             
+            "description": "Et sæt af computere, der deler ressourcer placeret på eller leveret af netværksnoder. Computere bruger fælles kommunikationsprotokoller over digitale forbindelser til at kommunikere med hinanden.",  
+            "url": "",
+            "entry_img": "skills_images/network.png"
+        },
+        {
+            "types": ["concept"],
+            "name": "Greenflied project management",
+            "description": "Projektledelse med fokus på nye projekter.",
+            "url": "",
+            "entry_img": "skills_images/project_management.jpg.png"
         }
 
         

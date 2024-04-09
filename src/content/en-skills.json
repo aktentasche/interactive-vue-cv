@@ -319,8 +319,22 @@
             "types": ["software"],
             "name": "Azure",
             "description": "Cloud services by Microsoft",
-            "url": "",
+            "url": "https://azure.microsoft.com/",
             "entry_img": "skills_images/azure.png"
+        },
+        {
+            "types": ["concept", "highlight"],
+            "name": "Computer networks",
+            "description": "A set of computers sharing resources located on or provided by network nodes. Computers use common communication protocols over digital interconnections to communicate with each other.",
+            "url": "",
+            "entry_img": "skills_images/network.png"
+        },
+        {
+            "types": ["concept", "highlight"],
+            "name": "Greenflied project management",
+            "description": "Project management geared towards greenfield projects.",
+            "url": "",
+            "entry_img": "skills_images/project_management.jpg.png"
         }
 ]
 }

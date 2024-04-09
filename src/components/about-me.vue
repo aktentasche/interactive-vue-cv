@@ -66,7 +66,7 @@
             <v-img
               width="30px"
               height="20px"
-              src="flag_images/fr.png"
+              src="flag_images/dk.png"
               class="ml-1"
             ></v-img>
           </td>
@@ -83,14 +83,14 @@
             <v-img
               width="30px"
               height="20px"
-              src="flag_images/dk.png"
+              src="flag_images/fr.png"
               class="ml-1"
             ></v-img>
           </td>
           <td>
             <v-icon class="pl-4" size="28">mdi-star</v-icon>
-            <v-icon v-for="index in 0" :key="index" size="28">mdi-star</v-icon>
-            <v-icon v-for="index in 4" :key="index + 10" size="28"
+            <v-icon v-for="index in 1" :key="index" size="28">mdi-star</v-icon>
+            <v-icon v-for="index in 3" :key="index + 10" size="28"
               >mdi-star-outline</v-icon
             >
           </td>
@@ -130,7 +130,7 @@ export default {
   data() {
     return {
       emailaddress: "jonas@amps.one",
-      phoneNumber: "+41 76 677 113 37",
+      phoneNumber: "+4560461337",
       phoneNumbeIsHidden: true
     };
   }
