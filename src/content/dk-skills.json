@@ -50,6 +50,13 @@
             "entry_img": "skills_images/vue.png"
         },
         {
+            "types": ["programming"],
+            "name": "Rust",
+            "description": "Rust er et multiparadigme, generelt programmeringssprog, der lægger vægt på ydeevne, typesikkerhed og samtidighed.",
+            "url": "https://www.rust-lang.org/",
+            "entry_img": "skills_images/rust.png"
+        },
+        {
             "types": ["software"],
             "name": "GNURadio",
             "description": "Toolkit til signalbehandling og softwareradio",
@@ -71,7 +78,7 @@
             "entry_img": "skills_images/nodered.png"
         },
         {
-            "types": ["programming", "highlight"],
+            "types": ["programming"],
             "name": "Python",
             "description": "Multi-paradigm rapid prototyping language",
             "url": "https://www.python.org/",
@@ -155,7 +162,7 @@
             "entry_img": "skills_images/vhdl.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "RF-signaler",
             "description": "Generering, måling og analyse af signaler i RF-domænet",
             "url": "",
@@ -183,7 +190,7 @@
             "entry_img": "skills_images/3dprinter.jpg"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Digital signalbehandling",
             "description": "Behandling af digitaliserede data",
             "url": "",
@@ -204,7 +211,7 @@
             "entry_img": "skills_images/networkanalyser.jpg"
         },
         {
-            "types": ["hardware", "highlight"],
+            "types": ["hardware"],
             "name": "Spektrumanalysator",
             "description": "Instrument til måling af spektret af et signal",
             "url": "",
@@ -225,7 +232,7 @@
             "entry_img": "skills_images/vsg.jpeg"
         },
         {
-            "types": ["hardware", "highlight"],
+            "types": ["hardware"],
             "name": "Lodning",
             "description": "Samling, tilslutning og fastgørelse af elektroniske komponenter",
             "url": "",
@@ -281,8 +288,8 @@
             "entry_img": "skills_images/rabbitmq.png"
         },
         {
-            "types": ["concept"],
-            "name": "Kvanteinformationsbehandling",
+            "types": ["concept", "highlight"],
+            "name": "Quantum information processing",
             "description": "QIP ved hjælp af kvantetilstande af indfangede ioner",
             "url": "",
             "entry_img": "skills_images/qipions.png"
@@ -309,7 +316,7 @@
             "entry_img": "skills_images/databases.png"
         },
         {
-            "types": ["concept", "software"],
+            "types": ["concept", "software", "highlight"],
             "name": "Cloud computing",
             "description": "On-demand tilrådighedsstillelse af computer- og lagerressourcer",
             "url": "",
@@ -330,11 +337,18 @@
             "entry_img": "skills_images/network.png"
         },
         {
-            "types": ["concept"],
-            "name": "Greenflied project management",
+            "types": ["concept", "highlight"],
+            "name": "Greenfield project management",
             "description": "Projektledelse med fokus på nye projekter.",
             "url": "",
-            "entry_img": "skills_images/project_management.jpg.png"
+            "entry_img": "skills_images/project_management.jpg"
+        },
+        {
+            "types": ["concept", "highlight"],
+            "name": "Cybersecurity",
+            "description": "Design af sikker software, sikring af computersystemer og bedste praksis inden for sikkerhed.",
+            "url": "",
+            "entry_img": "skills_images/lock.png"
         }
 
         

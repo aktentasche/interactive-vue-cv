@@ -50,6 +50,13 @@
             "entry_img": "skills_images/vue.png"
         },
         {
+            "types": ["programming"],
+            "name": "Rust",
+            "description": "Rust is a multi-paradigm, general-purpose programming language that emphasizes performance, type safety, and concurrency.",
+            "url": "https://www.rust-lang.org/",
+            "entry_img": "skills_images/rust.png"
+        },
+        {
             "types": ["software"],
             "name": "GNURadio",
             "description": "Signal processing and software radio toolkit",
@@ -71,7 +78,7 @@
             "entry_img": "skills_images/nodered.png"
         },
         {
-            "types": ["programming", "highlight"],
+            "types": ["programming"],
             "name": "Python",
             "description": "Multi-paradigm rapid prototyping language",
             "url": "https://www.python.org/",
@@ -155,7 +162,7 @@
             "entry_img": "skills_images/vhdl.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "RF signals",
             "description": "Generating, measuring and analysing signals in the RF domain",
             "url": "",
@@ -183,14 +190,14 @@
             "entry_img": "skills_images/3dprinter.jpg"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Digital Signal Processing",
             "description": "Processing digitized data",
             "url": "",
             "entry_img": "skills_images/sinc.png"
         },
         {
-            "types": ["concept","highlight"],
+            "types": ["concept", "highlight"],
             "name": "Software Architecture",
             "description": "How to design interfaces and large scale programs?",
             "url": "",
@@ -204,7 +211,7 @@
             "entry_img": "skills_images/networkanalyser.jpg"
         },
         {
-            "types": ["hardware", "highlight"],
+            "types": ["hardware"],
             "name": "Spectrum Analyser",
             "description": "Instrument to measure the spectrum of a signal",
             "url": "",
@@ -225,7 +232,7 @@
             "entry_img": "skills_images/vsg.jpeg"
         },
         {
-            "types": ["hardware", "highlight"],
+            "types": ["hardware"],
             "name": "Soldering",
             "description": "Assembling, connecting and fixing of electronic components",
             "url": "",
@@ -281,7 +288,7 @@
             "entry_img": "skills_images/rabbitmq.png"
         },
         {
-            "types": ["concept"],
+            "types": ["concept", "highlight"],
             "name": "Quantum information processing",
             "description": "QIP using quantum states of trapped ions",
             "url": "",
@@ -309,7 +316,7 @@
             "entry_img": "skills_images/databases.png"
         },
         {
-            "types": ["concept", "software"],
+            "types": ["concept", "software", "highlight"],
             "name": "Cloud computing",
             "description": "On-demand provisioning of computing and storage resources",
             "url": "",
@@ -324,17 +331,24 @@
         },
         {
             "types": ["concept", "highlight"],
-            "name": "Computer networks",
-            "description": "A set of computers sharing resources located on or provided by network nodes. Computers use common communication protocols over digital interconnections to communicate with each other.",
+            "name": "Communication networks",
+            "description": "A set of clients sharing resources located on or provided by network nodes. Clients use common communication protocols over digital interconnections to communicate with each other.",
             "url": "",
             "entry_img": "skills_images/network.png"
         },
         {
             "types": ["concept", "highlight"],
-            "name": "Greenflied project management",
+            "name": "Greenfield project management",
             "description": "Project management geared towards greenfield projects.",
             "url": "",
-            "entry_img": "skills_images/project_management.jpg.png"
+            "entry_img": "skills_images/project_management.jpg"
+        },
+        {
+            "types": ["concept", "highlight"],
+            "name": "Cybersecurity",
+            "description": "Design of secure software, securing computer systems and security best practices.",
+            "url": "",
+            "entry_img": "skills_images/lock.png"
         }
 ]
 }
