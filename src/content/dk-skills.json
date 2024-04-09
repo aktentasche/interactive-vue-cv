@@ -332,7 +332,7 @@
         {
             "types": ["concept", "highlight"],
             "name": "Computer networks",             
-            "description": "Et sæt af computere, der deler ressourcer placeret på eller leveret af netværksnoder. Computere bruger fælles kommunikationsprotokoller over digitale forbindelser til at kommunikere med hinanden.",  
+            "description": "Et sæt af computere, der deler ressourcer placeret på eller leveret af netværksnoder.",  
             "url": "",
             "entry_img": "skills_images/network.png"
         },

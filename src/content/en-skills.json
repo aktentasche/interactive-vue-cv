@@ -332,7 +332,7 @@
         {
             "types": ["concept", "highlight"],
             "name": "Communication networks",
-            "description": "A set of clients sharing resources located on or provided by network nodes. Clients use common communication protocols over digital interconnections to communicate with each other.",
+            "description": "A set of clients sharing resources located on or provided by network nodes.",
             "url": "",
             "entry_img": "skills_images/network.png"
         },
