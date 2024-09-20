@@ -10,9 +10,9 @@
           "start": "04/2023",
           "end": "i dag",
           "activities"    : [
+            "Udviklingsprojekt og interessentstyring",
             "Avanceret dataanalyse og PLC-dataekstraktion",
-            "Proof of concepts for industry 4.0",
-            "Udviklingsprojekt og interessentstyring"
+            "Proof of concepts for industry 4.0"            
           ]
         },
         {

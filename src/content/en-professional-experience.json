@@ -10,9 +10,9 @@
           "start": "04/2023",
           "end": "today",
           "activities"    : [
+            "Development project and stakeholder management",
             "Advanced data analytics and PLC data extraction",
-            "Proof of concepts for industry 4.0",
-            "Development project and stakeholder management"
+            "Proof of concepts for industry 4.0"            
           ]
         },
         {
@@ -45,7 +45,7 @@
             "Regulatory and industrial certification of positioning products",
             "Planning and budget optimization of EMC, safety and performance testing activities in external laboratories",
             "Full stack development of internal data processing and visualisation tools",
-            "GNSS signal security verification (jamming &amp; spoofing)",
+            "GNSS signal security verification (jamming and spoofing)",
             "Application Engineering and management certification support",
             "Liaison and standards drafting within ETSI and REDCA"
           ]

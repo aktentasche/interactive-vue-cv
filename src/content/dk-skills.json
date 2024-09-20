@@ -1,12 +1,5 @@
 {
-    "skills_entries": [
-        {
-            "types": ["software"],
-            "name": "Cloud Computing",
-            "description": "Skalerbare computerressourcer ved hjælp af AWS og Azure",
-            "url": "",
-            "entry_img": "skills_images/cloud.png"
-        },     
+    "skills_entries": [        
         {
             "types": ["software"],
             "name": "Apache Kafka",
@@ -288,7 +281,7 @@
             "entry_img": "skills_images/rabbitmq.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Quantum information processing",
             "description": "QIP ved hjælp af kvantetilstande af indfangede ioner",
             "url": "",
@@ -316,7 +309,7 @@
             "entry_img": "skills_images/databases.png"
         },
         {
-            "types": ["concept", "software", "highlight"],
+            "types": ["concept", "software"],
             "name": "Cloud computing",
             "description": "On-demand tilrådighedsstillelse af computer- og lagerressourcer",
             "url": "",
@@ -331,15 +324,15 @@
         },
         {
             "types": ["concept", "highlight"],
-            "name": "Computer networks",             
+            "name": "Communication networks",             
             "description": "Et sæt af computere, der deler ressourcer placeret på eller leveret af netværksnoder.",  
             "url": "",
             "entry_img": "skills_images/network.png"
         },
         {
             "types": ["concept", "highlight"],
-            "name": "Greenfield project management",
-            "description": "Projektledelse med fokus på nye projekter.",
+            "name": "Greenfield and brownfield project management",
+            "description": "Planlægning, udførelse og overvågning af udviklingen af nye projekter fra bunden (greenfield) eller ændring og forbedring af eksisterende projekter (brownfield).",
             "url": "",
             "entry_img": "skills_images/project_management.jpg"
         },
@@ -349,9 +342,23 @@
             "description": "Design af sikker software, sikring af computersystemer og bedste praksis inden for sikkerhed.",
             "url": "",
             "entry_img": "skills_images/lock.png"
+        },
+        {
+            "types": ["hardware", "software", "highlight"],
+            "name": "Embedded and IoT development",
+            "description": "Design, development og integration af embedded soft- and hardware.",
+            "url": "",
+            "entry_img": "skills_images/embedded.jpg"
+        },
+        {
+            "types": ["concept", "highlight"],
+            "name": "Hands-on",
+            "description": "Jeg kanaliserer min indre opfinder og afbalancerer præcision med spændingen ved at pille, uden de dramatiske gnister.",
+            "url": "",
+            "entry_img": "skills_images/handson.jpg"
         }
-
-        
 ]
 }
+
+
 

@@ -1,12 +1,5 @@
 {
-    "skills_entries": [
-        {
-            "types": ["software"],
-            "name": "Cloud Computing",
-            "description": "Scalable computing resources using AWS and Azure",
-            "url": "",
-            "entry_img": "skills_images/cloud.png"
-        },     
+    "skills_entries": [       
         {
             "types": ["software"],
             "name": "Apache Kafka",
@@ -288,7 +281,7 @@
             "entry_img": "skills_images/rabbitmq.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Quantum information processing",
             "description": "QIP using quantum states of trapped ions",
             "url": "",
@@ -316,7 +309,7 @@
             "entry_img": "skills_images/databases.png"
         },
         {
-            "types": ["concept", "software", "highlight"],
+            "types": ["concept", "software"],
             "name": "Cloud computing",
             "description": "On-demand provisioning of computing and storage resources",
             "url": "",
@@ -338,8 +331,8 @@
         },
         {
             "types": ["concept", "highlight"],
-            "name": "Greenfield project management",
-            "description": "Project management geared towards greenfield projects.",
+            "name": "Greenfield and brownfield project management",
+            "description": "Planning, execution and oversight of the development of new ventures from scratch (greenfield) or modifying and improving existing ones (brownfield).",
             "url": "",
             "entry_img": "skills_images/project_management.jpg"
         },
@@ -349,6 +342,20 @@
             "description": "Design of secure software, securing computer systems and security best practices.",
             "url": "",
             "entry_img": "skills_images/lock.png"
+        },
+        {
+            "types": ["hardware", "software", "highlight"],
+            "name": "Embedded and IoT development",
+            "description": "Design, development and integration of embedded soft- and hardware.",
+            "url": "",
+            "entry_img": "skills_images/embedded.jpg"
+        },
+        {
+            "types": ["concept", "highlight"],
+            "name": "Hands-on",
+            "description": "Channeling my inner inventor, balancing precision with the thrill of tinkering, minus the dramatic sparks.",
+            "url": "",
+            "entry_img": "skills_images/handson.jpg"
         }
 ]
 }
