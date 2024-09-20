@@ -331,7 +331,7 @@
         },
         {
             "types": ["concept", "highlight"],
-            "name": "Greenfield and brownfield project management",
+            "name": "Project management",
             "description": "Planning, execution and oversight of the development of new ventures from scratch (greenfield) or modifying and improving existing ones (brownfield).",
             "url": "",
             "entry_img": "skills_images/project_management.jpg"
