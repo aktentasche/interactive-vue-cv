@@ -332,7 +332,7 @@
         {
             "types": ["concept", "highlight"],
             "name": "Project management",
-            "description": "Planlægning, udførelse og overvågning af udviklingen af nye projekter fra bunden (greenfield) eller ændring og forbedring af eksisterende projekter (brownfield).",
+            "description": "Planlægning, udførelse og overvågning af udviklingen af greenfield brownfield-projekter.",
             "url": "",
             "entry_img": "skills_images/project_management.jpg"
         },
