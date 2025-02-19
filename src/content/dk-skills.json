@@ -360,56 +360,56 @@
         {
             "types": ["platform"],
             "name": "portainer",
-            "description": "A minimalistic docker orchestration and monitoring framework.",
+            "description": "En minimalistisk docker-orkestrerings- og overvågningsplatform.",
             "url": "https://www.portainer.io/",
             "entry_img": "skills_images/portainer.png"
         },
         {
             "types": ["platform"],
             "name": "MQTT",
-            "description": "Message broker aimed at IoT applications",
+            "description": "Beskedformidler rettet mod IoT-applikationer",
             "url": "",
             "entry_img": "skills_images/mqtt.webp"
         },
         {
             "types": ["platform"],
             "name": "Grafana",
-            "description": "Grafana is a multi-platform open source analytics and interactive visualization web application.",
+            "description": "Grafana er en multi-platform open source-analyse og interaktiv visualiseringswebapplikation.",
             "url": "https://grafana.com/",
             "entry_img": "skills_images/grafana.png"
         },
         {
             "types": ["platform"],
             "name": "prometheus",
-            "description": "Event monitoring and alterting for IT infrastructure.",
+            "description": "Overvågning af hændelser og ændring af IT-infrastruktur.",
             "url": "https://prometheus.io/",
             "entry_img": "skills_images/prometheus.png"
         },
         {
             "types": ["platform", "program"],
             "name": "telegraf",
-            "description": "Telegraf is an open source plugin-driven server agent for collecting and reporting time series data.",
+            "description": "Telegraf er en open source plugin-drevet serveragent til indsamling og rapportering af tidsseriedata.",
             "url": "https://www.influxdata.com/time-series-platform/telegraf/",
             "entry_img": "skills_images/telegraf_logo.png"
         },
         {
             "types": ["platform"],
             "name": "influxdb",
-            "description": "Time-series focused database with web interface and charting capabilities (v2)",
-            "url": "https://nginxproxymanager.com/",
+            "description": "Tidsseriefokuseret database med webinterface og diagramfunktioner (v2)",
+            "url": "https://www.influxdata.com/",
             "entry_img": "skills_images/influxdb.png"
         },
         {
             "types": ["platform"],
             "name": "nginx proxy manager",
-            "description": "Web fronted to manage reverse proxies via nginx.",
-            "url": "",
+            "description": "Webfrontet til håndtering af reverse proxies via nginx.",
+            "url": "https://nginxproxymanager.com/",
             "entry_img": "skills_images/nginxpm.jpg"
         },
         {
             "types": ["platform"],
             "name": "Home Assistant",
-            "description": "Vendor agnostic home automation platform.",
+            "description": "Leverandøruafhængig hjemmeautomatiseringsplatform.",
             "url": "https://www.home-assistant.io/",
             "entry_img": "skills_images/home-assistant-social-media-logo-round.png"
         }

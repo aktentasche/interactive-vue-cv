@@ -360,7 +360,7 @@
         {
             "types": ["platform"],
             "name": "portainer",
-            "description": "A minimalistic docker orchestration and monitoring framework.",
+            "description": "A minimalistic docker orchestration and monitoring platform.",
             "url": "https://www.portainer.io/",
             "entry_img": "skills_images/portainer.png"
         },
