@@ -269,7 +269,7 @@
         {
             "types": ["programming", "highlight"],
             "name": "ansible",
-            "description": "Automatisering af it-infrastruktur",
+            "description": "Automatisering af IT-infrastruktur",
             "url": "https://www.ansible.com/",
             "entry_img": "skills_images/ansible.png"
         },
