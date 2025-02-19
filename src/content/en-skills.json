@@ -64,7 +64,7 @@
             "entry_img": "skills_images/vscode.png"
         },
         {
-            "types": ["programming"],
+            "types": ["platform", "programming"],
             "name": "Node-RED",
             "description": "Flow-based development tool for IoT",
             "url": "https://nodered.org/",

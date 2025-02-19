@@ -1,14 +1,14 @@
 {
     "skills_entries": [        
         {
-            "types": ["software"],
+            "types": ["platform"],
             "name": "Apache Kafka",
             "description": "Distribueret event store og stream-processing platform",
             "url": "https://kafka.apache.org/",
             "entry_img": "skills_images/kafka.png"
         },     
         {
-            "types": ["software", "highlight"],
+            "types": ["platform", "highlight"],
             "name": "Azure DevOps",
             "description": "Cloud service til softwareudvikling og CI",
             "url": "https://azure.microsoft.com/en-us/products/devops",
@@ -22,7 +22,7 @@
             "entry_img": "skills_images/edge.png"
         },    
         {
-            "types": ["software", "highlight"],
+            "types": ["platform", "highlight"],
             "name": "Linux",
             "description": "Open source operativsystem",
             "url": "https://www.kernel.org/",
@@ -50,28 +50,28 @@
             "entry_img": "skills_images/rust.png"
         },
         {
-            "types": ["software"],
+            "types": ["program"],
             "name": "GNURadio",
             "description": "Toolkit til signalbehandling og softwareradio",
             "url": "https://www.gnuradio.org/",
             "entry_img": "skills_images/gnuradio.png"
         },
         {
-            "types": ["software", "programming"],
+            "types": ["program", "programming"],
             "name": "Visual Studio Code",
             "description": "Extensible source-code editor",
             "url": "https://code.visualstudio.com/",
             "entry_img": "skills_images/vscode.png"
         },
         {
-            "types": ["programming"],
+            "types": ["platform", "programming"],
             "name": "Node-RED",
             "description": "Flow-baseret udviklingsværktøj til IoT",
             "url": "https://nodered.org/",
             "entry_img": "skills_images/nodered.png"
         },
         {
-            "types": ["software", "highlight"],
+            "types": ["programming", "highlight"],
             "name": "Python",
             "description": "Multi-paradigm rapid prototyping language",
             "url": "https://www.python.org/",
@@ -85,7 +85,7 @@
             "entry_img": "skills_images/cpp.png"
         },
         {
-            "types": ["software", "concept"],
+            "types": ["program", "concept", "platform"],
             "name": "git",
             "description": "Distribueret versionsstyringssystem",
             "url": "https://git-scm.com/",
@@ -107,7 +107,7 @@
         },
         {
             "types": ["programming"],
-            "name": "timescaledb / postgres",
+            "name": "postgres / timescaledb",
             "description": "Relationel database med tilføjelse til tidsdata",
             "url": "https://www.timescale.com/",
             "entry_img": "skills_images/timescale.png"
@@ -134,14 +134,14 @@
             "entry_img": "skills_images/csharp.png"
         },
         {
-            "types": ["programming","software"],
+            "types": ["programming","program"],
             "name": "MATLAB",
             "description": "Numerisk Matrix-simuleringsmiljø",
             "url": "https://www.mathworks.com/products/matlab.html",
             "entry_img": "skills_images/matlab.png"
         },
         {
-            "types": ["concept","software", "highlight"],
+            "types": ["concept","platform", "highlight"],
             "name": "proxmox",
             "description": "Type 1 hypervisor",
             "url": "https://www.proxmox.com/",
@@ -162,7 +162,7 @@
             "entry_img": "skills_images/emwave.gif"
         },
         {
-            "types": ["software"],
+            "types": ["platform"],
             "name": "Jira",
             "description": "Class-leading ticketing solution",
             "url": "",
@@ -253,14 +253,14 @@
             "entry_img": "skills_images/gnss.png"
         },
         {
-            "types": ["software","concept"],
+            "types": ["platform"],
             "name": "Jenkins",
             "description": "Ramme for orkestrering",
             "url": "https://www.jenkins.io/",
             "entry_img": "skills_images/jenkins.png"
         },
         {
-            "types": ["software","programming"],
+            "types": ["program","programming"],
             "name": "Visual Studio",
             "description": "Professionel IDE til kompilerede sprog",
             "url": "https://visualstudio.microsoft.com/",
@@ -309,7 +309,7 @@
             "entry_img": "skills_images/databases.png"
         },
         {
-            "types": ["concept", "software"],
+            "types": ["concept", "platform"],
             "name": "Cloud computing",
             "description": "On-demand tilrådighedsstillelse af computer- og lagerressourcer",
             "url": "",
@@ -344,7 +344,7 @@
             "entry_img": "skills_images/lock.png"
         },
         {
-            "types": ["hardware", "software", "highlight"],
+            "types": ["hardware", "programming", "highlight"],
             "name": "Embedded and IoT development",
             "description": "Design, development og integration af embedded soft- and hardware.",
             "url": "",
@@ -356,9 +356,63 @@
             "description": "Jeg kanaliserer min indre opfinder og afbalancerer præcision med spændingen ved at pille, uden de dramatiske gnister.",
             "url": "",
             "entry_img": "skills_images/handson.jpg"
+        },
+        {
+            "types": ["platform"],
+            "name": "portainer",
+            "description": "A minimalistic docker orchestration and monitoring framework.",
+            "url": "https://www.portainer.io/",
+            "entry_img": "skills_images/portainer.png"
+        },
+        {
+            "types": ["platform"],
+            "name": "MQTT",
+            "description": "Message broker aimed at IoT applications",
+            "url": "",
+            "entry_img": "skills_images/mqtt.webp"
+        },
+        {
+            "types": ["platform"],
+            "name": "Grafana",
+            "description": "Grafana is a multi-platform open source analytics and interactive visualization web application.",
+            "url": "https://grafana.com/",
+            "entry_img": "skills_images/grafana.png"
+        },
+        {
+            "types": ["platform"],
+            "name": "prometheus",
+            "description": "Event monitoring and alterting for IT infrastructure.",
+            "url": "https://prometheus.io/",
+            "entry_img": "skills_images/prometheus.png"
+        },
+        {
+            "types": ["platform", "program"],
+            "name": "telegraf",
+            "description": "Telegraf is an open source plugin-driven server agent for collecting and reporting time series data.",
+            "url": "https://www.influxdata.com/time-series-platform/telegraf/",
+            "entry_img": "skills_images/telegraf_logo.png"
+        },
+        {
+            "types": ["platform"],
+            "name": "influxdb",
+            "description": "Time-series focused database with web interface and charting capabilities (v2)",
+            "url": "https://nginxproxymanager.com/",
+            "entry_img": "skills_images/influxdb.png"
+        },
+        {
+            "types": ["platform"],
+            "name": "nginx proxy manager",
+            "description": "Web fronted to manage reverse proxies via nginx.",
+            "url": "",
+            "entry_img": "skills_images/nginxpm.jpg"
+        },
+        {
+            "types": ["platform"],
+            "name": "Home Assistant",
+            "description": "Vendor agnostic home automation platform.",
+            "url": "https://www.home-assistant.io/",
+            "entry_img": "skills_images/home-assistant-social-media-logo-round.png"
         }
 ]
 }
-
-
 
