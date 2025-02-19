@@ -1,14 +1,14 @@
 {
     "skills_entries": [       
         {
-            "types": ["software"],
+            "types": ["program"],
             "name": "Apache Kafka",
             "description": "Distributed event store and stream-processing platform",
             "url": "https://kafka.apache.org/",
             "entry_img": "skills_images/kafka.png"
         },     
         {
-            "types": ["software", "highlight"],
+            "types": ["program", "highlight"],
             "name": "Azure DevOps",
             "description": "Cloud service for software development and CI",
             "url": "https://azure.microsoft.com/en-us/products/devops",
@@ -22,7 +22,7 @@
             "entry_img": "skills_images/edge.png"
         },     
         {
-            "types": ["software", "highlight"],
+            "types": ["program", "highlight"],
             "name": "Linux",
             "description": "Open source operating system",
             "url": "https://www.kernel.org/",
@@ -50,14 +50,14 @@
             "entry_img": "skills_images/rust.png"
         },
         {
-            "types": ["software"],
+            "types": ["program"],
             "name": "GNURadio",
             "description": "Signal processing and software radio toolkit",
             "url": "https://www.gnuradio.org/",
             "entry_img": "skills_images/gnuradio.png"
         },
         {
-            "types": ["software", "programming"],
+            "types": ["program", "programming"],
             "name": "Visual Studio Code",
             "description": "Extensible source-code editor",
             "url": "https://code.visualstudio.com/",
@@ -344,7 +344,7 @@
             "entry_img": "skills_images/lock.png"
         },
         {
-            "types": ["hardware", "software", "highlight"],
+            "types": ["hardware", "program", "highlight"],
             "name": "Embedded and IoT development",
             "description": "Design, development and integration of embedded soft- and hardware.",
             "url": "",
@@ -357,6 +357,7 @@
             "url": "",
             "entry_img": "skills_images/handson.jpg"
         }
+        portainer, 
 ]
 }
 

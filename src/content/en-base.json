@@ -16,8 +16,12 @@
             "name": "Hardware"
         },
         {
-            "id": "software",
-            "name": "Software"
+            "id": "program",
+            "name": "Programs"
+        },
+        {
+            "id": "service",
+            "name": "Services"
         },
         {
             "id": "programming",
@@ -25,7 +29,7 @@
         },
         {
             "id": "concept",
-            "name": "Concept"
+            "name": "Concepts"
         }    
     ],
     "projects_name": "Projects",

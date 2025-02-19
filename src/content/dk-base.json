@@ -16,8 +16,12 @@
             "name": "Hardware"
         },
         {
-            "id": "software",
-            "name": "Software"
+            "id": "program",
+            "name": "Programmer"
+        },
+        {
+            "id": "service",
+            "name": "Services"
         },
         {
             "id": "programming",
