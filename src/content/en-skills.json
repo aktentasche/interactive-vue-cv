@@ -8,7 +8,7 @@
             "entry_img": "skills_images/kafka.png"
         },     
         {
-            "types": ["software"],
+            "types": ["software", "highlight"],
             "name": "Azure DevOps",
             "description": "Cloud service for software development and CI",
             "url": "https://azure.microsoft.com/en-us/products/devops",
@@ -22,7 +22,7 @@
             "entry_img": "skills_images/edge.png"
         },     
         {
-            "types": ["software"],
+            "types": ["software", "highlight"],
             "name": "Linux",
             "description": "Open source operating system",
             "url": "https://www.kernel.org/",
@@ -71,7 +71,7 @@
             "entry_img": "skills_images/nodered.png"
         },
         {
-            "types": ["programming"],
+            "types": ["programming", "highlight"],
             "name": "Python",
             "description": "Multi-paradigm rapid prototyping language",
             "url": "https://www.python.org/",
@@ -141,7 +141,7 @@
             "entry_img": "skills_images/matlab.png"
         },
         {
-            "types": ["concept","software"],
+            "types": ["concept","software", "highlight"],
             "name": "proxmox",
             "description": "Type 1 hypervisor",
             "url": "https://www.proxmox.com/",
@@ -190,7 +190,7 @@
             "entry_img": "skills_images/sinc.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Software Architecture",
             "description": "How to design interfaces and large scale programs?",
             "url": "",
@@ -267,7 +267,7 @@
             "entry_img": "skills_images/vstudio.png"
         },
         {
-            "types": ["programming"],
+            "types": ["programming", "highlight"],
             "name": "ansible",
             "description": "IT infrastructure automation",
             "url": "https://www.ansible.com/",
@@ -323,21 +323,21 @@
             "entry_img": "skills_images/azure.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Communication networks",
             "description": "A set of clients sharing resources located on or provided by network nodes.",
             "url": "",
             "entry_img": "skills_images/network.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Project management",
             "description": "Planning, execution and oversight of the development of greenfield brownfield projects.",
             "url": "",
             "entry_img": "skills_images/project_management.jpg"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Cybersecurity",
             "description": "Design of secure software, securing computer systems and security best practices.",
             "url": "",
@@ -351,7 +351,7 @@
             "entry_img": "skills_images/embedded.jpg"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Hands-on",
             "description": "Channeling my inner inventor, balancing precision with the thrill of tinkering, minus the dramatic sparks.",
             "url": "",

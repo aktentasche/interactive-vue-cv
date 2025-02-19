@@ -8,7 +8,7 @@
             "entry_img": "skills_images/kafka.png"
         },     
         {
-            "types": ["software"],
+            "types": ["software", "highlight"],
             "name": "Azure DevOps",
             "description": "Cloud service til softwareudvikling og CI",
             "url": "https://azure.microsoft.com/en-us/products/devops",
@@ -22,7 +22,7 @@
             "entry_img": "skills_images/edge.png"
         },    
         {
-            "types": ["software"],
+            "types": ["software", "highlight"],
             "name": "Linux",
             "description": "Open source operativsystem",
             "url": "https://www.kernel.org/",
@@ -71,7 +71,7 @@
             "entry_img": "skills_images/nodered.png"
         },
         {
-            "types": ["programming"],
+            "types": ["software", "highlight"],
             "name": "Python",
             "description": "Multi-paradigm rapid prototyping language",
             "url": "https://www.python.org/",
@@ -141,7 +141,7 @@
             "entry_img": "skills_images/matlab.png"
         },
         {
-            "types": ["concept","software"],
+            "types": ["concept","software", "highlight"],
             "name": "proxmox",
             "description": "Type 1 hypervisor",
             "url": "https://www.proxmox.com/",
@@ -190,7 +190,7 @@
             "entry_img": "skills_images/sinc.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Softwarearkitektur",
             "description": "Hvordan designer man grænseflader og programmer i stor skala?",
             "url": "",
@@ -267,7 +267,7 @@
             "entry_img": "skills_images/vstudio.png"
         },
         {
-            "types": ["programming"],
+            "types": ["programming", "highlight"],
             "name": "ansible",
             "description": "Automatisering af it-infrastruktur",
             "url": "https://www.ansible.com/",
@@ -323,21 +323,21 @@
             "entry_img": "skills_images/azure.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Communication networks",             
             "description": "Et sæt af computere, der deler ressourcer placeret på eller leveret af netværksnoder.",  
             "url": "",
             "entry_img": "skills_images/network.png"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Project management",
             "description": "Planlægning, udførelse og overvågning af udviklingen af greenfield brownfield-projekter.",
             "url": "",
             "entry_img": "skills_images/project_management.jpg"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Cybersecurity",
             "description": "Design af sikker software, sikring af computersystemer og bedste praksis inden for sikkerhed.",
             "url": "",
@@ -351,7 +351,7 @@
             "entry_img": "skills_images/embedded.jpg"
         },
         {
-            "types": ["concept", "highlight"],
+            "types": ["concept"],
             "name": "Hands-on",
             "description": "Jeg kanaliserer min indre opfinder og afbalancerer præcision med spændingen ved at pille, uden de dramatiske gnister.",
             "url": "",
